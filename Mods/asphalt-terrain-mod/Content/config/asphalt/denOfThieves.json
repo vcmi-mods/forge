@@ -1,0 +1,46 @@
+{
+	"core:denOfThieves": {
+
+		"types": {
+			"asphaltdenOfThieves01": {
+
+				"rmg": {
+					"value": 100,
+					"rarity": 100,
+					"zoneLimit": 1
+				},
+				"templates": {
+
+					"FALF0117": {
+						"animation": "asphalt/denOfThieves/FALF0117",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VVV", "VBA"],
+
+						"allowedTerrains": [
+
+							"asphalt"
+						]
+					},
+					"FALF0118": {
+						"animation": "asphalt/denOfThieves/FALF0118",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VVV", "VBA"],
+
+						"allowedTerrains": [
+
+							"asphalt"
+						]
+					},
+
+				
+				}
+			}
+
+
+
+		}
+	}
+
+
+
+}

@@ -1,0 +1,18 @@
+{
+	"core:hole": {
+		"index": 124,
+		"types": {
+			"asphalthole01": {
+				"index": 0,
+				"templates": {
+
+					"FVOD0119": {
+						"animation": "asphalt/hole/FVOD0119",
+						"mask": ["V"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			}
+		}
+	}
+}

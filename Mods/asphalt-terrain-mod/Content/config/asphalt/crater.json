@@ -1,0 +1,41 @@
+{
+	"core:crater": {
+
+		"types": {
+			"asphaltcrater01": {
+				"name": "Crater",
+				"rmg": {
+					"zoneLimit": 2,
+					"value": 100,
+					"rarity": 50
+				},
+				"templates": {
+
+	
+					"FVOD0120": {
+						"animation": "asphalt/crater/FVOD0120",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+					"AVLctrd0": {
+						"animation": "asphalt/crater/AVLctrd0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					}
+				}
+			},
+			
+	
+
+		}
+	}
+}

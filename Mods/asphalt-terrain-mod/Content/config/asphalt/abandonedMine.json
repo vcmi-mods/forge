@@ -1,0 +1,33 @@
+{
+	"core:abandonedMine": {
+
+		"types": {
+			"asphaltabandonedMine01": {
+"name":"Abandoned Mine",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"templates": {
+
+
+					"FSUM0001": {
+						"animation": "asphalt/abandonedMine/FSUM0001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBAB"],
+
+						"allowedTerrains": [
+
+							"asphalt"
+						]
+					},
+					
+				}
+			}
+
+
+
+		}
+	}
+}

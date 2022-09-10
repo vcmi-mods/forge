@@ -1,0 +1,32 @@
+{
+	"core:temple": {
+
+		"types": {
+			"asphalttemple01": {
+				"name": "Temple",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+					"AVSTMPL1": {
+						"animation": "asphalt/temple/AVSTMPL1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VAB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					}
+
+				}
+			}
+
+		}
+	}
+
+
+
+}

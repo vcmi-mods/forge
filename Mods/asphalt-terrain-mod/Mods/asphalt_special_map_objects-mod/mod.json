@@ -1,0 +1,19 @@
+{
+	"name" : "Special Objects",
+	"description" : "Special Objects for the asphalt terain",
+	"version":"0.0.1",
+	"author":"Noname",
+	"contact":"none",
+	"modType":"Graphical",
+	"depends" :
+	[
+		//"core"
+	],
+	
+	"objects":
+	[
+		"config/asphalt/mines.json",
+		"config/asphalt/obelisk.json",
+		"config/asphalt/Subgates.json"
+	]
+}

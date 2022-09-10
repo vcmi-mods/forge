@@ -1,0 +1,39 @@
+{
+	"core:redwoodObservatory": {
+
+		"types": {
+			"asphaltobservation01": {
+				"name": "Observatory",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 1200,
+					"rarity": 300
+				},
+				"templates": {
+
+
+					"FALF010v4": {
+						"animation": "asphalt/observation/FALF0104",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VVVV", "VVBV", "VVAV"],
+
+						"allowedTerrains": [
+
+							"asphalt"
+						]
+					},
+	
+				}
+			}
+
+
+
+
+
+
+		}
+	}
+
+
+
+}

@@ -1,0 +1,107 @@
+{
+	"core:log": {
+
+		"types": {
+			"asphaltLog01": {
+				"name": "Log",
+				"rmg": {
+					"zoneLimit": 7,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+	
+					"last2GLog04": {
+						"animation": "asphalt/log/GLog04",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"last2GLog05": {
+						"animation": "asphalt/log/GLog05",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"last2GLog06": {
+						"animation": "asphalt/log/GLog06",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+	
+
+
+
+
+
+				}
+
+			},
+			
+			
+						"asphaltRoot01": {
+				"name": "Roots",
+				"rmg": {
+					"zoneLimit": 7,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+					
+						"last2Root1": {
+						"animation": "asphalt/log/root1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},	
+	
+						"last2Root2": {
+						"animation": "asphalt/log/root2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},	
+						"last2Root3": {
+						"animation": "asphalt/log/root3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},	
+						"last2Root4": {
+						"animation": "asphalt/log/root4",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},	
+		
+					
+				}
+
+		}
+
+		}
+	}
+}

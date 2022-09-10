@@ -1,0 +1,16 @@
+{
+
+
+	"asphalt" :
+	{
+		"moveCost" : 75,
+		"minimapUnblocked" : [ 74, 73, 74 ],
+		"minimapBlocked"   : [ 41, 40, 41 ],
+		"music" : "Grass.mp3",
+		"tiles" : "asphalt/grastl_bad",
+		"code" : "as",
+		"battleFields" : ["asphalt"]
+	},
+
+
+}

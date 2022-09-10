@@ -1,0 +1,49 @@
+{
+	"core:garrisonVertical": {
+
+		"types": {
+		
+ 
+		
+		
+		
+			"asphaltverticalGarrizon01": {
+				"name": "Garrizon",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 1000,
+					"rarity": 80
+				},
+				"templates": {
+
+
+
+					"FALF0233": {
+						"animation": "asphalt/verticalGarrizon/FALF0233",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB", "VA", "VB"],
+
+						"allowedTerrains": [
+
+							"asphalt"
+						]
+					},
+
+
+
+
+
+
+
+
+
+				}
+			},
+
+		
+		}
+	}
+
+
+
+}

@@ -1,0 +1,34 @@
+{
+	"core:volcano": {
+
+		"types": {
+			"asphaltVulcano01": {
+				"name": "Vulcano",
+				"rmg": {
+					"zoneLimit": 6,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+
+					"FVOD0118": {
+						"animation": "asphalt/vulcano/FVOD0118",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBB", "VBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						
+					
+					
+
+				}
+
+
+			}
+		}
+	}
+}

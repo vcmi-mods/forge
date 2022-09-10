@@ -1,0 +1,27 @@
+{
+	"core:subterraneanGate": {
+		
+		"handler": "subterraneanGate",
+		"types": {
+			"object": {
+				//	"index": 0,
+				"name": "Subterrain Gate",
+				"templates": {
+					"OBJ3339": {
+						"animation": "asphalt/Subgates/AVSUG005",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "BBB", "BAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+					"AVSUG037": {
+						"animation": "asphalt/Subgates/AVSUG037",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VVVV","VBBB","VBAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			}
+		}
+	}
+	
+}

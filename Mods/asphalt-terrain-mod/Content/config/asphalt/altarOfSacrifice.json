@@ -1,0 +1,34 @@
+{
+	"core:altarOfSacrifice": {
+
+		"types": {
+			"asphaltaltarOfSacrifice01": {
+
+				"rmg": {
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+
+					"AvXAltar": {
+						"animation": "asphalt/altarOfSacrifice/AvXAltar",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					}
+
+				}
+			}
+
+
+
+		}
+	}
+
+
+
+}

@@ -1,0 +1,34 @@
+{
+	"core:campfire": {
+
+		"types": {
+			"asphaltCampFire01": {
+
+				"rmg": {
+					"value": 2000,
+					"rarity": 500
+				},
+				"templates": {
+
+
+					"FTRCF005": {
+						"animation": "asphalt/campFire/FTRCF005",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+	
+
+				}
+			}
+		}
+	}
+}

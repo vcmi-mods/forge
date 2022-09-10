@@ -1,0 +1,40 @@
+{
+	"core:sign": {
+		"types": {
+			"asphaltSign01": {
+				"templates": {
+	
+	
+					"FALF0174": {
+						"animation": "asphalt/sign/FALF0174",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["A"],
+						"allowedTerrains": ["asphalt"]
+					},
+					"FALF0175": {
+						"animation": "asphalt/sign/FALF0175",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": ["asphalt"]
+					},
+
+
+					"FOCF0005": {
+						"animation": "asphalt/sign/FOCF0005",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": ["asphalt"]
+					},
+					"FOCF0006": {
+						"animation": "asphalt/sign/FOCF0006",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": ["asphalt"]
+					},
+
+
+				}
+			}
+		}
+	}
+}

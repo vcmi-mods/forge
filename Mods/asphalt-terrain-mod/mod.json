@@ -1,0 +1,61 @@
+{
+	"name" : "Forge Terrain - Asphalt - with Fred79 objects",
+	
+	"description" : "Forge Terrain - Asphalt",
+	
+	"version":"1.0.0",
+	"author":"Ported by Macron1 and Nordsoft",
+	"contact":"https://forum.vcmi.eu",
+	"modType":"Graphical",
+	"depends" :
+	[
+		
+	],
+	"objects":
+	[
+		"config/asphalt/abandonedMine.json",
+		"config/asphalt/altarOfSacrifice.json",
+		"config/asphalt/arena.json",
+		"config/asphalt/blackMarket.json",
+		"config/asphalt/bones.json",
+		"config/asphalt/campFire.json",
+		"config/asphalt/cartographer.json",
+		"config/asphalt/chest.json",
+		"config/asphalt/corpse.json",
+		"config/asphalt/coverOfDarkness.json",
+		"config/asphalt/crater.json",
+		"config/asphalt/deadTree.json",
+		"config/asphalt/deadTrees.json",
+		"config/asphalt/denOfThieves.json",
+		"config/asphalt/environmental_geiser.json",
+		"config/asphalt/hole.json",
+		"config/asphalt/horizontalGarrizon.json",
+		"config/asphalt/idolOfFortune.json",
+		"config/asphalt/lake.json",
+		"config/asphalt/learningStone.json",
+		"config/asphalt/lighthouse.json",
+		"config/asphalt/log.json",
+		"config/asphalt/Market.json",
+		"config/asphalt/Mountain.json",
+		"config/asphalt/observation.json",
+		"config/asphalt/rallyFlag.json",
+		"config/asphalt/refugeeCamp.json",
+		"config/asphalt/Rocks.json",
+		"config/asphalt/schoolOfMagic.json",
+		"config/asphalt/schoolOfWar.json",
+		"config/asphalt/seerHut.json",
+		"config/asphalt/sign.json",
+		"config/asphalt/temple.json",
+		"config/asphalt/verticalGarrizon.json",
+		"config/asphalt/vulcano.json",
+		"config/asphalt/warMachineFactory.json",
+	],
+	"battlefields" :
+	[
+		"config/asphalt/battlefields.json"
+	],
+	"obstacles" :
+	[
+		"config/asphalt/obstacles.json"
+	]
+}

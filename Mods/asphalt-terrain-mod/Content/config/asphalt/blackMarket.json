@@ -1,0 +1,36 @@
+{
+	"core:blackMarket": {
+
+		"types": {
+			"asphaltblackMarket01": {
+
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+
+					"AVXMKTB3": {
+						"animation": "asphalt/blackMarket/AVXMKTB3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "BBA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					}						
+
+
+				}
+			}
+
+
+
+		}
+	}
+
+
+
+}

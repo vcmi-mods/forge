@@ -1,0 +1,99 @@
+{
+	"core:corpse": {
+
+		"types": {
+
+			"asphaltcorpse01": {
+				"name": "Corpse",
+				"rmg": {
+					"value": 500,
+					"rarity": 70
+				},
+				"templates": {
+
+
+					"FVOC0010": {
+						"animation": "asphalt/corpse/FVOC0010",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0011": {
+						"animation": "asphalt/corpse/FVOC0011",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0012": {
+						"animation": "asphalt/corpse/FVOC0012",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0013": {
+						"animation": "asphalt/corpse/FVOC0013",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["AB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0014": {
+						"animation": "asphalt/corpse/FVOC0014",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0015": {
+						"animation": "asphalt/corpse/FVOC0015",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0016": {
+						"animation": "asphalt/corpse/FVOC0016",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["AB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FVOC0017": {
+						"animation": "asphalt/corpse/FVOC0017",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["AB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+
+				}
+
+
+			}
+		}
+	}
+
+
+}

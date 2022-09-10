@@ -1,0 +1,36 @@
+{
+	"core:rallyFlag": {
+
+		"types": {
+			"asphaltrallyFlag01": {
+
+				"rmg": {
+					"value": 100,
+					"rarity": 100,
+					"zoneLimit":1
+				},
+				"templates": {
+
+
+										"AVXRLLY0": {
+						"animation": "asphalt/rallyFlag/AVXRLLY0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VAB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					}
+
+
+				}
+			}
+
+
+
+		}
+	}
+
+
+
+}

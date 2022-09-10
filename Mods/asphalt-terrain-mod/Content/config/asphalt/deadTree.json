@@ -1,0 +1,131 @@
+{
+	"core:deadVegetation": {
+
+		"types": {
+			"asphaltdeadTree01": {
+				"name": "Dead Tree",
+				"rmg": {
+					"zoneLimit": 10,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+					"FALG0001": {
+						"animation": "asphalt/deadTree/FALG0001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FALG0002": {
+						"animation": "asphalt/deadTree/FALG0002",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FALG0009": {
+						"animation": "asphalt/deadTree/FALG0009",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0014": {
+						"animation": "asphalt/deadTree/FSWG0014",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0015": {
+						"animation": "asphalt/deadTree/FSWG0015",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0016": {
+						"animation": "asphalt/deadTree/FSWG0016",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0017": {
+						"animation": "asphalt/deadTree/FSWG0017",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0018": {
+						"animation": "asphalt/deadTree/FSWG0018",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0019": {
+						"animation": "asphalt/deadTree/FSWG0019",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0020": {
+						"animation": "asphalt/deadTree/FSWG0020",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0021": {
+						"animation": "asphalt/deadTree/FSWG0021",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSWG0022": {
+						"animation": "asphalt/deadTree/FSWG0022",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+				}
+			}
+
+
+
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"core:crater": {
+
+		"types": {
+			"asphaltenvironmental_geiser01": {
+				"name": "Geizer",
+				"rmg": {
+					"value": 100,
+					"rarity": 120
+				},
+				"templates": {
+
+
+					"FVOD0073": {
+						"animation": "asphalt/environmental_geiser/FVOD0073",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VV", "BV"],
+						"allowedTerrains":["asphalt"]
+					},
+	
+
+
+				}
+			}
+
+
+
+
+		}
+
+
+	}
+}

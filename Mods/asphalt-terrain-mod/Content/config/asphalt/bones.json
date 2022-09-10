@@ -1,0 +1,188 @@
+{
+	"core:rock": {
+
+		"types": {
+			"asphaltbones01": {
+				"name": "Bones",
+				"rmg": {
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+
+
+					"AVXSKDS1": {
+						"animation": "asphalt/bones/AVXSKDS1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"AVXSKDS2": {
+						"animation": "asphalt/bones/AVXSKDS2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB","VVV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+
+
+
+					"Carcass1": {
+						"animation": "asphalt/bones/Carcass1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"Carcass2": {
+						"animation": "asphalt/bones/Carcass2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"Carcass3": {
+						"animation": "asphalt/bones/Carcass3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"Carcass4": {
+						"animation": "asphalt/bones/Carcass4",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"DinoSkl1": {
+						"animation": "asphalt/bones/DinoSkl1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"DinoSkl2": {
+						"animation": "asphalt/bones/DinoSkl2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","BBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"DinoSkl3": {
+						"animation": "asphalt/bones/DinoSkl3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBV","VBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"DragSkl5": {
+						"animation": "asphalt/bones/DragSkl5",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBB","BBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+					"DragSkl6": {
+						"animation": "asphalt/bones/DragSkl6",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVV","BBBBB","BVBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+					"SSkel1": {
+						"animation": "asphalt/bones/SSkel1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"SSkel2": {
+						"animation": "asphalt/bones/SSkel2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				}
+
+
+			},
+			
+			
+		
+			
+	
+
+
+					
+			
+				
+		}
+	}
+}

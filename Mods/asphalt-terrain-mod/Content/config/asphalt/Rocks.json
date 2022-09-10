@@ -1,0 +1,216 @@
+{
+	"core:rock": {
+
+		"types": {
+			"asphaltRocksHills01": {
+				"name": "Rocks",
+				"rmg": {
+				//	"zoneLimit": 8,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+
+
+					"FDTD0009": {
+						"animation": "asphalt/rocks/FDTD0009",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},					
+					"FDTD0010": {
+						"animation": "asphalt/rocks/FDTD0010",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": [ "BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},						
+					"FDTD0011": {
+						"animation": "asphalt/rocks/FDTD0011",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},						
+					"FDTD0012": {
+						"animation": "asphalt/rocks/FDTD0012",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},						
+						"FDTD0013": {
+						"animation": "asphalt/rocks/FDTD0013",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},				
+						"FDTD0014": {
+						"animation": "asphalt/rocks/FDTD0014",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},						
+						"FDTD0015": {
+						"animation": "asphalt/rocks/FDTD0015",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},						
+						"FDTD0016": {
+						"animation": "asphalt/rocks/FDTD0016",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},						
+						"FDTD0017": {
+						"animation": "asphalt/rocks/FDTD0017",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},																
+						"FDTD0018": {
+						"animation": "asphalt/rocks/FDTD0018",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},	
+						"FDTD0019": {
+						"animation": "asphalt/rocks/FDTD0019",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},	
+				
+						"FDTD0020": {
+						"animation": "asphalt/rocks/FDTD0020",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0021": {
+						"animation": "asphalt/rocks/FDTD0021",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0022": {
+						"animation": "asphalt/rocks/FDTD0022",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0023": {
+						"animation": "asphalt/rocks/FDTD0023",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+						"FDTD0024": {
+						"animation": "asphalt/rocks/FDTD0024",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0025": {
+						"animation": "asphalt/rocks/FDTD0025",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0026": {
+						"animation": "asphalt/rocks/FDTD0026",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0027": {
+						"animation": "asphalt/rocks/FDTD0027",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0028": {
+						"animation": "asphalt/rocks/FDTD0028",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+						"FDTD0029": {
+						"animation": "asphalt/rocks/FDTD0029",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": [ "VB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					
+			}}
+
+
+
+		}
+
+
+	}
+}

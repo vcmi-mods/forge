@@ -1,0 +1,122 @@
+{
+	"core:deadVegetation": {
+
+		"types": {
+			"asphaltdeadTrees01": {
+				"name": "Dead Trees",
+				"rmg": {
+					"zoneLimit": 10,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+
+					"FALG0003": {
+						"animation": "asphalt/deadTrees/FALG0003",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBV", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FALG0004": {
+						"animation": "asphalt/deadTrees/FALG0004",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VVBB", "VBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FALG0005": {
+						"animation": "asphalt/deadTrees/FALG0005",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBV", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+					"FALG0006": {
+						"animation": "asphalt/deadTrees/FALG0006",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VVBB", "VBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FALG0007": {
+						"animation": "asphalt/deadTrees/FALG0007",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBV", "VBBB", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+
+					"ash03": {
+						"animation": "asphalt/deadTrees/ash03",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBV", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"ash04": {
+						"animation": "asphalt/deadTrees/ash04",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VVBB", "VBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"ash05": {
+						"animation": "asphalt/deadTrees/ash05",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBV", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"ash06": {
+						"animation": "asphalt/deadTrees/ash04",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VVBB", "VBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"ash07": {
+						"animation": "asphalt/deadTrees/ash07",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBV", "VBBB","VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+
+
+
+				}
+			}
+		}
+
+
+
+	}
+}

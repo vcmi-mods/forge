@@ -1,0 +1,83 @@
+{
+	"core:treasureChest": {
+
+		"types": {
+			"asphaltChest03": {
+				"name": "Chest",
+				"rmg": {
+
+					"value": 1500,
+					"rarity": 500
+				},
+				"templates": {
+
+
+					"AVXccht0": {
+						"animation": "asphalt/chest/AVTchst0",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"AVXccht1": {
+						"animation": "asphalt/chest/AVTchst1",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"ZCHST3": {
+						"animation": "asphalt/chest/ZCHST3",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"ZCHST4": {
+						"animation": "asphalt/chest/ZCHST4",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"BSTreas": {
+						"animation": "asphalt/chest/BSTreas",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VV","AB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"BTreas10": {
+						"animation": "asphalt/chest/BTreas10",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VV","AB"],
+
+						"allowedTerrains": [
+							"sand","subterra"
+						]
+					}
+
+
+
+
+
+
+				}
+			}
+
+		}
+	}
+
+
+
+}

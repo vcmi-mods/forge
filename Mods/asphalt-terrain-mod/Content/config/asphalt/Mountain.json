@@ -1,0 +1,137 @@
+{
+	"core:mountain": {
+
+		"types": {
+			"asphaltmountainDirt01": {
+				"name": "Mountains",
+				"rmg": {
+					"zoneLimit": 3,
+					"value": 100,
+					"rarity": 150
+				},
+				"templates": {
+
+					"FSUD0001": {
+						"animation": "asphalt/mountain/dirt01/FSUD0001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSUD0002": {
+						"animation": "asphalt/mountain/dirt01/FSUD0002",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					}
+
+				}
+			},
+			
+			
+	
+
+			"asphaltmountainSubterra01": {
+				"name": "Mountains",
+				"rmg": {
+					//"zoneLimit": 3,
+					"value": 100,
+					"rarity": 150
+				},
+				"templates": {
+
+					"FDTD0001": {
+						"animation": "asphalt/mountain/sub01/FDTD0001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VVBBBB", "VBBBBB", "BBBBVV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTD0002": {
+						"animation": "asphalt/mountain/sub01/FDTD0002",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTD0003": {
+						"animation": "asphalt/mountain/sub01/FDTD0003",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBB", "VBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTD0004": {
+						"animation": "asphalt/mountain/sub01/FDTD0004",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBBB", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTD0005": {
+						"animation": "asphalt/mountain/sub01/FDTD0005",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VVBB", "VBBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},					
+					"FDTD0006": {
+						"animation": "asphalt/mountain/sub01/FDTD0006",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VBBV", "VVBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTD0007": {
+						"animation": "asphalt/mountain/sub01/FDTD0007",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","BBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTD0008": {
+						"animation": "asphalt/mountain/sub01/FDTD0008",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VVV", "BBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FDTM0001": {
+						"animation": "asphalt/mountain/sub01/FDTM0001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VVVV", "BBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},					
+				}
+			},				
+
+			
+
+		}
+
+	}
+}

@@ -1,0 +1,110 @@
+{	
+	"core:mine": {
+		
+		"types": {
+			"sawmill": {
+				"index": 0,
+				"rmg": {
+					"value": 1500
+				},
+				"name": "Saw Mill",
+				"templates": {
+					"woodmineStdGrass": {
+						"animation": "asphalt/Mines/AMSAW005.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVV", "VVBBB", "VBBAB"],
+						"allowedTerrains": ["asphalt"]
+					}
+				}
+			},
+			"alchemistLab": {
+				"index": 1,
+				"rmg": {
+					"value": 3500
+				},
+				"name": "Mercury Mine",
+				"templates": {
+					"AMMER007": {
+						"animation": "asphalt/Mines/AMMER007.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VVV", "BAB"],
+						"allowedTerrains": ["asphalt"]
+					}
+				}
+			},
+			"orePit": {
+				"name":"Ore Mine",
+				"rmg": {
+					"value": 1500
+				},
+				
+				"templates": {
+					"AMORE009": {
+						"animation": "asphalt/Mines/AMORE009.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB", "BAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			},
+			"sulfurDune": {
+				"index": 3,
+				"rmg": {
+					"value": 3500
+				},
+				"name": "Sulfur Mine",
+				"templates": {
+					"AMSUL002": {
+						"animation": "asphalt/Mines/AMSUL002.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBB","VAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			},
+			"crystalCavern": {
+				"name":"Crystal Mine",
+				"index": 4,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"AVCRY007": {
+						"animation": "asphalt/Mines/AVCRY007.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VBBB", "VBAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			},
+			"gemPond": {
+				"index": 5,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"AVGEM010": {
+						"animation": "asphalt/Mines/AVGEM010.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB","BAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			},
+			"goldMine": {
+				"index": 6,
+				"rmg": {
+					"value": 7000
+				},
+				"templates": {
+					"AVGLD009": {
+						"animation": "asphalt/Mines/AVGLD009.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VBBB", "VBAB"],
+						"allowedTerrains": ["asphalt"]
+					},
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"core:lake": {
+
+		"types": {
+			"asphaltBoilingLake01": {
+				"name": "Boiling Lake",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 50
+				},
+				
+				"sounds":
+				{
+//				"ambient":["asphalt-map_decorations/ambient_alchemist_lab"],
+				"visit":[""],
+				"removal":[""]
+				},					
+				
+				"templates": {
+
+
+					"FALD0023": {
+						"animation": "asphalt/lake/FALD0023",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+					"FALD0024": {
+						"animation": "asphalt/lake/FALD0024",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+
+
+					"FSWD0031": {
+						"animation": "asphalt/lake/FSWD0031",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+
+
+					"FVOD0076": {
+						"animation": "asphalt/lake/FVOD0076",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+					"FVOD0075": {
+						"animation": "asphalt/lake/FVOD0075",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBB", "BBV"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+
+					"FSUD0029": {
+						"animation": "asphalt/lake/FSUD0029",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVBBBBBB", "VBBBBBBB", "BBBBBBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSUD0030": {
+						"animation": "asphalt/lake/FSUD0030",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "BBBB", "BBBB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+					"FSUD0031": {
+						"animation": "asphalt/lake/FSUD0031",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "BB"],
+
+						"allowedTerrains": [
+							"asphalt"
+						]
+					},
+				
+					
+					
+		}
+	}
+}}}

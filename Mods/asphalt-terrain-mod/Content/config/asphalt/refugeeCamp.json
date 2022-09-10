@@ -1,0 +1,36 @@
+{
+	"core:refugeeCamp": {
+
+		"types": {
+			"asphaltrefugeeCamp01": {
+
+				"name": "Refugee Camp",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"templates": {
+
+					"FALF0207": {
+						"animation": "asphalt/refugeeCamp/FALF0207",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBBV", "VBAB"],
+
+						"allowedTerrains": [
+
+							"asphalt"
+						]
+					},
+
+
+
+				}
+			}
+
+		}
+	}
+
+
+
+}

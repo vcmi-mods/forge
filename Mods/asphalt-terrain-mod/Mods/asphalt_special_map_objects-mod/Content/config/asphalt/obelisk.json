@@ -1,0 +1,37 @@
+{
+	"core:obelisk": {
+		
+		//	"handler": "obelisk",
+		
+		"types": {
+			"object": {
+				"index": 0,
+				"rmg": {
+					"mapLimit": 48,
+					"value": 3500,
+					"rarity": 200
+				},
+				"templates": {
+					"OBJ6857": {
+						"animation": "asphalt/obelisk/AVOBL014.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+						"allowedTerrains": ["asphalt"]
+					},
+					"OBJ6858": {
+						"animation": "asphalt/obelisk/AVOBL015.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+						"allowedTerrains": ["asphalt"]
+					},
+					"OBJ6859": {
+						"animation": "asphalt/obelisk/AVOBL016.def",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+						"allowedTerrains": ["asphalt"]
+					}
+				}
+			}
+		}
+	}
+}
