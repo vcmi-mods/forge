@@ -1,0 +1,43 @@
+{
+	"jumpSoldier" : {
+		"abilities" : { "noMoral" :	{ "type" : "NO_MORALE" }, "canFly" : { "type" : "FLYING" }	},
+		"advMapAmount" : {"max" : 12, "min" : 5},
+		"aiValue" : 2107,
+		"attack" : 15,
+		"cost" : { "gold" : 900 },
+		"damage" : {"max" : 20, "min" : 15},
+		"defense" : 16,
+		"faction" : "forge",
+		"fightValue" : 1768,
+		"graphics" : {
+			"animation" : "forge/battle/lvl6unit.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl6.png",
+			"iconSmall" : "forge/iconsSmall/lvl6.png",
+			"map" : "forge/map/lvl6unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"horde" : 1,
+		"hitPoints" : 120,
+		"level" : 6,
+		"name" : { "plural" : "Sky Brawlers", "singular" : "Sky Brawler" },
+		"sound" : {
+			"attack" : "forge/lvl6/attack.wav",
+			"defend" : "forge/lvl6/defend.wav",
+			"killed" : "forge/lvl6/kill.wav",
+			"move" : "forge/lvl6/move.wav",
+			"startMoving": "forge/lvl6/movestart.wav",
+			"endMoving": "forge/lvl6/moveend.wav",
+			"wince" : "forge/lvl6/wince.wav"
+		},
+		"speed" : 6,
+		"stackExperience" : [
+			{
+				"bonus" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION" },
+				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
+			}
+		],
+		"upgrades" : [ "jumpTrooper" ]
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"bionicTrooper" : {
+		"abilities" : { 
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 4
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},		
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.overload",
+				"val" : 1
+			},
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			}
+		},
+		"advMapAmount" : {"max" : 25, "min" : 12},
+		"aiValue" : 330,
+		"attack" : 6,
+		"cost" : { "gold" : 175 },
+		"damage" : {"max" : 5, "min" : 4},
+		"defense" : 6,
+		"faction" : "forge",
+		"fightValue" : 315,
+		"graphics" : {
+			"animation" : "forge/battle/lvl3Bunit",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl3B",
+			"iconSmall" : "forge/iconsSmall/lvl3B",
+			"map" : "forge/map/lvl3Bunit",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 35,
+		"level" : 3,
+		"name" : { "plural" : "Bionic Troopers", "singular" : "Bionic Trooper" },
+		"sound" : {
+			"attack" : "forge/lvl3alt/CBRGATTK",
+			"defend" : "forge/lvl3alt/CBRGDFND",
+			"killed" : "forge/lvl3alt/CBRGDEAD",
+			"move" : "forge/lvl3alt/CBRGMOVE",
+			"wince" : "forge/lvl3alt/CBRGWNCE"
+		},
+		"speed" : 4,
+		"upgrades" : [ "mdtCyborg" ],
+		"stackExperience" : [
+			{ "bonus" : { "type" : "CASTS" }, "values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ] }
+		]
+	}
+}

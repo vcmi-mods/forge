@@ -1,0 +1,37 @@
+{
+	"01deckard" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "cyborg",
+		"images" : {
+			"large" : "forge/heroes/deckard/portraitlarge.png",
+			"small" : "forge/heroes/deckard/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/deckard/speclarge.png",
+			"specialtySmall" : "forge/heroes/deckard/specsmall.png"
+		},
+		"skills" : [ { "level" : "advanced", "skill" : "resistance" } ],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"subtype" : "skill.resistance",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Deckard's distinctive armor may look impressive, but it's nothing compared to his anti-magic abilities. No wonder he quickly became the general of the restored Deyjan Army.",
+			"name" : "Deckard",
+			"specialty" : {
+				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill percentage.",
+				"name" : "Resistance",
+				"tooltip" : "Secondary Skill Bonus: Resistance"
+			}
+		}
+	}
+}

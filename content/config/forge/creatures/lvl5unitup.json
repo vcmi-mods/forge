@@ -1,0 +1,66 @@
+{
+	"bruiser" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"slayer" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			}
+		},
+		"advMapAmount" : {"max" : 12, "min" : 8},
+		"aiValue" : 1182,
+		"attack" : 15,
+		"cost" : { "gold" : 625 },
+		"damage" : {"max" : 17, "min" : 12},
+		"defense" : 12,
+		"faction" : "forge",
+		"fightValue" : 1063,
+		"graphics" : {
+			"animation" : "forge/battle/lvl5unitup.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl5up.png",
+			"iconSmall" : "forge/iconsSmall/lvl5up.png",
+			"map" : "forge/map/lvl5unitup.def",
+			"missile" : {
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"projectile" : "forge/battle/projectile/lvl5shot.def"
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"name" : { "plural" : "Bombardiers", "singular" : "Bombardier" },
+		"shots" : 6,
+		"sound" : {
+			"attack" : "forge/lvl5/attack.wav",
+			"defend" : "forge/lvl5/defend.wav",
+			"killed" : "forge/lvl5/kill.wav",
+			"move" : "forge/lvl5/move.wav",
+			"shoot" : "forge/lvl5/shoot.wav",
+			"wince" : "forge/lvl5/wince.wav"
+		},
+		"speed" : 5,
+		"stackExperience" : [
+			{
+				"bonus" : { "addInfo" : 1001, "subtype" : 45, "type" : "SPELL_AFTER_ATTACK" },
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			},
+			{
+				"bonus" : { "addInfo" : 1001, "subtype" : 47, "type" : "SPELL_AFTER_ATTACK" },
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			}
+		]
+	}
+}

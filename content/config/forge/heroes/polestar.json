@@ -1,0 +1,33 @@
+{
+	"03polestar" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "cyborg",
+		"female" : true,
+		"images" : {
+			"large" : "forge/heroes/polestar/portraitlarge.png",
+			"small" : "forge/heroes/polestar/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/polestar/speclarge.png",
+			"specialtySmall" : "forge/heroes/polestar/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "resistance" },
+			{ "level" : "basic", "skill" : "offence" }
+		],
+		"specialty" : {
+			"creature" : "brainSucker"
+		},
+		"texts" : {
+			"biography" : "Polestar was raised on the Deyjan plain among the nests of the flying Brain Suckers. Her ability to tame these creatures became desirable in the army of King Kastore.",
+			"name" : "Polestar",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Brain Suckers",
+				"name" : "Brain Suckers",
+				"description" : "{Brain Suckers and Soul Suckers}\r\n\r\nIncreases Speed of any Brain Suckers or Soul Suckers by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
+			}
+		}
+	}
+}

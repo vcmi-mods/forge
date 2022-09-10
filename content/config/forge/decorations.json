@@ -1,0 +1,85 @@
+{
+	"core:mountain" : {
+		"types" : {			
+			"AVLmtDn1" : { 
+				"templates" : {	
+					"AVLmtDn1" : { 			
+						"animation" : "forge/decorations/AVLmtDn1", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB" ] }
+				}
+			},		
+			"AVLmtDn2" : { 
+				"templates" : {	
+					"AVLmtDn2" : { 				
+						"animation" : "forge/decorations/AVLmtDn2", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVVVV", "VVBBBB", "VBBBBB", "VBBBVV" ] }
+				}
+			},
+			"AVLmtDn3" : { 
+				"templates" : {
+					"AVLmtDn3" : { 				
+						"animation" : "forge/decorations/AVLmtDn3", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBV", "VBBB", "VVBB" ] }
+				}
+			},
+			"AVLmtDn4" : { 
+				"templates" : {
+					"AVLmtDn3" : { 				
+						"animation" : "forge/decorations/AVLmtDn4", "allowedTerrains": [ "dirt" ], "mask" : [ "VVBB", "VBBB", "VBBV" ] }
+				}
+			},		
+			"AVLmtDn5" : { 
+				"templates" : {
+					"AVLmtDn3" : { 				
+						"animation" : "forge/decorations/AVLmtDn5", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBV", "VVBB" ] }
+				}
+			},
+			"AVLmtDn6" : { 
+				"templates" : {
+					"AVLmtDn3" : { 				
+						"animation" : "forge/decorations/AVLmtDn6", "allowedTerrains": [ "dirt" ], "mask" : [ "VVBB", "VBBV" ] }
+				}
+			}
+		}
+	},
+	
+	"core:lake" : {
+		"types" : {
+			"AVLMl1d0" : {
+				"templates" : {	
+					"AVLMl1d0" : { "animation" : "forge/decorations/AVLMl1d0", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBBBBV", "BBBBBBB", "VBBBBBV" ] }
+				}
+			},
+			"AVLMl2d0" : {
+				"templates" : {				
+					"AVLMl2d0" : { "animation" : "forge/decorations/AVLMl2d0", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVV", "BBBB", "BBBV" ] }
+				}
+			},
+			"AVLMl3d0" : {
+				"templates" : {	
+					"AVLMl3d0" : { "animation" : "forge/decorations/AVLMl3d0", "allowedTerrains": [ "dirt" ], "mask" : [ "BB" ] }			
+				}
+			}
+		}	
+	},
+	
+	"core:sign" : {
+		"types" : {
+			"forgeSign" : {
+				"name" : "Sign",
+				"index" : 0,
+				"sounds": {
+					"visit": ["forge/ambient/TERMINAL"]
+				},	
+				"templates" : {			
+					"MTerminal" : { "animation" : "forge/decorations/Mterminal", 
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VV", "VA" ] 
+					}										
+				}
+			}
+		}	
+	}		
+}
+	
+	
+
+
+	

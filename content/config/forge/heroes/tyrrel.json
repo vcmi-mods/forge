@@ -1,0 +1,33 @@
+{
+	"06tyrrel" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "cyborg",
+		"images" : {
+			"large" : "forge/heroes/tyrrel/portraitlarge.png",
+			"small" : "forge/heroes/tyrrel/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/tyrrel/speclarge.png",
+			"specialtySmall" : "forge/heroes/tyrrel/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "resistance" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty" : {
+			"creature" : "stinger"
+		},
+		"spellbook" : [ "dispel" ],
+		"texts" : {
+			"biography" : "After the death of Winston Boragus, Tyrrel with his tribe had to leave Krewlod and search for a new home. As luck would have it, he has joined King Kastore's army and now serves as the commander of Ogres.",
+			"name" : "Tyrrel",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Stingers",
+				"name" : "Stingers",
+				"description" : "{Stingers and Bruisers}\r\n\r\nIncreases Speed of any Stingers or Bruisers by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
+			}
+		}
+	}
+}

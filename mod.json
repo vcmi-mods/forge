@@ -1,0 +1,93 @@
+{
+	"author" : "Mod Design Team",
+//				Witchking - Leader and 3d Artist
+//				Hobbit - 2d, 3d Artist and Musician
+//				Trith - 3d Artist
+//				Sower - 2d and 3d Artist
+//				Mitlandy - 3d Artist
+//				Drwal - 2d Artist
+//				Bacus - 2d Artist,
+//				Khemiel - 2d Artist,
+//				avatar - json guy,
+//				Commander by Alex-ander
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
+	"creatures" : [
+		"config/forge/creatures/lvl1unit",
+		"config/forge/creatures/lvl1unitup",
+		"config/forge/creatures/lvl2unit",
+		"config/forge/creatures/lvl2unitup",
+		"config/forge/creatures/lvl3unit",
+		"config/forge/creatures/lvl3Bunit",
+		"config/forge/creatures/lvl3unitup",
+		"config/forge/creatures/lvl3Bunitup",
+		"config/forge/creatures/lvl4unit",
+		"config/forge/creatures/lvl4unitup",
+		"config/forge/creatures/lvl5unit",
+		"config/forge/creatures/lvl5unitup",
+		"config/forge/creatures/lvl6unit",
+		"config/forge/creatures/lvl6unitup",
+		"config/forge/creatures/lvl7unit",
+		"config/forge/creatures/lvl7unitup",
+		"config/forge/creatures/alien",
+		"config/forge/supplyCart/supplyCart",
+		"config/forge/commander/firebug"
+	],
+	"description" : "New town made by Mod Design Team as part of The Heavenly Forge addon",
+	"factions" : [ 
+		"config/forge/town" 
+	],
+	"heroClasses" : [ 
+		"config/forge/classes/mightHero", 
+		"config/forge/classes/magicHero"
+	],
+	"heroes" : [
+		"config/forge/heroes/kaleh" ,
+		"config/forge/heroes/codgur",
+		"config/forge/heroes/flamius",
+		"config/forge/heroes/jonathan",
+		"config/forge/heroes/tyrrel",
+		"config/forge/heroes/lilyam",
+		"config/forge/heroes/deckard",
+		"config/forge/heroes/albino",
+		"config/forge/heroes/agar",
+		"config/forge/heroes/marchette",
+		"config/forge/heroes/polestar",
+		"config/forge/heroes/zhora",
+		"config/forge/heroes/vee",
+		"config/forge/heroes/seldon",
+		"config/forge/heroes/daneel",
+		"config/forge/heroes/sheikleen",
+		"config/forge/heroes/rialdo",
+		"config/forge/heroes/hergon",
+		"config/forge/heroes/kastore"
+	],
+	"spells" : [
+		"config/forge/spells/specialLvl7",
+		"config/forge/spells/overload"
+	],
+	"artifacts" : [
+		"config/forge/artifacts/swordBreaker",
+		"config/forge/supplyCart/supplyCartArt"
+	], 
+	"objects" : [ 
+		"config/forge/dwellings",
+		"config/forge/decorations"
+	],
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Town",
+	"name" : "Forge town",
+	"version" : "1.4.0",
+	"changelog" :
+    {
+        "1.0"   : ["Initial release"],
+		"1.1"   : ["Graphic and balance fixes"],
+		"1.2"   : ["Added Commander for WoG players", "Fixed masks", "Fixed Dreadnought's special spell"],
+		"1.2.1" : ["Fixed lvl6 upg. horde value"],
+		"1.2.2" : ["Small fixes in dwellings and lvl5 creatures' ability configuration"],
+		"1.2.3" : ["New hero specialty format", "Alien is no longer Forge submod", "Added Sword Breaker artifact"],
+		"1.3.0" : ["Improved creatures sprites"],
+		"1.3.1" : ["Fixed creature 5 and 6 lvl sprites", "Fixed Marchettes' specialy"],
+		"1.4.0" : ["Lvl 3 alternative unit and two new heroes"]
+    } 
+}

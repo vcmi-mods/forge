@@ -1,0 +1,34 @@
+{
+	"10vee" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "ballista", "max" : 1, "min" : 1 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"female" : true,
+		"images" : {
+			"large" : "forge/heroes/vee/portraitlarge.png",
+			"small" : "forge/heroes/vee/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/vee/speclarge.png",
+			"specialtySmall" : "forge/heroes/vee/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "ballistics" },
+			{ "level" : "basic", "skill" : "artillery" }
+		],
+		"specialty" : {
+			"creature" : "ballista"
+		},
+		"spellbook" : [ "disruptingRay" ],
+		"texts" : {
+			"biography" : "Since her youth, Vee was paying more attention to the War Machines rather than magic. Her parents managed to instill both of those passions into their daughter, allowing her to become a powerful Technician.",
+			"name" : "Vee",
+			"specialty" : {
+				"tooltip" : "Artillery Bonus: Ballista",
+				"name" : "Ballista",
+				"description" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 6 levels (rounded up)."
+			}
+		}
+	}
+}

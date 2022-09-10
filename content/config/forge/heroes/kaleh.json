@@ -1,0 +1,29 @@
+{
+	"02kaleh" : {
+		"army" : [
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 }
+		],
+		"class" : "cyborg",
+		"images" : {
+			"large" : "forge/heroes/kaleh/portraitlarge.png",
+			"small" : "forge/heroes/kaleh/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/kaleh/speclarge.png",
+			"specialtySmall" : "forge/heroes/kaleh/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "pathfinding" } ],
+		"specialty" : {
+			"creature" : "thug"
+		},
+		"texts" : {
+			"biography" : "Holding the rank of captain during the reign of Archibald Ironfist, Kaleh was first one who swore loyalty to the new King. Since then he rose in ranks and now serves as a general.",
+			"name" : "Kaleh",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Thugs",
+				"name" : "Thugs",
+				"description" : "{Thugs and Mercenaries}\r\n\r\nIncreases Speed of any Thugs or Mercenaries by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "basepath" : "forge/frames/",
+	"images" :
+	[
+		{ "frame" : 46, "file" : "TBFRGDW3B"},
+		{ "frame" : 53, "file" : "TBFRGDW3BUP"}
+	]
+}

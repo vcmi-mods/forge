@@ -1,0 +1,57 @@
+{
+	"16mdtKastore" : {
+		"army" : [
+			{ "creature" : "juggernaut", "max" : 1, "min" : 1 },
+			{ "creature" : "juggernaut", "max" : 1, "min" : 1 },
+			{ "creature" : "juggernaut", "max" : 1, "min" : 1 }
+		],
+		"class" : "technic",
+		"special" : true,
+		"images" : {
+			"large" : "forge/heroes/kastore/portraitlarge",
+			"small" : "forge/heroes/kastore/portraitsmall",
+			"specialtyLarge" : "forge/heroes/kastore/speclarge",
+			"specialtySmall" : "forge/heroes/kastore/specsmall"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "juggernaut", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : 5
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"spellbook" : [ "implosion" ],
+		"texts" : {
+			"biography" : "Kastore, a visitor not of this world, took power in Deyja after overthroning of Archibald Ironfist. His obsession with the magic of the Ancients has made him aim for restoring the Heavenly Forges around the entire continent, and then to take over the world. No one knows what this demented mind is capable of.",
+			"name" : "Kastore",
+			"specialty" : {
+				"description" : "{Juggernauts and Dreadnoughts}\r\n\r\nJugernauts or Dreadnoughts receive +5 Att, +5 Def, and +1 Speed.",
+				"name" : "Juggernauts",
+				"tooltip" : "Creature Bonus: Juggernaut"
+			}
+		}
+	}
+}

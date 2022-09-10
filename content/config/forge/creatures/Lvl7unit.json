@@ -1,0 +1,63 @@
+{
+	"juggernaut" : {
+		"abilities" : {
+			"basicSlayer" : { "type" : "KING3" },
+			"HPregenerate" : {
+				"type" : "HP_REGENERATION",
+				"subtype" : 1,
+				"val" : 30
+			}
+		},
+		"advMapAmount" : {"max" : 10, "min" : 4},
+		"aiValue" : 3683,
+		"attack" : 17,
+		"cost" : { "gold" : 1800, "sulfur" : 1 },
+		"damage" : {"max" : 45, "min" : 35},
+		"defense" : 17,
+		"doubleWide" : true,
+		"faction" : "forge",
+		"fightValue" : 3001,
+		"graphics" : {
+			"animation" : "forge/battle/lvl7unit.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl7.png",
+			"iconSmall" : "forge/iconsSmall/lvl7.png",
+			"map" : "forge/map/lvl7unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 160,
+		"level" : 7,
+		"name" : { "plural" : "Juggernauts", "singular" : "Juggernaut" },
+		"sound" : {
+			"attack" : "forge/lvl7/attack.wav",
+			"defend" : "forge/lvl7/defend.wav",
+			"killed" : "forge/lvl7/kill.wav",
+			"move" : "forge/lvl7/move.wav",
+			"wince" : "forge/lvl7/wince.wav"
+		},
+		"speed" : 8,
+		"stackExperience" : [
+			{
+				"bonus" : { "type" : "HP_REGENERATION" },
+				"values" : [ 30, 30, 36, 48, 60, 72, 84, 96, 108, 120 ]
+			},
+			{
+				"bonus" : { "type" : "JOUSTING" },
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true
+				]
+			}
+		],
+		"upgrades" : [ "dreadnought" ]
+	}
+}

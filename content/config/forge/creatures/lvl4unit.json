@@ -1,0 +1,47 @@
+{
+	"brainSucker" : {
+		"abilities" : { "canFly" : { "type" : "FLYING" },
+			"suck" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 100
+			},
+						"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		},
+		"advMapAmount" : {"max" : 20, "min" : 10},
+		"aiValue" : 479,
+		"attack" : 9,
+		"cost" : { "gold" : 400 },
+		"damage" : {"max" : 9, "min" : 6},
+		"defense" : 9,
+		"faction" : "forge",
+		"fightValue" : 469,
+		"graphics" : {
+			"animation" : "forge/battle/lvl4unit.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl4.png",
+			"iconSmall" : "forge/iconsSmall/lvl4.png",
+			"map" : "forge/map/lvl4unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hasDoubleWeek" : true,
+		"hitPoints" : 25,
+		"level" : 4,
+		"name" : { "plural" : "Brain Suckers", "singular" : "Brain Sucker" },
+		"sound" : {
+			"attack" : "forge/lvl4/attack.wav",
+			"defend" : "forge/lvl4/defend.wav",
+			"killed" : "forge/lvl4/kill.wav",
+			"move" : "forge/lvl4/move.wav",
+			"wince" : "forge/lvl4/wince.wav"
+		},
+		"speed" : 9,
+		"stackExperience" : [ { "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ],
+		"upgrades" : [ "soulSucker" ]
+	}
+}

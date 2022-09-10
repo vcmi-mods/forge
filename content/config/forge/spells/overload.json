@@ -1,0 +1,129 @@
+{
+	"overload":
+	{
+		"type": "ability", 
+		"name": "Overload",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 4,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+ 
+		"animation":{
+			"affect":["forge/spell/SP_OVERLOAD"]
+		},
+ 
+		"flags" : {"positive": true},
+ 
+		"targetCondition" : {
+			"anyOf" : {
+				"forge:creature.bionicTrooper" : "absolute",
+				"forge:creature.mdtCyborg" : "absolute"
+			}
+		},
+ 
+		"graphics":
+		{
+			"iconBook": "forge/spell/overload_iconBook",
+			"iconScroll": "forge/spell/overload_iconScroll",
+			"iconScenarioBonus": "forge/spell/overload_iconScenarioBonus",
+			"iconEffect": "forge/spell/overload_iconEffect"
+		},
+
+		"sounds":
+		{
+			"cast": "forge/spell/OVERLOAD"
+		},
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"range": "0",
+				"power": 30,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"description": "{Overload}\n\nFor 3 turns bives Bionic Troopers and Cyborgs boost to speed, damage and attack but reduces defence and health instead.",	 
+				"cost": 0,				
+				"battleEffects" : {
+					"overloadEffect" :
+					{
+						"type": "core:timed",
+						"cumulative": true,
+//						"base" : {
+//							"limiters" : [
+//							{
+//								"parameters" : [ "bionicTrooper", true ],
+//								"type" : "CREATURE_TYPE_LIMITER"
+//							} ]
+//						},
+						"bonus":
+						{
+							"speedBoost":
+							{
+								"type": "STACKS_SPEED",
+								"val" : 50,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration": "N_TURNS",
+								"turns" : 3
+							},
+							"damageBoost":
+							{
+								"type": "CREATURE_DAMAGE",
+								"val" : 20,
+								"subtype" : 0,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration": "N_TURNS",
+								"turns" : 3
+							},
+							"attackBoost":
+							{
+								"type": "PRIMARY_SKILL",
+								"val" : 5,
+								"subtype" : "primSkill.attack",
+								"duration": "N_TURNS",
+								"turns" : 3
+							},						
+							"healthNerf":
+							{
+								"type": "STACK_HEALTH",
+								"val" : -50,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration": "N_TURNS",
+								"turns" : 3
+							},
+							"defenceNerf":
+							{
+								"type": "PRIMARY_SKILL",
+								"val" : -5,
+								"subtype" : "primSkill.defence",
+								"duration": "N_TURNS",
+								"turns" : 3
+							}
+						}
+					}
+				}
+			},
+			"none":
+			{},
+			"basic":
+			{},
+			"advanced":
+			{},
+			"expert":
+			{}
+		}
+	}
+}

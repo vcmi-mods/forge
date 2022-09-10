@@ -1,0 +1,36 @@
+{
+	"mdtSupplyCart":
+	{
+		"type" : ["HERO"],
+		"warMachine" : "mdtSupplyCart",
+		"class" : "SPECIAL",
+		"slot" : "MACH2",
+		"value": 1500,		
+		"text":
+		{
+			"name": "Supply Cart",
+			"description": "{Supply Cart}\r\n\r\nThe Supply Cart ensures eight additional shots in combat. Additionally all shooters in army deal 10% more damage.",
+			"event": "Lucky you, you've found a shiny and unused Supply Cart :)"
+		},
+		"graphics":
+		{
+			"image": "forge/supplyCart/supplyCartbigart",
+			"large": "forge/supplyCart/supplyCartL",
+			"map": "forge/supplyCart/blank"
+		},
+		"bonuses" : [  
+			{
+				"type" : "CREATURE_DAMAGE",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"subtype" : 0,
+				"limiters" : [ "SHOOTER_ONLY" ]
+			},
+			{
+				"type" : "SHOTS",
+				"val" : 8,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

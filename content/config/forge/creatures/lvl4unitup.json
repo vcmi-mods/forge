@@ -1,0 +1,51 @@
+{
+	"soulSucker" : {
+		"abilities" : {
+			"canFly" : { "type" : "FLYING" },
+			"suck" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 100
+			},
+						"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"three_headed_attack" : 
+			{
+				"type" : "THREE_HEADED_ATTACK"
+			}
+		},
+
+		"advMapAmount" : {"max" : 16, "min" : 10},
+		"aiValue" : 744,
+		"attack" : 9,
+		"cost" : { "gold" : 600 },
+		"damage" : {"max" : 9, "min" : 6},
+		"defense" : 9,
+		"faction" : "forge",
+		"fightValue" : 730,
+		"graphics" : {
+			"animation" : "forge/battle/lvl4unitup.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl4up.png",
+			"iconSmall" : "forge/iconsSmall/lvl4up.png",
+			"map" : "forge/map/lvl4unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 25,
+		"level" : 4,
+		"name" : { "plural" : "Soul Suckers", "singular" : "Soul Sucker" },
+		"sound" : {
+			"attack" : "forge/lvl4/attackUpg.wav",
+			"defend" : "forge/lvl4/defend.wav",
+			"killed" : "forge/lvl4/kill.wav",
+			"move" : "forge/lvl4/move.wav",
+			"wince" : "forge/lvl4/winceupg.wav"
+		},
+		"speed" : 13,
+		"stackExperience" : [ { "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ]
+	}
+}

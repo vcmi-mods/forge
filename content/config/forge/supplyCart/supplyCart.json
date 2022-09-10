@@ -1,0 +1,80 @@
+{
+	"mdtSupplyCart":
+	{
+		"name" :
+		{
+			"plural" : "Supply Carts",
+			"singular" : "Supply Cart"
+		},
+		"faction" : "neutral",
+		"level": 1,
+		"aiValue" : 450,
+		"special" : true,
+		"attack" : 0,
+        "cost": 
+        {
+              "gold": 1500
+        },
+		"damage" :
+		{
+			 "max" : 0,
+			 "min" : 0
+		},
+		"defense" : 10,
+		"fightValue" : 50,
+		"graphics" :
+		{
+			"animation" : "forge/supplyCart/supplyCart",
+			"iconSmall" : "forge/supplyCart/supplyCartsmall",
+			"iconLarge" : "forge/supplyCart/supplyCartbig",
+//			"map" : "hota/map/cannonMap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+		},
+		"doubleWide" : false,
+		"growth" : 0,
+		"hitPoints" : 150,
+		"sound" :
+		{
+			"killed": "forge/supplyCart/SUPPKILL",
+			"wince": "forge/supplyCart/SUPPWNCE"
+		},
+		"speed" : 0,
+		"abilities" :
+		{
+			"inactive" : 
+			{ 
+				"type" : "NOT_ACTIVE" 
+			},
+			"increasedDamage" : 
+			{
+				"type" : "CREATURE_DAMAGE",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"subtype" : 0,
+				"limiters" : [ "SHOOTER_ONLY" ]
+			},
+			"shooter" :
+			{
+				"type" : "SHOTS",
+				"val" : 8,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+			"noRetaliation" : 
+			{
+                "val" : 0,
+                "type" : "NO_RETALIATION"
+            }
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"stinger" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"slayer" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			}
+		},
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 1009,
+		"attack" : 15,
+		"cost" : { "gold" : 500 },
+		"damage" : {"max" : 16, "min" : 11},
+		"defense" : 9,
+		"faction" : "forge",
+		"fightValue" : 924,
+		"graphics" : {
+			"animation" : "forge/battle/lvl5unit.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl5.png",
+			"iconSmall" : "forge/iconsSmall/lvl5.png",
+			"map" : "forge/map/lvl5unit.def",
+			"missile" : {
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "forge/battle/projectile/lvl5shot.def"
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"name" : { "plural" : "Cannoneers", "singular" : "Cannoneer" },
+		"shots" : 4,
+		"sound" : {
+			"attack" : "forge/lvl5/attack.wav",
+			"defend" : "forge/lvl5/defend.wav",
+			"killed" : "forge/lvl5/kill.wav",
+			"move" : "forge/lvl5/move.wav",
+			"shoot" : "forge/lvl5/shoot.wav",
+			"wince" : "forge/lvl5/wince.wav"
+		},
+		"speed" : 4,
+		"stackExperience" : [
+			{
+				"bonus" : { "addInfo" : 1000, "subtype" : 45, "type" : "SPELL_AFTER_ATTACK" },
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			},
+			{
+				"bonus" : { "addInfo" : 1000, "subtype" : 47, "type" : "SPELL_AFTER_ATTACK" },
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			}
+		],
+		"upgrades" : [ "bruiser" ]
+	}
+}

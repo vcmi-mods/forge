@@ -1,0 +1,38 @@
+{
+	"16sheikleen" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"female" : true,
+		"images" : {
+			"large" : "forge/heroes/sheikleen/portraitlarge.png",
+			"small" : "forge/heroes/sheikleen/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/sheikleen/speclarge.png",
+			"specialtySmall" : "forge/heroes/sheikleen/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "tactics" } ],
+		"specialty" : {
+			"bonuses" : {
+				"precision" : {
+					"subtype" : "spell.precision",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"spellbook" : [ "precision" ],
+		"texts" : {
+			"biography" : "Only a few knows where Sheikleen came from and what is her purpose in staying in Deyjan Army. Some people think that she does not care about 'the new, better world' ideas at all and that she has joined Kastore's army only for financial benefits. In practice, however, regardless of her reasons behind this scheme, Sheikleen is a very gifted leader.",
+			"name" : "Sheikleen",
+			"specialty" : {
+				"tooltip" : "Spell Bonus: Precision",
+				"name" : "Precision",
+				"description" : "{Precision}\r\n\r\nCasts Precision with effect increased by 3% for every n hero levels (n - target creature level)."
+			}
+		}
+	}
+}

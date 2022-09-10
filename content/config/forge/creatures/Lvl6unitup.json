@@ -1,0 +1,42 @@
+{
+	"jumpTrooper" : {
+		"abilities" : { "noMoral" :	{ "type" : "NO_MORALE" }, "canFly" : { "type" : "FLYING" }	},
+		"advMapAmount" : {"max" : 10, "min" : 5},
+		"aiValue" : 2390,
+		"attack" : 15,
+		"cost" : { "gold" : 1300 },
+		"damage" : {"max" : 25, "min" : 20},
+		"defense" : 18,
+		"faction" : "forge",
+		"fightValue" : 2004,
+		"graphics" : {
+			"animation" : "forge/battle/lvl6unitup.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl6up.png",
+			"iconSmall" : "forge/iconsSmall/lvl6up.png",
+			"map" : "forge/map/lvl6unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"horde" : 1,
+		"hitPoints" : 120,
+		"level" : 6,
+		"name" : { "plural" : "Sky Knights", "singular" : "Sky Knight" },
+		"sound" : {
+			"attack" : "forge/lvl6/attack.wav",
+			"defend" : "forge/lvl6/defendUpg.wav",
+			"killed" : "forge/lvl6/killUpg.wav",
+			"startMoving": "forge/lvl6/movestart.wav",
+			"endMoving": "forge/lvl6/moveend.wav",
+			"move" : "forge/lvl6/move.wav",
+			"wince" : "forge/lvl6/winceUpg.wav"
+		},
+		"speed" : 8,
+		"stackExperience" : [
+			{
+				"bonus" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION" },
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			}
+		]
+	}
+}

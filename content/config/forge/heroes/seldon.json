@@ -1,0 +1,39 @@
+{
+	"09seldon" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"images" : {
+			"large" : "forge/heroes/seldon/portraitlarge.png",
+			"small" : "forge/heroes/seldon/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/seldon/speclarge.png",
+			"specialtySmall" : "forge/heroes/seldon/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "intelligence" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"antiMagic" : {
+					"addInfo" : 0,
+					"subtype" : "spell.antiMagic",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		},
+		"spellbook" : [ "antiMagic" ],
+		"texts" : {
+			"biography" : "Seldon has sailed from Enroth to Erathia in pursuit of adventures and glory. He is one of the few who had experienced the forgotten artifacts of the Ancients in the past. Rumor has it that he has served someone named Sheltem before.",
+			"name" : "Seldon",
+			"specialty" : {
+				"tooltip" : "Spell Bonus: Antimagic",
+				"name" : "Antimagic",
+				"description" : "{Antimagic}\r\n\r\nCasts Antimagic with double duration."
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"08lilyam" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "cyborg",
+		"female" : true,
+		"images" : {
+			"large" : "forge/heroes/lilyam/portraitlarge.png",
+			"small" : "forge/heroes/lilyam/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/lilyam/speclarge.png",
+			"specialtySmall" : "forge/heroes/lilyam/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "resistance" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		},
+		"spellbook" : [ "magicArrow" ],
+		"texts" : {
+			"biography" : "Lilyam, despite being born in the forests of Avlee, is an expert at digging up resources from the underworld. When her fascination with a sulfur did not obtain approval from the druids, she went to the King of Deyja, who gladly accepted her as a commander.",
+			"name" : "Lilyam",
+			"specialty" : {
+				"tooltip" : "+1 Sulfur each day",
+				"name" : "+1 Sulfur",
+				"description" : "{Sulfur}\r\n\r\nIncreases kingdom's sulfur production by 1 per day."
+			}
+		}
+	}
+}

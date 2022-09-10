@@ -1,0 +1,43 @@
+{
+	"recruit" : {
+		"abilities" : {
+			"immuneToArrow" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION", "val" : 15 },
+			"deathCloudImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+		},
+		"advMapAmount" : {"max" : 50, "min" : 20},
+		"aiValue" : 104,
+		"attack" : 2,
+		"cost" : { "gold" : 55 },
+		"damage" : {"max" : 3, "min" : 1},
+		"defense" : 5,
+		"faction" : "forge",
+		"fightValue" : 115,
+		"graphics" : {
+			"animation" : "forge/battle/lvl1unit.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl1.png",
+			"iconSmall" : "forge/iconsSmall/lvl1.png",
+			"map" : "forge/map/lvl1unit.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 12,
+		"hitPoints" : 8,
+		"horde" : 6,
+		"level" : 1,
+		"name" : { "plural" : "Shield Bearers", "singular" : "Shield Bearer" },
+		"sound" : {
+			"attack" : "forge/lvl1/attack.wav",
+			"defend" : "forge/lvl1/defend.wav",
+			"killed" : "forge/lvl1/kill.wav",
+			"move" : "forge/lvl1/move.wav",
+			"wince" : "forge/lvl1/wince.wav"
+		},
+		"speed" : 3,
+		"stackExperience" : [ { "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ] } ],
+		"upgrades" : [ "militian" ]
+	}
+}

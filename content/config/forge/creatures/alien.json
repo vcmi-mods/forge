@@ -1,0 +1,61 @@
+{
+	"alien" : {
+		"abilities" : { "canShoot" : { "type" : "SHOOTER" }, 			
+			"clone" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.clone",
+				"val" : 3
+			}, 
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},
+		"advMapAmount" : { "max" : 25, "min" : 12 },
+		"aiValue" : 396,
+		"attack" : 8,
+		"cost" : { "gold" : 300 },
+		"damage" : { "max" : 4, "min" : 3 },
+		"defense" : 5,
+		"faction" : "neutral",
+		"fightValue" : 191,
+		"graphics" : {
+			"animation" : "forge/battle/alien",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/alien",
+			"iconSmall" : "forge/iconsSmall/alien",
+			"map" : "forge/map/mapAlien.def",
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "forge/battle/projectile/aliensh"
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 15,
+		"level" : 3,
+		"name" : { "plural" : "Aliens", "singular" : "Alien" },
+		"shots" : 24,
+		"sound" : {
+			"attack" : "forge/alien/ALIENATTACK.wav",
+			"defend" : "forge/alien/ALIENDFND.wav",
+			"killed" : "forge/alien/ALIENDEAD.wav",
+			"move" : "forge/alien/ALIENMOVE.wav",
+			"wince" : "forge/alien/ALIENHIT.wav",
+			"shoot" : "forge/alien/ALIENSHOOT.wav"
+		},
+		"speed" : 9,
+		"stackExperience" : [ { "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 2, 3, 3, 3, 4, 4 ] } ],
+			}
+}

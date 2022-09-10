@@ -1,0 +1,40 @@
+{
+	"12marchette" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"female" : true,
+		"images" : {
+			"large" : "forge/heroes/marchette/portraitlarge.png",
+			"small" : "forge/heroes/marchette/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/marchette/speclarge.png",
+			"specialtySmall" : "forge/heroes/marchette/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "ballistics" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		},
+		"spellbook" : [ "earthquake" ],
+		"texts" : {
+			"biography" : "Marchette's hair color is not the only feature others depict as strange. Her ability to excavate resources from the deepest corners was always very appreciated among Necromancers, though she preferred to avoid black magic by any means. Thus, when new rulers have come, Marchette willingly joined the new army, not anymore led by dark lords of Necromancy.",
+			"name" : "Marchette",
+			"specialty" : {
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystal",
+				"description" : "{Crystal}\r\n\r\nIncreases kingdom's crystal production by 1 per day."
+			}
+		}
+	}
+}

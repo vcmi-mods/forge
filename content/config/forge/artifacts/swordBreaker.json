@@ -1,0 +1,41 @@
+{
+	"swordBreaker" : {
+		"bonuses" : 
+		[ 
+			{ 
+				"effectRange" : "ONLY_ENEMY_ARMY", 
+				"type" : "STACKS_SPEED", 
+				"val" : -25,
+				"valueType" : "PERCENT_TO_BASE",
+			},
+			{ 
+				"effectRange" : "ONLY_ENEMY_ARMY", 
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : -25,
+				"valueType" : "PERCENT_TO_BASE",
+			},
+			{ 
+				"effectRange" : "ONLY_ENEMY_ARMY", 
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : -25,
+				"valueType" : "PERCENT_TO_BASE",
+			}			
+		],
+		"class" : "RELIC",
+		"graphics" : {
+			"image" : "forge/artifacts/swordBreaker/aswbreaker",
+			"large": "forge/artifacts/swordBreaker/aswbreakerL",
+			"map" : "forge/artifacts/swordBreaker/aswbreaker"
+		},
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Sword Breaker}\r\n\r\nReduces attack, defence and speed of all enemy units by 25%.",
+			"event" : "You stumble upon a merchant, who seems to come from some foreign world. As he speaks to you, you cannot comprehend what he is saying. After a while of searching through some dirty rags and other garbage he is selling, you find some strange looking sword. You take the risk of being scolded and try to pay for the sword with a bag of beans. Surprisingly, the merchant takes it gladly and leaves you.",
+			"name" : "Sword Breaker"
+		},
+		"type" : [ "HERO" ],
+		"value" : 12000
+	}
+}

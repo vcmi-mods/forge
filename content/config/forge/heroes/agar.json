@@ -1,0 +1,33 @@
+{
+	"13agar" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"images" : {
+			"large" : "forge/heroes/agar/portraitlarge.png",
+			"small" : "forge/heroes/agar/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/agar/speclarge.png",
+			"specialtySmall" : "forge/heroes/agar/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty" : {
+			"creature" : "jumpSoldier"
+		},
+		"spellbook" : [ "resurrection" ],
+		"texts" : {
+			"biography" : "Hardly anyone believed in Master Agar's demise. After hoaxing his own death, the Lich traveled to Erathia searching for incomers from the alien worlds. When he joined King Kastore, he became one of the most powerful Technicians in the entire Deyja.",
+			"name" : "Agar",
+			"specialty" : {
+				"description" : "{Sky Brawlers and Sky Knights}\r\n\r\nIncreases Speed of any Sky Brawlers or Sky Knights by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"name" : "Sky Brawlers",
+				"tooltip" : "Creature Bonus: Sky Brawlers"
+			}
+		}
+	}
+}

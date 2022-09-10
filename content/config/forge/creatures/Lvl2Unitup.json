@@ -1,0 +1,59 @@
+{
+	"mercenary" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"NoMeleePenalty" : { "type" : "NO_MELEE_PENALTY" }
+		},
+		"advMapAmount" : {"max" : 25, "min" : 16},
+		"aiValue" : 251,
+		"attack" : 8,
+		"cost" : { "gold" : 150 },
+		"damage" : {"max" : 6, "min" : 2},
+		"defense" : 6,
+		"faction" : "forge",
+		"fightValue" : 257,
+		"graphics" : {
+			"animation" : "forge/battle/lvl2unitup.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl2up.png",
+			"iconSmall" : "forge/iconsSmall/lvl2up.png",
+			"map" : "forge/map/lvl2unitup.def",
+			"missile" : {
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+					},
+				"projectile" : "forge/battle/projectile/lvl2shot.def"
+				},
+			
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 16,
+		"horde" : 6,
+		"level" : 2,
+		"name" : { "plural" : "Mercenaries", "singular" : "Mercenary" },
+		"shots" : 12,
+		"sound" : {
+			"attack" : "forge/lvl2/attack.wav",
+			"defend" : "forge/lvl2/defend.wav",
+			"killed" : "forge/lvl2/kill.wav",
+			"move" : "forge/lvl2/moveUpg.wav",
+			"shoot" : "forge/lvl2/shoot.wav", 
+			"wince" : "forge/lvl2/wince.wav"
+		},
+		"speed" : 6,
+		"stackExperience" : [
+			{
+				"bonus" : { "type" : "DOUBLE_DAMAGE_CHANCE" },
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

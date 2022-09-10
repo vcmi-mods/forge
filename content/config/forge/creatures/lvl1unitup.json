@@ -1,0 +1,43 @@
+{
+	"militian" : {
+		"abilities" : {
+			"immuneToArrow" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION", "val" : 30 },
+			"deathCloudImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+		},
+		
+		"advMapAmount" : {"max" : 30, "min" : 20},
+		"aiValue" : 116,
+		"attack" : 3,
+		"cost" : { "gold" : 85 },
+		"damage" : {"max" : 3, "min" : 2},
+		"defense" : 7,
+		"faction" : "forge",
+		"fightValue" : 128,
+		"graphics" : {
+			"animation" : "forge/battle/lvl1unitup.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl1up.png",
+			"iconSmall" : "forge/iconsSmall/lvl1up.png",
+			"map" : "forge/map/lvl1unitup.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 12,
+		"hitPoints" : 8,
+		"horde" : 6,
+		"level" : 1,
+		"name" : { "plural" : "Pavise Bearers", "singular" : "Pavise Bearer" },
+		"sound" : {
+			"attack" : "forge/lvl1/attack.wav",
+			"defend" : "forge/lvl1/defend.wav",
+			"killed" : "forge/lvl1/kill.wav",
+			"move" : "forge/lvl1/move.wav",
+			"wince" : "forge/lvl1/wince.wav"
+		},
+		"speed" : 5,
+		"stackExperience" : [ { "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ] } ]
+	}
+}

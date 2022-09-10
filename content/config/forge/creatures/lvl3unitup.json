@@ -1,0 +1,52 @@
+{
+	"pyromaniac" : {
+		"abilities" : { "flamethrower" : { "type" : "TWO_HEX_ATTACK_BREATH" } },
+		"advMapAmount" : {"max" : 20, "min" : 12},
+		"aiValue" : 359,
+		"attack" : 10,
+		"cost" : { "gold" : 250 },
+		"damage" : {"max" : 6, "min" : 5},
+		"defense" : 7,
+		"faction" : "forge",
+		"fightValue" : 357,
+		"graphics" : {
+			"animation" : "forge/battle/lvl3unitup.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl3up.png",
+			"iconSmall" : "forge/iconsSmall/lvl3up.png",
+			"map" : "forge/map/lvl3unitup.def",
+
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 22,
+		"level" : 3,
+		"name" : { "plural" : "Pyromaniacs", "singular" : "Pyromaniac" },
+		"sound" : {
+			"attack" : "forge/lvl3/attack.wav",
+			"defend" : "forge/lvl3/defend.wav",
+			"killed" : "forge/lvl3/killUpg.wav",
+			"move" : "forge/lvl3/move.wav",
+			"wince" : "forge/lvl3/winceUpg.wav"
+		},
+		"speed" : 8,
+		"stackExperience" : [
+			{ "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ] },
+			{
+				"bonus" : { "type" : "NO_DISTANCE_PENALTY" },
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
+			}
+		]
+	}
+}

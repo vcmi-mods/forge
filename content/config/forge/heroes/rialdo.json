@@ -1,0 +1,39 @@
+{
+	"rialdo" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "bionicTrooper", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"images" : {
+			"large" : "forge/heroes/rialdo/portraitlarge.png",
+			"small" : "forge/heroes/rialdo/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/rialdo/speclarge.png",
+			"specialtySmall" : "forge/heroes/rialdo/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "advanced", "skill" : "wisdom" },
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armageddon" : {
+					"subtype" : "spell.armageddon",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"spellbook" : [ ],
+		"texts" : {
+			"biography" : "Rialdo, apart from a terrifying appearance even for the standards of a Vampire, boasts the magical skills rare in Erathia. When Deyja was taken over by Kastore, Rialdo was an obvious choice as one of commanders of the new army.",
+			"name" : "Rialdo",
+			"specialty" : {
+				"description" : "{Armageddon}\r\n\r\nCasts Armageddon with increased effect.",
+				"tooltip" : "Spell bonus: Armageddon",
+				"name" : "Armageddon"
+			}
+		}
+	}
+}

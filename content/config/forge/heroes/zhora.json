@@ -1,0 +1,37 @@
+{
+	"05zhora" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "cyborg",
+		"images" : {
+			"large" : "forge/heroes/zhora/portraitlarge.png",
+			"small" : "forge/heroes/zhora/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/zhora/speclarge.png",
+			"specialtySmall" : "forge/heroes/zhora/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "logistics" } ],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "In her youth, Zhora left her family home in Deyja and was often changing place where she lived. When she returned to her native lands, she found out about a new king, who was able to take advantage of her Logistics skills.",
+			"name" : "Zhora",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics",
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to movement points at land."
+			}
+		}
+	}
+}

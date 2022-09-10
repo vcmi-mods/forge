@@ -1,0 +1,35 @@
+{
+	"pyro" : {
+		"abilities" : { "flamethrower" : { "type" : "TWO_HEX_ATTACK_BREATH" } },
+		"advMapAmount" : {"max" : 25, "min" : 12},
+		"aiValue" : 336,
+		"attack" : 10,
+		"cost" : { "gold" : 200 },
+		"damage" : {"max" : 6, "min" : 5},
+		"defense" : 5,
+		"faction" : "forge",
+		"fightValue" : 333,
+		"graphics" : {
+			"animation" : "forge/battle/lvl3unit.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl3.png",
+			"iconSmall" : "forge/iconsSmall/lvl3.png",
+			"map" : "forge/map/lvl3unit.def",
+						"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 22,
+		"level" : 3,
+		"name" : { "plural" : "Arsonists", "singular" : "Arsonist" },
+		"sound" : {
+			"attack" : "forge/lvl3/attack.wav",
+			"defend" : "forge/lvl3/defend.wav",
+			"killed" : "forge/lvl3/kill.wav",
+			"move" : "forge/lvl3/move.wav",
+			"wince" : "forge/lvl3/wince.wav"
+		},
+		"speed" : 6,
+		"stackExperience" : [ { "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 2, 3, 3, 3, 4, 4 ] } ],
+		"upgrades" : [ "pyromaniac" ]
+	}
+}

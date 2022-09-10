@@ -1,0 +1,57 @@
+{
+	"mdtCyborg" : {
+		"abilities" : { 
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 4
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},		
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.overload",
+				"val" : 1
+			},
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			}			
+		},
+		"advMapAmount" : {"max" : 20, "min" : 12},
+		"aiValue" : 350,
+		"attack" : 7,
+		"cost" : { "gold" : 200 },
+		"damage" : {"max" : 6, "min" : 4},
+		"defense" : 7,
+		"faction" : "forge",
+		"fightValue" : 340,
+		"graphics" : {
+			"animation" : "forge/battle/lvl3Bunitup",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "forge/iconsBig/lvl3Bup",
+			"iconSmall" : "forge/iconsSmall/lvl3Bup",
+			"map" : "forge/map/lvl3Bunitup",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 35,
+		"level" : 3,
+		"name" : { "plural" : "Cyborgs", "singular" : "Cyborg" },
+		"sound" : {
+			"attack" : "forge/lvl3alt/CBRGATTK",
+			"defend" : "forge/lvl3alt/CBRGDFND",
+			"killed" : "forge/lvl3alt/CBRGDEAD",
+			"move" : "forge/lvl3alt/UPCBMOVE",
+			"wince" : "forge/lvl3alt/CBRGWNCE"
+		},
+		"speed" : 6,
+		"stackExperience" : [
+			{ "bonus" : { "type" : "CASTS" }, "values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ] }
+		]
+	}
+}

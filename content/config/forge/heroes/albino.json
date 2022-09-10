@@ -1,0 +1,40 @@
+{
+	"11albino" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "thug", "max" : 7, "min" : 4 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"images" : {
+			"large" : "forge/heroes/albino/portraitlarge.png",
+			"small" : "forge/heroes/albino/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/albino/speclarge.png",
+			"specialtySmall" : "forge/heroes/albino/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "resistance" },
+			{ "level" : "basic", "skill" : "sorcery" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"fireWall" : {
+					"subtype" : "spell.fireWall",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"spellbook" : [ "fireWall" ],
+		"texts" : {
+			"biography" : "Albino lived in the Red Dwarves' mines, where his ability to create fire with magic was very useful. When the mines were populated by monsters, he fled to Deyja, where his talent was appreciated even more than in his youth.",
+			"name" : "Albino",
+			"specialty" : {
+				"description" : "{Firewall}\r\n\r\nCasts Firewall with damage increased by 3% for every n hero levels (n - target creature level).",
+				"name" : "Firewall",
+				"tooltip" : "Spell Bonus: Firewall"
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"15daneel" : {
+		"army" : [
+			{ "creature" : "recruit", "max" : 20, "min" : 10 },
+			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 },
+			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+		],
+		"class" : "technic",
+		"images" : {
+			"large" : "forge/heroes/daneel/portraitlarge.bmp",
+			"small" : "forge/heroes/daneel/portraitsmall.bmp",
+			"specialtyLarge" : "forge/heroes/daneel/speclarge.bmp",
+			"specialtySmall" : "forge/heroes/daneel/specsmall.bmp"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "ballistics" }, { "level" : "basic", "skill" : "firstAid" } ],
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "skill.firstAid",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"spellbook" : [ "cure" ],
+		"texts" : {
+			"biography" : "Disgust was the only thing Daneel felt towards his primitive kin in Krewlod. When Deyjan goblins joined King Kastore, Daneel was delighted at the prospect of the intellectual development of his race.",
+			"name" : "Daneel",
+			"specialty" : {
+				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage.",
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid"
+			}
+		}
+	}
+}
