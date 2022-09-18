@@ -11,34 +11,31 @@
 // * "animation" is name of the graphics. It's def file for usual obstacles and bitmap for the absolute ones.
 
 {
-	"aspObstacle01":
-	{
-		"allowedTerrain" : ["asphalt"],   //to change later
-		"specialBattlefields" : [],
-		"width" : 6,
-		"height" :2,
-		"blockedTiles" :  [3,4,5,-11,-12,-13,-14,-15],
-		"animation" : "asphaltObstacles/obstacles_futuristic/EngC1",
-		"absolute" : false
-	},
-	"aspObstacle02":
-	{
-		"allowedTerrain" : ["asphalt"],   //to change later
-		"specialBattlefields" : [],
-		"width" :5,
-		"height" :4,
-		"blockedTiles" :  [0,1,2,3,4,-12,-13,-14,-15,-16,-17],
-		"animation" : "asphaltObstacles/obstacles_futuristic/BldgN",
-		"absolute" : false
-	},
-	"asphaltGeyser":
-	{
-		"allowedTerrain" : ["asphalt"],
-		"specialBattlefields" : [],
-		"width" : 2,
-		"height" :4,
-		"blockedTiles" :  [0,1],
-		"animation" : "asphaltObstacles/obstacles_geyser/TH002",
-		"absolute" : false
-	}
+	"obstacles":
+	[
+		{
+			"allowedTerrain" : ["asphalt"],   //to change later
+			"specialBattlefields" : [],
+			"width" : 6,
+			"height" :2,
+			"blockedTiles" :  [3,4,5,-11,-12,-13,-14,-15],
+			"animation" : "asphaltObstacles/obstacles_futuristic/EngC1"
+		},
+		{
+			"allowedTerrain" : ["asphalt"],   //to change later
+			"specialBattlefields" : [],
+			"width" :5,
+			"height" :4,
+			"blockedTiles" :  [0,1,2,3,4,-12,-13,-14,-15,-16,-17],
+			"animation" : "asphaltObstacles/obstacles_futuristic/BldgN"
+		},
+		{
+			"allowedTerrain" : ["asphalt"],
+			"specialBattlefields" : [],
+			"width" : 2,
+			"height" :4,
+			"blockedTiles" :  [0,1],
+			"animation" : "asphaltObstacles/obstacles_geyser/TH002"
+		}
+	]
 }
