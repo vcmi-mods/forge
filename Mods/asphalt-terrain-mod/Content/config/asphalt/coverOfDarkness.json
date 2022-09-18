@@ -1,31 +1,18 @@
 {
 	"core:coverOfDarkness": {
-
 		"types": {
-			"asphaltcoverOfDarkness01": {
-				"name": "Cover of Darkness",
-				"rmg": {
-					"zoneLimit": 1,
-					"value": 100,
-					"rarity": 60
-				},
+			"coverOfDarkness": {
 				"templates": {
-
 					"FSAF0020": {
 						"animation": "asphalt/coverOfDarkness/avxcovr0",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVV", "VVV", "VAB"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
 					}
 				}
 			}
-
 		}
 	}
-
-
-
 }

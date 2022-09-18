@@ -1,44 +1,18 @@
 {
 	"core:garrisonHorizontal": {
-
 		"types": {
-		
-
-		
-			"asphalthorizontalGarrizon01": {
-				"name": "Garrizon",
-				"rmg": {
-					"zoneLimit": 2,
-					"value": 1000,
-					"rarity": 80
-				},
+			"garrisonHorizontal": {
 				"templates": {
-
-	
-					//FALF0232
 					"FALF0232": {
 						"animation": "asphalt/horizontalGarrizon/FALF0232",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVVV", "VBAB"],
-
 						"allowedTerrains": [
-
 							"asphalt"
 						]
 					},
-
-					
-					
-					
 				}
 			},
-
-
-
-
 		}
 	}
-
-
-
 }

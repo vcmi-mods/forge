@@ -1,34 +1,18 @@
 {
 	"core:cartographer": {
-
 		"types": {
-			"asphaltcartographer01": {
-				"name": "Cartographer",
-				"rmg": {
-					"mapLimit": 2,
-					"value": 10000,
-					"rarity": 20
-				},
+			"cartographer": {
 				"templates": {
-
 					"FSUF0001": {
 						"animation": "asphalt/cartographer/FSUF0001",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVV", "VVV", "ABB"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
 					},
-
-
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

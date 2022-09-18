@@ -1,22 +1,12 @@
 {
 	"core:corpse": {
-
 		"types": {
-
-			"asphaltcorpse01": {
-				"name": "Corpse",
-				"rmg": {
-					"value": 500,
-					"rarity": 70
-				},
+			"corpse": {
 				"templates": {
-
-
 					"FVOC0010": {
 						"animation": "asphalt/corpse/FVOC0010",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -25,7 +15,6 @@
 						"animation": "asphalt/corpse/FVOC0011",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["BA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -34,7 +23,6 @@
 						"animation": "asphalt/corpse/FVOC0012",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["BA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -43,7 +31,6 @@
 						"animation": "asphalt/corpse/FVOC0013",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["AB"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -52,7 +39,6 @@
 						"animation": "asphalt/corpse/FVOC0014",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -61,7 +47,6 @@
 						"animation": "asphalt/corpse/FVOC0015",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["BA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -70,7 +55,6 @@
 						"animation": "asphalt/corpse/FVOC0016",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["AB"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
@@ -79,21 +63,12 @@
 						"animation": "asphalt/corpse/FVOC0017",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["AB"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
 					},
-
-
-
-
 				}
-
-
 			}
 		}
 	}
-
-
 }

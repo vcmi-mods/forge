@@ -1,32 +1,18 @@
 {
 	"core:idolOfFortune": {
-
 		"types": {
-			"asphaltidolOfFortune01": {
-"name":"Idol of Fortune",
-				"rmg": {
-					"zoneLimit": 1,
-					"value": 100,
-					"rarity": 100
-				},
+			"idolOfFortune": {
 				"templates": {
-
 					"FALF0199": {
 						"animation": "asphalt/idolOfFortune/FALF0199",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
-					},
-						
+					}
 				}
 			}
-
 		}
 	}
-
-
-
 }

@@ -1,35 +1,18 @@
 {
 	"core:arena": {
-
 		"types": {
-			"asphaltarena01": {
-
-				"rmg": {
-					"zoneLimit": 1,
-					"value": 3000,
-					"rarity": 50
-				},
+			"arena": {
 				"templates": {
-
 					"BlacDrAr": {
 						"animation": "asphalt/arena/BlacDrAr",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVVV","VBBB", "VBAB"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
 					},
-
-
 				}
 			}
-
-
-
 		}
 	}
-
-
-
 }

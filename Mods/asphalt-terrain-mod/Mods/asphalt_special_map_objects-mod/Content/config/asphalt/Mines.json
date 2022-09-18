@@ -3,11 +3,6 @@
 		
 		"types": {
 			"sawmill": {
-				"index": 0,
-				"rmg": {
-					"value": 1500
-				},
-				"name": "Saw Mill",
 				"templates": {
 					"woodmineStdGrass": {
 						"animation": "asphalt/Mines/AMSAW005.def",
@@ -18,11 +13,6 @@
 				}
 			},
 			"alchemistLab": {
-				"index": 1,
-				"rmg": {
-					"value": 3500
-				},
-				"name": "Mercury Mine",
 				"templates": {
 					"AMMER007": {
 						"animation": "asphalt/Mines/AMMER007.def",
@@ -32,12 +22,7 @@
 					}
 				}
 			},
-			"orePit": {
-				"name":"Ore Mine",
-				"rmg": {
-					"value": 1500
-				},
-				
+			"orePit": {				
 				"templates": {
 					"AMORE009": {
 						"animation": "asphalt/Mines/AMORE009.def",
@@ -48,11 +33,6 @@
 				}
 			},
 			"sulfurDune": {
-				"index": 3,
-				"rmg": {
-					"value": 3500
-				},
-				"name": "Sulfur Mine",
 				"templates": {
 					"AMSUL002": {
 						"animation": "asphalt/Mines/AMSUL002.def",
@@ -63,11 +43,6 @@
 				}
 			},
 			"crystalCavern": {
-				"name":"Crystal Mine",
-				"index": 4,
-				"rmg": {
-					"value": 3500
-				},
 				"templates": {
 					"AVCRY007": {
 						"animation": "asphalt/Mines/AVCRY007.def",
@@ -78,10 +53,6 @@
 				}
 			},
 			"gemPond": {
-				"index": 5,
-				"rmg": {
-					"value": 3500
-				},
 				"templates": {
 					"AVGEM010": {
 						"animation": "asphalt/Mines/AVGEM010.def",
@@ -92,10 +63,6 @@
 				}
 			},
 			"goldMine": {
-				"index": 6,
-				"rmg": {
-					"value": 7000
-				},
 				"templates": {
 					"AVGLD009": {
 						"animation": "asphalt/Mines/AVGLD009.def",

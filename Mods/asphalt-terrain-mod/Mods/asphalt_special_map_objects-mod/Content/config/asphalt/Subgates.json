@@ -1,11 +1,7 @@
 {
 	"core:subterraneanGate": {
-		
-		"handler": "subterraneanGate",
 		"types": {
-			"object": {
-				//	"index": 0,
-				"name": "Subterrain Gate",
+			"subterraneanGate": {
 				"templates": {
 					"OBJ3339": {
 						"animation": "asphalt/Subgates/AVSUG005",

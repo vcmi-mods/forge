@@ -1,10 +1,8 @@
 {
 	"core:sign": {
 		"types": {
-			"asphaltSign01": {
+			"sign": {
 				"templates": {
-	
-	
 					"FALF0174": {
 						"animation": "asphalt/sign/FALF0174",
 						"visitableFrom": ["---", "+++", "+++"],
@@ -17,8 +15,6 @@
 						"mask": ["VA"],
 						"allowedTerrains": ["asphalt"]
 					},
-
-
 					"FOCF0005": {
 						"animation": "asphalt/sign/FOCF0005",
 						"visitableFrom": ["---", "+++", "+++"],
@@ -30,9 +26,7 @@
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VA"],
 						"allowedTerrains": ["asphalt"]
-					},
-
-
+					}
 				}
 			}
 		}

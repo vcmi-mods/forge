@@ -78,6 +78,10 @@
 	"modType" : "Town",
 	"name" : "Forge town",
 	"version" : "2.0.0",
+	"compatibility" : 
+	{
+		"min" : "1.1.0"
+	},
 	"changelog" :
 	{
 		"1.0"   : ["Initial release"],

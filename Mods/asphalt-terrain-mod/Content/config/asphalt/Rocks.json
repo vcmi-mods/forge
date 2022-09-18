@@ -10,9 +10,6 @@
 					"rarity": 100
 				},
 				"templates": {
-
-
-
 					"FDTD0009": {
 						"animation": "asphalt/rocks/FDTD0009",
 						"visitableFrom": ["---", "+++", "+++"],

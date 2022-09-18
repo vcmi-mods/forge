@@ -1,16 +1,7 @@
 {
 	"core:obelisk": {
-		
-		//	"handler": "obelisk",
-		
 		"types": {
-			"object": {
-				"index": 0,
-				"rmg": {
-					"mapLimit": 48,
-					"value": 3500,
-					"rarity": 200
-				},
+			"obelisk": {
 				"templates": {
 					"OBJ6857": {
 						"animation": "asphalt/obelisk/AVOBL014.def",

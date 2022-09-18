@@ -2,29 +2,17 @@
 	"core:learningStone": {
 
 		"types": {
-			"asphaltlearningStone01": {
-				"name": "Learning Stone",
-				"rmg": {
-					"value": 1500,
-					"rarity": 200
-				},
+			"learningStone": {
 				"templates": {
-
-					
 					"FALF0248": {
 						"animation": "asphalt/learningStone/FALF0248",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
-
 						"allowedTerrains": [
 							 "asphalt"
-
 						]
-					},					
-
-
+					}
 				}
-
 			}
 		}
 	}

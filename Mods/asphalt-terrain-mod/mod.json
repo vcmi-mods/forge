@@ -4,6 +4,10 @@
 	"description" : "Forge Terrain - Asphalt",
 	
 	"version":"1.0.0",
+	"compatibility" :
+	{
+		"min" : "1.1.0"
+	},
 	"author":"Ported by Macron1 and Nordsoft",
 	"contact":"https://forum.vcmi.eu",
 	"modType":"Graphical",

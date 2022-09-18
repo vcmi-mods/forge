@@ -1,16 +1,8 @@
 {
 	"core:campfire": {
-
 		"types": {
-			"asphaltCampFire01": {
-
-				"rmg": {
-					"value": 2000,
-					"rarity": 500
-				},
+			"campfire": {
 				"templates": {
-
-
 					"FTRCF005": {
 						"animation": "asphalt/campFire/FTRCF005",
 						"visitableFrom": [
@@ -25,8 +17,6 @@
 							"asphalt"
 						]
 					},
-	
-
 				}
 			}
 		}

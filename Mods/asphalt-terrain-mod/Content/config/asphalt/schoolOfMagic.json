@@ -1,32 +1,15 @@
 {
 	"core:schoolOfMagic": {
-
 		"types": {
-			"asphaltschoolOfMagic01": {
-
-				"rmg": {
-					"value": 1000,
-					"rarity": 50,
-					"zoneLimit":1
-
-				},
+			"schoolOfMagic": {
 				"templates": {
-
 					"FALF0102": {
 						"animation": "asphalt/schoolOfMagic/FALF0102",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVVV", "VVVV", "VVVV", "VVBA"],
 						"allowedTerrains":["asphalt"]
 					},
-					
-	
-	
-
-
-
-
 				}
-
 			}
 		}
 	}

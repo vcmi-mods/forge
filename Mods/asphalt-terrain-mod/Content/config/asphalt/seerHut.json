@@ -2,39 +2,18 @@
 	"core:seerHut": {
 
 		"types": {
-			"asphaltseerHut01": {
-				"name": "Seer Hut",
-				"rmg": {
-					"zoneLimit": 1,
-					"value": 2000,
-					"rarity": 100
-				},
+			"seerHut": {
 				"templates": {
-
-
-
 					"FALF0197": {
 						"animation": "asphalt/seerHut/FALF0197",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "BA"],
-
 						"allowedTerrains": [
 							"asphalt"
 						]
 					},
-
-
-
-
-
-
-
-
 				}
 			}
-
-
-
 		}
 	}
 }
