@@ -3,7 +3,7 @@
 // * "absoluteObstacles" are a little special: there can be only one such obstacle in the battlefield and its position is always the same.
 //
 // Their properties:
-// * "allowedTerrain" vector of terrain types (TT format) where obstacle is appropriate
+// * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
 // * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored. 
 // * "blockedTiles": for absolute obstacles contains absolute coordinates. For usual obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
 // * "width" for usual obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute obstacles, it's x offset for the graphics.
@@ -13,7 +13,7 @@
 {
 	"aspObstacle01":
 	{
-		"allowedTerrain" : ["asphalt"],   //to change later
+		"allowedTerrains" : ["asphalt"],   //to change later
 		"specialBattlefields" : [],
 		"width" : 6,
 		"height" :2,
@@ -23,7 +23,7 @@
 	},
 	"aspObstacle02":
 	{
-		"allowedTerrain" : ["asphalt"],   //to change later
+		"allowedTerrains" : ["asphalt"],   //to change later
 		"specialBattlefields" : [],
 		"width" :5,
 		"height" :4,
@@ -33,7 +33,7 @@
 	},
 	"asphaltGeyser":
 	{
-		"allowedTerrain" : ["asphalt"],
+		"allowedTerrains" : ["asphalt"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" :4,
