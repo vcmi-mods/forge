@@ -95,5 +95,14 @@
 		"1.4.0" : ["Lvl 3 alternative unit and two new heroes"],
 		"2.0.0" : ["Asphalt terrain added as native terrain for the Forge"],
 		"2.1.0" : ["Support VCMI 1.1"]
-    }
+	},
+	"german" : {
+		"name" : "Schmiede",
+		"description" : "Neue Stadt vom Mod Design Team als Teil des Addons \"The Heavenly Forge\"",
+		"modType" : "Stadt",
+		
+		"translations" : [
+			"config/forge/translation/german.json"
+		]
+	}
 }
