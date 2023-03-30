@@ -99,7 +99,6 @@
 	"german" : {
 		"name" : "Schmiede",
 		"description" : "Neue Stadt vom Mod Design Team als Teil des Addons \"The Heavenly Forge\"",
-		"modType" : "Stadt",
 		
 		"translations" : [
 			"config/forge/translation/german.json"
