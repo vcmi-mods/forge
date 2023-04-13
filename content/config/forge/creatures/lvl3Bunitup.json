@@ -32,7 +32,7 @@
 		"fightValue" : 340,
 		"graphics" : {
 			"animation" : "forge/battle/lvl3Bunitup",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "forge/iconsBig/lvl3Bup",
 			"iconSmall" : "forge/iconsSmall/lvl3Bup",
 			"map" : "forge/map/lvl3Bunitup",

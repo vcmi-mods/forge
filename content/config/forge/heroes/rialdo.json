@@ -13,7 +13,7 @@
 			"specialtySmall" : "forge/heroes/rialdo/specsmall.png"
 		},
 		"skills" : [
-			{ "level" : "advanced", "skill" : "wisdom" },
+			{ "level" : "advanced", "skill" : "wisdom" }
 		],
 		"specialty" : {
 			"bonuses" : {
