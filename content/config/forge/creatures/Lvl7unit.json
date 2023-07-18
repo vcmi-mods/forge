@@ -1,7 +1,7 @@
 {
 	"juggernaut" : {
 		"abilities" : {
-			"basicSlayer" : { "type" : "KING3" },
+			"expSlayer" : { "type" : "KING", "val" : 3,  "valueType" : "ADDITIVE_VALUE" },
 			"HPregenerate" : {
 				"type" : "HP_REGENERATION",
 				"subtype" : 1,
@@ -19,7 +19,7 @@
 		"fightValue" : 3001,
 		"graphics" : {
 			"animation" : "forge/battle/lvl7unit.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "forge/iconsBig/lvl7.png",
 			"iconSmall" : "forge/iconsSmall/lvl7.png",
 			"map" : "forge/map/lvl7unit.def",

@@ -28,7 +28,7 @@
 		"fightValue" : 730,
 		"graphics" : {
 			"animation" : "forge/battle/lvl4unitup.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "forge/iconsBig/lvl4up.png",
 			"iconSmall" : "forge/iconsSmall/lvl4up.png",
 			"map" : "forge/map/lvl4unitup.def",

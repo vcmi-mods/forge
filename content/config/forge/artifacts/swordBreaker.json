@@ -3,24 +3,30 @@
 		"bonuses" : 
 		[ 
 			{ 
-				"effectRange" : "ONLY_ENEMY_ARMY", 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
 				"type" : "STACKS_SPEED", 
 				"val" : -25,
-				"valueType" : "PERCENT_TO_BASE",
+				"valueType" : "PERCENT_TO_BASE"
 			},
 			{ 
-				"effectRange" : "ONLY_ENEMY_ARMY", 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
 				"subtype" : "primSkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : -25,
-				"valueType" : "PERCENT_TO_BASE",
+				"valueType" : "PERCENT_TO_BASE"
 			},
 			{ 
-				"effectRange" : "ONLY_ENEMY_ARMY", 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
 				"subtype" : "primSkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : -25,
-				"valueType" : "PERCENT_TO_BASE",
+				"valueType" : "PERCENT_TO_BASE"
 			}			
 		],
 		"class" : "RELIC",

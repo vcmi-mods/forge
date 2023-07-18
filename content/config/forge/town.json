@@ -3,7 +3,8 @@
 		"alignment" : "evil",
 		"creatureBackground" : { "120px" : "forge/creaturebg120px", "130px" : "forge/creaturebg130px" },
 		"name" : "Forge",
-		"nativeTerrain" : "dirt",
+		"nativeTerrain" : "asphalt",
+		"boat" : "boatNecropolis",
 		"puzzleMap" : {
 			"pieces" : [
 				{ "index" : 1, "x" : 8, "y" : 8 },
@@ -435,6 +436,7 @@
 				]
 			],
 			"horde" : [ 0, 5 ],
+			"moatAbility" : "forgeMoat",
 			"icons" : {
 				"fort" : {
 					"built" : {
@@ -466,7 +468,6 @@
 					"village" : { "animation" : "forge/map/village.def" }
 				}
 			},
-			"moatDamage" : 110,
 			"musicTheme" : "music/factions/theme",
 			"names" : [
 				"Alphaville",
@@ -491,6 +492,8 @@
 			{
 				"shooter" : "stinger",
 				"imagePrefix" : "forge/siege/sgfg",
+				"towerIconSmall" : "forge/icons/arrowtowersmall",
+				"towerIconLarge" : "forge/icons/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 476, "y" : 192 },

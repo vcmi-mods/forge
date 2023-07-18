@@ -1,39 +1,19 @@
 {
 	"core:mountain" : {
 		"types" : {			
-			"AVLmtDn1" : { 
+			"object" : { 
 				"templates" : {	
-					"AVLmtDn1" : { 			
-						"animation" : "forge/decorations/AVLmtDn1", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB" ] }
-				}
-			},		
-			"AVLmtDn2" : { 
-				"templates" : {	
-					"AVLmtDn2" : { 				
-						"animation" : "forge/decorations/AVLmtDn2", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVVVV", "VVBBBB", "VBBBBB", "VBBBVV" ] }
-				}
-			},
-			"AVLmtDn3" : { 
-				"templates" : {
-					"AVLmtDn3" : { 				
-						"animation" : "forge/decorations/AVLmtDn3", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBV", "VBBB", "VVBB" ] }
-				}
-			},
-			"AVLmtDn4" : { 
-				"templates" : {
-					"AVLmtDn3" : { 				
-						"animation" : "forge/decorations/AVLmtDn4", "allowedTerrains": [ "dirt" ], "mask" : [ "VVBB", "VBBB", "VBBV" ] }
-				}
-			},		
-			"AVLmtDn5" : { 
-				"templates" : {
-					"AVLmtDn3" : { 				
-						"animation" : "forge/decorations/AVLmtDn5", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBV", "VVBB" ] }
-				}
-			},
-			"AVLmtDn6" : { 
-				"templates" : {
-					"AVLmtDn3" : { 				
+					"mdtAVLmtDn1" : { 			
+						"animation" : "forge/decorations/AVLmtDn1", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB" ] },
+					"mdtAVLmtDn2" : { 				
+						"animation" : "forge/decorations/AVLmtDn2", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVVVV", "VVBBBB", "VBBBBB", "VBBBVV" ] },
+					"mdtAVLmtDn3" : { 				
+						"animation" : "forge/decorations/AVLmtDn3", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBV", "VBBB", "VVBB" ] },
+					"mdtAVLmtDn4" : { 				
+						"animation" : "forge/decorations/AVLmtDn4", "allowedTerrains": [ "dirt" ], "mask" : [ "VVBB", "VBBB", "VBBV" ] },
+					"mdtAVLmtDn5" : { 				
+						"animation" : "forge/decorations/AVLmtDn5", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBV", "VVBB" ] },
+					"mdtAVLmtDn6" : { 				
 						"animation" : "forge/decorations/AVLmtDn6", "allowedTerrains": [ "dirt" ], "mask" : [ "VVBB", "VBBV" ] }
 				}
 			}
@@ -42,19 +22,11 @@
 	
 	"core:lake" : {
 		"types" : {
-			"AVLMl1d0" : {
+			"object" : {
 				"templates" : {	
-					"AVLMl1d0" : { "animation" : "forge/decorations/AVLMl1d0", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBBBBV", "BBBBBBB", "VBBBBBV" ] }
-				}
-			},
-			"AVLMl2d0" : {
-				"templates" : {				
-					"AVLMl2d0" : { "animation" : "forge/decorations/AVLMl2d0", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVV", "BBBB", "BBBV" ] }
-				}
-			},
-			"AVLMl3d0" : {
-				"templates" : {	
-					"AVLMl3d0" : { "animation" : "forge/decorations/AVLMl3d0", "allowedTerrains": [ "dirt" ], "mask" : [ "BB" ] }			
+					"mdtAVLMl1d0" : { "animation" : "forge/decorations/AVLMl1d0", "allowedTerrains": [ "dirt" ], "mask" : [ "VBBBBBV", "BBBBBBB", "VBBBBBV" ], "zIndex": 100 },
+					"mdtAVLMl2d0" : { "animation" : "forge/decorations/AVLMl2d0", "allowedTerrains": [ "dirt" ], "mask" : [ "VVVV", "BBBB", "BBBV" ], "zIndex": 100  },
+					"mdtAVLMl3d0" : { "animation" : "forge/decorations/AVLMl3d0", "allowedTerrains": [ "dirt" ], "mask" : [ "BB" ], "zIndex": 100  }			
 				}
 			}
 		}	
@@ -64,7 +36,6 @@
 		"types" : {
 			"forgeSign" : {
 				"name" : "Sign",
-				"index" : 0,
 				"sounds": {
 					"visit": ["forge/ambient/TERMINAL"]
 				},	
