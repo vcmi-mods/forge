@@ -1,15 +1,5 @@
 {
 	"author" : "Mod Design Team",
-//				Witchking - Leader and 3d Artist
-//				Hobbit - 2d, 3d Artist and Musician
-//				Trith - 3d Artist
-//				Sower - 2d and 3d Artist
-//				Mitlandy - 3d Artist
-//				Drwal - 2d Artist
-//				Bacus - 2d Artist,
-//				Khemiel - 2d Artist,
-//				avatar - json guy,
-//				Commander by Alex-ander
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
 	"creatures" : [
 		"config/forge/creatures/lvl1unit",
