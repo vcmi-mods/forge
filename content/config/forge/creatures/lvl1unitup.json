@@ -1,7 +1,7 @@
 {
 	"militian" : {
 		"abilities" : {
-			"immuneToArrow" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION", "val" : 30 },
+			"immuneToArrow" : { "subtype" : "damageTypeRanged", "type" : "GENERAL_DAMAGE_REDUCTION", "val" : 30 },
 			"deathCloudImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",

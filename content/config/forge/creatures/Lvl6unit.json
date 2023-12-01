@@ -1,6 +1,6 @@
 {
 	"jumpSoldier" : {
-		"abilities" : { "noMoral" :	{ "type" : "NO_MORALE" }, "canFly" : { "type" : "FLYING" }	},
+		"abilities" : { "noMoral" :	{ "type" : "NO_MORALE" }, "canFly" : { "type" : "FLYING", "subtype" : "movementFlying" } },
 		"advMapAmount" : {"max" : 12, "min" : 5},
 		"aiValue" : 2107,
 		"attack" : 15,
@@ -34,7 +34,7 @@
 		"speed" : 6,
 		"stackExperience" : [
 			{
-				"bonus" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION" },
+				"bonus" : { "subtype" : "damageTypeRanged", "type" : "GENERAL_DAMAGE_REDUCTION" },
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
 			}
 		],

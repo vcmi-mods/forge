@@ -28,12 +28,12 @@
 			},
 			"bonuses" : {
 				"attack" : {
-					"subtype" : "primSkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"val" : 5
 				},
 				"defence" : {
-					"subtype" : "primSkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"val" : 5
 				},

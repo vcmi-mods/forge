@@ -83,7 +83,7 @@
 							{
 								"type": "CREATURE_DAMAGE",
 								"val" : 20,
-								"subtype" : 0,
+								"subtype" : "creatureDamageBoth",
 								"valueType" : "PERCENT_TO_BASE",
 								"duration": "N_TURNS",
 								"turns" : 3
@@ -92,7 +92,7 @@
 							{
 								"type": "PRIMARY_SKILL",
 								"val" : 5,
-								"subtype" : "primSkill.attack",
+								"subtype" : "attack",
 								"duration": "N_TURNS",
 								"turns" : 3
 							},						
@@ -108,7 +108,7 @@
 							{
 								"type": "PRIMARY_SKILL",
 								"val" : -5,
-								"subtype" : "primSkill.defence",
+								"subtype" : "defence",
 								"duration": "N_TURNS",
 								"turns" : 3
 							}

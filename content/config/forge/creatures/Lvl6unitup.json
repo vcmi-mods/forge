@@ -1,6 +1,6 @@
 {
 	"jumpTrooper" : {
-		"abilities" : { "noMoral" :	{ "type" : "NO_MORALE" }, "canFly" : { "type" : "FLYING" }	},
+		"abilities" : { "noMoral" :	{ "type" : "NO_MORALE" }, "canFly" :  { "type" : "FLYING", "subtype" : "movementFlying" } },
 		"advMapAmount" : {"max" : 10, "min" : 5},
 		"aiValue" : 2390,
 		"attack" : 15,
@@ -34,7 +34,7 @@
 		"speed" : 8,
 		"stackExperience" : [
 			{
-				"bonus" : { "subtype" : 1, "type" : "GENERAL_DAMAGE_REDUCTION" },
+				"bonus" : { "subtype" : "damageTypeRanged", "type" : "GENERAL_DAMAGE_REDUCTION" },
 				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
 			}
 		]

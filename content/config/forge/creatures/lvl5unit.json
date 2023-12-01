@@ -53,11 +53,11 @@
 		"speed" : 4,
 		"stackExperience" : [
 			{
-				"bonus" : { "addInfo" : 1000, "subtype" : 45, "type" : "SPELL_AFTER_ATTACK" },
+				"bonus" : { "addInfo" : [1, 1], "subtype" : "spell.weakness", "type" : "SPELL_AFTER_ATTACK" },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{
-				"bonus" : { "addInfo" : 1000, "subtype" : 47, "type" : "SPELL_AFTER_ATTACK" },
+				"bonus" : { "addInfo" : [1, 1], "subtype" : "spell.disruptingRay", "type" : "SPELL_AFTER_ATTACK" },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			}
 		],

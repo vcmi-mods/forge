@@ -56,7 +56,7 @@
 				"type" : "CREATURE_DAMAGE",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_BASE",
-				"subtype" : 0,
+				"subtype" : "creatureDamageBoth",
 				"limiters" : [ "SHOOTER_ONLY" ]
 			},
 			"shooter" :
