@@ -14,8 +14,8 @@
 		"shots" : 24,
 		"damage" :
 		{
-			"max" : 15,
-			"min" : 7
+			"max" : 12,
+			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 1000,
@@ -50,7 +50,7 @@
 			}
 		},
 		"growth" : 1,
-		"hitPoints" : 60,
+		"hitPoints" : 40,
 		"sound" :
 		{
 			"attack" : "forge/lvl3/attack.wav",
@@ -59,7 +59,7 @@
 			"move" : "forge/lvl3/move.wav",
 			"wince" : "forge/lvl3/wince.wav"
 		},
-		"speed" : 5,
+		"speed" : 4,
 		"abilities" :
 		{
 			"magicResistance" :
@@ -87,10 +87,6 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.disruptingRay",
 				"val" : 3
-			},
-			"shooter" :
-			{
-				"type" : "SHOOTER"
 			}
 		}
 	}

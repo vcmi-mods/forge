@@ -68,7 +68,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.2.5",
+	"version" : "2.2.6",
 	"depends" : 
 	[
 		"asphalt-terrain"
@@ -95,7 +95,8 @@
 		"2.2.2" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
 		"2.2.3" : ["Fixed Jonathan's specialty icons", "added lessRandomStart submod"],
 		"2.2.4" : ["Polish translation by Dru"],
-		"2.2.5" : ["Update to vcmi-1.4 format"]
+		"2.2.5" : ["Update to vcmi-1.4 format"],
+		"2.2.6" : ["Adjusted Commanders stats"]
     },
 	"chinese" : {
 		"name" : "异星",
