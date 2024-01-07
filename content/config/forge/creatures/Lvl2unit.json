@@ -3,7 +3,7 @@
 			"abilities" : {
 			"canShoot" : { "type" : "SHOOTER" }
 			},
-		"advMapAmount" : {"max" : 30, "min" : 25},
+		"advMapAmount" : {"max" : 30, "min" : 16},
 		"aiValue" : 227,
 		"attack" : 5,
 		"cost" : { "gold" : 110 },

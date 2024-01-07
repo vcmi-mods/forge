@@ -28,13 +28,13 @@
 			},
 			"bonuses" : {
 				"attack" : {
-					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
 					"val" : 5
 				},
 				"defence" : {
-					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
 					"val" : 5
 				},
 				"speed" : {

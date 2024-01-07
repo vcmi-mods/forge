@@ -8,7 +8,7 @@
 		},
 		"faction" : "forge",
 		"level": 0,
-		"aiValue" : 1000,
+		"aiValue" : 156,
 		"special" : true,
 		"attack" : 5,
 		"shots" : 24,
@@ -18,7 +18,7 @@
 			"min" : 6
 		},
 		"defense" : 5,
-		"fightValue" : 1000,
+		"fightValue" : 130,
 		"graphics" :
 		{
 			"animation" : "forge/battle/cmndr.def",
@@ -49,7 +49,7 @@
 
 			}
 		},
-		"growth" : 1,
+		"growth" : 9,
 		"hitPoints" : 40,
 		"sound" :
 		{
