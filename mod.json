@@ -100,8 +100,8 @@
 		"2.2.7" : ["Fixed the commander and other bugs"]
     },
 	"chinese" : {
-		"name" : "异星",
-		"description" : "异星",
+		"name" : "铸造厂",
+		"description" : "铸造厂是是一个柴油朋克风格的高科技种族，基于《英雄无敌III》资料片机械族（Forge）废案制作。",
 		"translations" : [
 			"config/forge/translation/chinese.json"
 		]
