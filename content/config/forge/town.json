@@ -221,11 +221,25 @@
 					"id" : 7,
 					"name" : "Fort"
 				},
-				"grail" : {
-					"description" : "The presence of the Tesla Coil increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day.",
-					"id" : 26,
-					"mode" : "grail",
-					"name" : "Tesla Coil"
+				"grail": {
+					"description": "The presence of the Tesla Coil increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, the hero of the garrison receives the Thunder of the Titan in the spellbook and increases the spell power of Air Magic by 50%.",
+					"id": 26,
+					"bonuses": [
+						{
+							"type": "SPELL_DAMAGE",
+							"subtype": "spellSchool.air",
+							"val": 50,
+							"valueType": "BASE_NUMBER"
+						},
+						{
+							"type": "SPELL",
+							"subtype": "spell.titanBolt",
+							"val": 3,
+							"valueType": "BASE_NUMBER"
+						}
+					],
+					"mode": "grail",
+					"name": "Tesla Coil"
 				},
 				"horde1" : {
 					"cost" : { "gold" : 1000 },
@@ -294,19 +308,36 @@
 					"requires" : [ "marketplace" ]
 				},
 
-				"special2" : {
-					"cost" : { "crystal" : 2, "gems" : 2, "gold" : 2500, "mercury" : 2, "ore" : 5, "sulfur" : 2, "wood" : 10 },
-					"description" : "The Replicator allows you to replicate Artifacts (not working yet).",
-					"id" : 21,
-					"name" : "Replicator",
-					"requires" : [ "blacksmith" ]
+				"special1": {
+					"cost": {
+						"crystal": 2,
+						"gems": 2,
+						"gold": 5000,
+						"mercury": 2,
+						"ore": 5,
+						"sulfur": 2,
+						"wood": 10
+					},
+					"description": "The Replicator sells artifacts to visiting heroes.",
+					"id": 17,
+					"name": "Replicator",
+					"type": "artifactMerchant",
+					"requires": [
+						"blacksmith"
+					]
 				},
-				"special3" : {
-					"cost" : { "gold" : 600, "wood" : 3 },
-					"description" : "The Hero Teleporter ensures the presence of at least one Forge hero in the Tavern (not working yet).",
-					"id" : 22,
-					"name" : "Hero Teleporter",
-					"requires" : [ "tavern" ]
+				"special3": {
+					"cost": {
+						"gold": 8000,
+						"mercury": 10
+					},
+					"description": "Allows travel Forge towns containang Hero Teleporter. Destination town must be unoccupied..",
+					"id": 22,
+					"name": "Hero Teleporter",
+					"type": "castleGate",
+					"requires": [
+						"tavern"
+					]
 				},
 				"special4" : {
 					"cost" : { "gold" : 7500, "ore" : 15, "wood" : 15 },
@@ -417,7 +448,7 @@
 				[
 					[ "marketplace", "resourceSilo" ],
 					[ "mageGuild1", "mageGuild2", "mageGuild3" ],
-					[ "special2" ],
+					[ "special1" ],
 					[ "special3" ]
 				],
 				[ [ "horde1", "horde1Upgr" ], [ "special4" ], [ "horde2", "horde2Upgr" ] ],
@@ -806,7 +837,7 @@
 				},
 
 
-				"special2" : {
+				"special1" : {
 					"animation" : "forge/buildings/special2",
 					"area" : "forge/town/area/special2",
 					"border" : "forge/town/border/special2",
