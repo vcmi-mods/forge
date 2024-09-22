@@ -49,7 +49,7 @@
 	"building.forge.forge.dwellingUpLvl7.name" : "ул. Бездна",
 	"building.forge.forge.fort.description" : "Форт защищает ваш город оборонительными стенами.",
 	"building.forge.forge.fort.name" : "Форт",
-	"building.forge.forge.grail.description" : "Наличие Катушки Теслы увеличивает еженедельное производство существ на 50% и обеспечивает ваше королевство дополнительными 5000 золотых каждый день.",
+	"building.forge.forge.grail.description" : "Наличие Катушки Теслы увеличивает еженедельное производство существ на 50%, обеспечивает ваше королевство дополнительными 5000 золотых каждый день, герой гарнизона получает Гром Титана в книге заклинаний и увеличивает силу заклинаний Магии воздуха на 50%.",
 	"building.forge.forge.grail.name" : "Катушка Теслы",
 	"building.forge.forge.horde1.description" : "Турель увеличивает производство щитоносцев на 6 в неделю.",
 	"building.forge.forge.horde1.name" : "Турель",
@@ -69,9 +69,9 @@
 	"building.forge.forge.marketplace.name" : "Рынок",
 	"building.forge.forge.resourceSilo.description" : "Хранилище ресурсов дает вам дополнительно +1 древесину и +1 железную руду каждый день.",
 	"building.forge.forge.resourceSilo.name" : "Хранилище ресурсов",
-	"building.forge.forge.special2.description" : "Вы можете использовать репликатор для дублирования артефактов.",
-	"building.forge.forge.special2.name" : "Репликатор",
-	"building.forge.forge.special3.description" : "Телепорт героя гарантирует, что в таверне присутствует хотя бы один герой из кузницы.",
+	"building.forge.forge.special1.description" : "Репликатор продает артефакты героям-гостям.",
+	"building.forge.forge.special1.name" : "Репликатор",
+	"building.forge.forge.special3.description" : "Позволяет путешествовать по городам-кузницам, в которых есть телепорт героя. Город назначения должен быть пустым.",
 	"building.forge.forge.special3.name" : "Телепорт",
 	"building.forge.forge.special4.description" : "Башня ресурсов каждый день дает вам дополнительную серу.",
 	"building.forge.forge.special4.name" : "Башня ресурсов",
@@ -245,3 +245,4 @@
 	"spell.forge.overload.name" : "Перегрузка",
 	"spell.forge.specialLvl7.name" : "Ранение",
 }
+
