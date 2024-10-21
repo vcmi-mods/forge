@@ -68,7 +68,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.3.1",
+	"version" : "2.3.2",
 	"depends" : 
 	[
 		"asphalt-terrain"
@@ -101,7 +101,8 @@
 		"2.2.8" : ["Russian translation by Anton Sergeew"],
 		"2.2.9" : ["Updated russian translation"],
 		"2.3.0" : ["Adds effects to buildings that do not currently have effects implemented. Grail included (by Dark Imagine)"],
-		"2.3.1" : ["Updated russian translation"]
+		"2.3.1" : ["Updated russian translation"],
+		"2.3.2" : ["Fixed the translation bugs"]
     },
 	"chinese" : {
 		"name" : "铸造厂",

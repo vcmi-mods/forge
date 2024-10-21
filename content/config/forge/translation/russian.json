@@ -69,7 +69,7 @@
 	"building.forge.forge.marketplace.name" : "Рынок",
 	"building.forge.forge.resourceSilo.description" : "Хранилище ресурсов дает вам дополнительно +1 древесину и +1 железную руду каждый день.",
 	"building.forge.forge.resourceSilo.name" : "Хранилище ресурсов",
-	"building.forge.forge.special1.description" : "Репликатор продает артефакты героям-гостям.",
+	"building.forge.forge.special1.description" : "Репликаторы продают артефакты посещающим их героям.",
 	"building.forge.forge.special1.name" : "Репликатор",
 	"building.forge.forge.special3.description" : "Позволяет путешествовать по городам-кузницам, в которых есть телепорт героя. Город назначения должен быть пустым.",
 	"building.forge.forge.special3.name" : "Телепорт",
