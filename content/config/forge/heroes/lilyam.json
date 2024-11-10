@@ -31,9 +31,9 @@
 			"biography" : "Lilyam, despite being born in the forests of Avlee, is an expert at digging up resources from the underworld. When her fascination with a sulfur did not obtain approval from the druids, she went to the King of Deyja, who gladly accepted her as a commander.",
 			"name" : "Lilyam",
 			"specialty" : {
-				"tooltip" : "+1 Sulfur each day",
-				"name" : "+1 Sulfur",
-				"description" : "{Sulfur}\r\n\r\nIncreases kingdom's sulfur production by 1 per day."
+				"tooltip" : "Resource Bonus: Sulfur",
+				"name" : "Sulfur",
+				"description" : "Increases kingdom's sulfur production by 1 per day."
 			}
 		}
 	}

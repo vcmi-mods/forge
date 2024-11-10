@@ -25,9 +25,9 @@
 			"biography" : "Since her youth, Vee was paying more attention to the War Machines rather than magic. Her parents managed to instill both of those passions into their daughter, allowing her to become a powerful Technician.",
 			"name" : "Vee",
 			"specialty" : {
-				"tooltip" : "Artillery Bonus: Ballista",
+				"tooltip" : "Creature Bonus: Ballista",
 				"name" : "Ballista",
-				"description" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 6 levels (rounded up)."
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up)."
 			}
 		}
 	}

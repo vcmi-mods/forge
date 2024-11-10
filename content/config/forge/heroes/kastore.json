@@ -48,9 +48,9 @@
 			"biography" : "Kastore, a visitor not of this world, took power in Deyja after overthroning of Archibald Ironfist. His obsession with the magic of the Ancients has made him aim for restoring the Heavenly Forges around the entire continent, and then to take over the world. No one knows what this demented mind is capable of.",
 			"name" : "Kastore",
 			"specialty" : {
-				"description" : "{Juggernauts and Dreadnoughts}\r\n\r\nJugernauts or Dreadnoughts receive +5 Att, +5 Def, and +1 Speed.",
+				"description" : "Jugernauts and Dreadnoughts receive +5 Attack, +5 Defense, and +1 Speed.",
 				"name" : "Juggernauts",
-				"tooltip" : "Creature Bonus: Juggernaut"
+				"tooltip" : "Creature Bonus: Juggernauts"
 			}
 		}
 	}

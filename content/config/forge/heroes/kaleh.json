@@ -22,7 +22,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Thugs",
 				"name" : "Thugs",
-				"description" : "{Thugs and Mercenaries}\r\n\r\nIncreases Speed of any Thugs or Mercenaries by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
+				"description" : "Increases the speed of Thugs or Mercenaries by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
 			}
 		}
 	}

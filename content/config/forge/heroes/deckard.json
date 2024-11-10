@@ -28,7 +28,7 @@
 			"biography" : "Deckard's distinctive armor may look impressive, but it's nothing compared to his anti-magic abilities. No wonder he quickly became the general of the restored Deyjan Army.",
 			"name" : "Deckard",
 			"specialty" : {
-				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill percentage.",
+				"description" : "Receives a 5% per level bonus to Resistance skill percentage.",
 				"name" : "Resistance",
 				"tooltip" : "Secondary Skill Bonus: Resistance"
 			}

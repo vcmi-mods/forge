@@ -30,9 +30,9 @@
 			"biography" : "Seldon has sailed from Enroth to Erathia in pursuit of adventures and glory. He is one of the few who had experienced the forgotten artifacts of the Ancients in the past. Rumor has it that he has served someone named Sheltem before.",
 			"name" : "Seldon",
 			"specialty" : {
-				"tooltip" : "Spell Bonus: Antimagic",
-				"name" : "Antimagic",
-				"description" : "{Antimagic}\r\n\r\nCasts Antimagic with double duration."
+				"tooltip" : "Spell Bonus: Anti-Magic",
+				"name" : "Anti-Magic",
+				"description" : "Casts Anti-Magic with double duration."
 			}
 		}
 	}

@@ -31,7 +31,7 @@
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Logistics",
 				"name" : "Logistics",
-				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to movement points at land."
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage."
 			}
 		}
 	}

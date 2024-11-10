@@ -21,9 +21,9 @@
 			"biography" : "When King Kastore made a pact with Eeofol, Flamius was one of the first to replicate the ancient artifacts. His amazing skills in wielding fire were incredibly useful to the newly forming army.",
 			"name" : "Flamius",
 			"specialty" : {
-				"tooltip" : "Creature bonus: Pyros.",
-				"name" : "Pyros",
-				"description" : "{Pyros and Pyromaniacs}\r\n\r\nIncreases Speed of any Pyros and Pyromaniacs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
+				"tooltip" : "Creature Bonus: Arsonists",
+				"name" : "Arsonists",
+				"description" : "Increases the speed of Arsonists and Pyromaniacs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
 			}
 		}
 	}

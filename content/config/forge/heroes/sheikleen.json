@@ -31,7 +31,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Precision",
 				"name" : "Precision",
-				"description" : "{Precision}\r\n\r\nCasts Precision with effect increased by 3% for every n hero levels (n - target creature level)."
+				"description" : "Casts Precision with effect increased by 3% for every n hero levels, where n is the level of the targeted creature."
 			}
 		}
 	}

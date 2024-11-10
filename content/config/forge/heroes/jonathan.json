@@ -20,9 +20,9 @@
 			"biography" : "Usually someone as taciturn as Jonathan is rather not a good leader. This time, however, the exception proves the rule and as a result Kastore's army gained a great general.",
 			"name" : "Jonathan",
 			"specialty" : {
-				"tooltip" : "Creature Bonus: Guards",
-				"name" : "Guards",
-				"description" : "{Guards and Militians}\r\n\r\nIncreases Speed of any Guards or Militians by 1 and their Attack and Defense skills by 5% for every level (rounded up)."
+				"tooltip" : "Creature Bonus: Shield Bearers",
+				"name" : "Shield Bearers",
+				"description" : "Increases the speed of Shield Bearers or Pavise Bearers by 1 and their Attack and Defense skills for each level attained after 1st level."
 			}
 		}
 	}

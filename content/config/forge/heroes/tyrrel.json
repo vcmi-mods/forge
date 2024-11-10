@@ -26,7 +26,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Stingers",
 				"name" : "Stingers",
-				"description" : "{Stingers and Bruisers}\r\n\r\nIncreases Speed of any Stingers or Bruisers by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
+				"description" : "Increases the speed of Stingers or Bruisers by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
 			}
 		}
 	}

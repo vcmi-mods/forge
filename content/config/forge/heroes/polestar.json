@@ -26,7 +26,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Brain Suckers",
 				"name" : "Brain Suckers",
-				"description" : "{Brain Suckers and Soul Suckers}\r\n\r\nIncreases Speed of any Brain Suckers or Soul Suckers by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
+				"description" : "Increases the speed of Brain Suckers or Soul Suckers by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
 			}
 		}
 	}

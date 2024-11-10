@@ -20,7 +20,7 @@
 			"biography" : "As a trusted servant of Agar, Codgur joined the army of Deyja with his master to create a new world. Great understanding of his kind was a main asset of this cold-blooded Minotaur.",
 			"name" : "Codgur",
 			"specialty" : {
-				"description" : "{Sky Brawlers and Sky Knights}\r\n\r\nIncreases Speed of any Sky Brawlers or Sky Knights by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"description" : "Increases the speed of Sky Brawlers or Sky Knights by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"name" : "Sky Brawlers",
 				"tooltip" : "Creature Bonus: Sky Brawlers"
 			}

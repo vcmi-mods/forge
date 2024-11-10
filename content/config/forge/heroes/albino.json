@@ -31,7 +31,7 @@
 			"biography" : "Albino lived in the Red Dwarves' mines, where his ability to create fire with magic was very useful. When the mines were populated by monsters, he fled to Deyja, where his talent was appreciated even more than in his youth.",
 			"name" : "Albino",
 			"specialty" : {
-				"description" : "{Firewall}\r\n\r\nCasts Firewall with damage increased by 3% for every n hero levels (n - target creature level).",
+				"description" : "Casts Firewall with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
 				"name" : "Firewall",
 				"tooltip" : "Spell Bonus: Firewall"
 			}

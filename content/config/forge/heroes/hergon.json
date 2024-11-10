@@ -21,7 +21,7 @@
 			"biography" : "By manipulating dead or moribund corpses of soldiers by using an ancient magic, one can create dreadful mutants, causing terror with their unnatural look. Though most of them, like Walking Dead, do not show any kind of awareness, there are exceptions to this rule. Hergon quickly became a promising general after his comrades had realized that he can make fully conscious decisions and lead the army no worse than the living.",
 			"name" : "Hergon",
 			"specialty" : {
-				"description" : "{Bionic Troopers and Cyborgs}\r\n\r\nIncreases Speed of any Bionic Troopers and Cyborgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "Increases the speed of Bionic Troopers and Cyborgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"name" : "Bionic Troopers",
 				"tooltip" : "Creature Bonus: Bionic Troopers"
 			}
