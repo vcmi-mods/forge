@@ -19,8 +19,7 @@
 		"config/forge/creatures/lvl7unit",
 		"config/forge/creatures/lvl7unitup",
 		"config/forge/creatures/alien",
-		"config/forge/supplyCart/supplyCart",
-		"config/forge/commander/firebug"
+		"config/forge/supplyCart/supplyCart"
 	],
 	"description" : "New town made by Mod Design Team as part of The Heavenly Forge addon",
 	"factions" : [ 
@@ -68,11 +67,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.4.2",
-	"depends" : 
-	[
-		"asphalt-terrain"
-	],
+	"version" : "2.5.0",
 	"compatibility" : 
 	{
 		"min" : "1.6.0"
@@ -105,7 +100,8 @@
 		"2.3.2" : ["Fixed the translation bugs"],
 		"2.4.0" : ["Update to vcmi-1.6 format"],
 		"2.4.1" : ["Czech translation by George King"],
-		"2.4.2" : ["Fix Grail not to produce gold"]
+		"2.4.2" : ["Fix Grail not to produce gold"],
+		"2.5.0" : ["Mod structure update"]
     },
 	"chinese" : {
 		"name" : "铸造厂",

@@ -2,7 +2,7 @@
 	"technic" : {
 		"affinity" : "magic",
 		"animation" : { "battle" : { "female" : "forge/heroes/battleFemaleTechnic", "male" : "forge/heroes/battleMaleTechnic" } },
-		"commander" : "firebug",
+		"commander" : "bionicTrooper",
 		"defaultTavern" : 5,
 		"faction" : "forge",
 		"highLevelChance" : { "attack" : 25, "defence" : 15, "knowledge" : 30, "spellpower" : 30 },

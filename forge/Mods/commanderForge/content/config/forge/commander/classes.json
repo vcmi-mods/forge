@@ -1,0 +1,8 @@
+{
+	"forge:cyborg" : {
+		"commander" : "walkersuit"
+	},
+	"forge:technic" : {
+		"commander" : "walkersuit"
+	}
+}

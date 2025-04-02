@@ -3,7 +3,7 @@
 		"alignment" : "evil",
 		"creatureBackground" : { "120px" : "forge/creaturebg120px", "130px" : "forge/creaturebg130px" },
 		"name" : "Forge",
-		"nativeTerrain" : "asphalt",
+		"nativeTerrain" : "dirt",
 		"boat" : "boatNecropolis",
 		"puzzleMap" : {
 			"pieces" : [
