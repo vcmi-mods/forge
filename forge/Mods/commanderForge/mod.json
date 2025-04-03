@@ -1,0 +1,18 @@
+{
+	"name" : "Forge commander",
+	"description" : "Adds a commander for the Forge.", 
+	"modType" : "Compatiblity",
+	"author": "Olegmods.INC, Walker model by Sower",
+	"contact": "https://forum.vcmi.eu/",
+	"version" : "1.0",
+	"depends" : 
+	[
+		"wake-of-gods.commanders"
+	],
+	"creatures" : [
+		"config/forge/commander/commander.json"
+	],
+	"heroClasses" : [
+		"config/forge/commander/classes.json"
+	]
+}

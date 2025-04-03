@@ -1,10 +1,10 @@
 {
-	"firebug":
+	"walkersuit":
 	{
 		"name" :
 		{
-			"plural" : "Firebugs",
-			"singular" : "Firebug"
+			"plural" : "Walkers",
+			"singular" : "Walker"
 		},
 		"faction" : "forge",
 		"level": 0,
@@ -21,10 +21,10 @@
 		"fightValue" : 130,
 		"graphics" :
 		{
-			"animation" : "forge/battle/cmndr.def",
-//			"map" : "forge/map/cmndrn.def",
-			"iconSmall" : "forge/iconsSmall/cmndrS.bmp",
-			"iconLarge" : "forge/iconsBig/cmndrB.bmp",
+			"animation" : "forge/commander/commander.def",
+			"map" : "forge/commander/commander_map.def",
+			"iconSmall" : "forge/commander/commander_small.bmp",
+			"iconLarge" : "forge/commander/commander_big.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
@@ -34,30 +34,30 @@
 			},
 			"missile" :
 			{
-				"projectile" : "CPRGOGX.DEF",
-				"attackClimaxFrame" : 4,
+				"projectile" : "forge/commander/commanderShoot.def",
+			        "attackClimaxFrame" : 8,
 				"offset" :
 				{
-					"lowerX" : 62,
-					"lowerY" : -93,
-					"middleX" : 62,
-					"middleY" : -93,
-					"upperX" : 62,
-					"upperY" : -93
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
 			}
 		},
 		"growth" : 9,
 		"hitPoints" : 40,
 		"sound" :
 		{
-			"attack" : "forge/lvl3/attack.wav",
-			"defend" : "forge/lvl3/defend.wav",
-			"killed" : "forge/lvl3/kill.wav",
-			"move" : "forge/lvl3/move.wav",
-			"wince" : "forge/lvl3/wince.wav"
+			"attack" : "forge/CMNDATTK.wav",
+			"defend" : "forge/CMNDDFND.wav",
+			"killed" : "forge/CMNDKILL.wav",
+			"move" : "forge/CMNDMOVE.wav",
+			"shoot" : "forge/CMNDSHOT.wav",
+			"wince" : "forge/CMNDWNCE.wav"
 		},
 		"speed" : 4,
 		"abilities" :

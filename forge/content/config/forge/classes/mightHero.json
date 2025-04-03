@@ -2,7 +2,7 @@
 	"cyborg" : {
 		"affinity" : "might",
 		"animation" : { "battle" : { "female" : "forge/heroes/battleFemaleCyborg", "male" : "forge/heroes/battleMaleCyborg" } },
-		"commander" : "firebug",
+		"commander" : "bionicTrooper",
 		"defaultTavern" : 5,
 		"faction" : "forge",
 		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
