@@ -7,5 +7,5 @@
 	"version" : "1.0",
 	"factions" : [
 		"config/forge/forgeBuildings"
-	],
+	]
 }
