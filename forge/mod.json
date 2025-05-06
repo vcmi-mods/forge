@@ -102,7 +102,8 @@
 		"2.4.1" : ["Czech translation by George King"],
 		"2.4.2" : ["Fix Grail not to produce gold"],
 		"2.5.0" : ["Mod structure update"],
-		"2.5.1" : ["Mod structure update, moved the new building effects into separate submod"]
+		"2.5.1" : ["Mod structure update, moved the new building effects into separate submod"],
+		"2.6.0" : ["Added now working Replicator. Works only for vanilla arts for the time being."],
     },
 	"chinese" : {
 		"name" : "铸造厂",
