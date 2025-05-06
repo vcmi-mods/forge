@@ -101,7 +101,8 @@
 		"2.4.0" : ["Update to vcmi-1.6 format"],
 		"2.4.1" : ["Czech translation by George King"],
 		"2.4.2" : ["Fix Grail not to produce gold"],
-		"2.5.0" : ["Mod structure update"]
+		"2.5.0" : ["Mod structure update"],
+		"2.5.1" : ["Mod structure update, moved the new building effects into separate submod"]
     },
 	"chinese" : {
 		"name" : "铸造厂",
