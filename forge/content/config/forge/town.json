@@ -297,10 +297,1100 @@
 				},
 				"special1": {
  					"cost" : { "crystal" : 2, "gems" : 2, "gold" : 2500, "mercury" : 2, "ore" : 5, "sulfur" : 2, "wood" : 10 },
- 					"description" : "The Replicator allows you to replicate Artifacts (not working yet).",
+ 					"description" : "The Replicator allows you to replicate Artifacts (not working for all artifacts yet).",
  					"id" : 21,
  					"name" : "Replicator",
- 					"requires" : [ "blacksmith" ]
+ 					"requires" : [ "blacksmith" ],
+    					"manualHeroVisit" : true,
+    					"configuration" : {
+        					"rewards" : [
+							{
+    							"artifacts" : [ "grail" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "grail" ]
+						}
+						},
+							{
+    							"artifacts" : [ "centaurAxe" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "centaurAxe" ]
+						}
+						},
+							{
+    							"artifacts" : [ "blackshardOfTheDeadKnight" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "blackshardOfTheDeadKnight" ]
+						}
+						},
+							{
+    							"artifacts" : [ "greaterGnollsFlail" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "greaterGnollsFlail" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ogresClubOfHavoc" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ogresClubOfHavoc" ]
+						}
+						},
+							{
+    							"artifacts" : [ "swordOfHellfire" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "swordOfHellfire" ]
+						}
+						},
+							{
+    							"artifacts" : [ "titansGladius" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "titansGladius" ]
+						}
+						},
+							{
+    							"artifacts" : [ "shieldOfTheDwarvenLords" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "shieldOfTheDwarvenLords" ]
+						}
+						},
+							{
+    							"artifacts" : [ "shieldOfTheYawningDead" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "shieldOfTheYawningDead" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bucklerOfTheGnollKing" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bucklerOfTheGnollKing" ]
+						}
+						},
+							{
+    							"artifacts" : [ "targOfTheRampagingOgre" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "targOfTheRampagingOgre" ]
+						}
+						},
+							{
+    							"artifacts" : [ "shieldOfTheDamned" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "shieldOfTheDamned" ]
+						}
+						},
+							{
+    							"artifacts" : [ "sentinelsShield" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "sentinelsShield" ]
+						}
+						},
+							{
+    							"artifacts" : [ "helmOfTheAlabasterUnicorn" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "helmOfTheAlabasterUnicorn" ]
+						}
+						},
+							{
+    							"artifacts" : [ "skullHelmet" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "skullHelmet" ]
+						}
+						},
+							{
+    							"artifacts" : [ "helmOfChaos" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "helmOfChaos" ]
+						}
+						},
+							{
+    							"artifacts" : [ "crownOfTheSupremeMagi" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "crownOfTheSupremeMagi" ]
+						}
+						},
+							{
+    							"artifacts" : [ "hellstormHelmet" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "hellstormHelmet" ]
+						}
+						},
+							{
+    							"artifacts" : [ "thunderHelmet" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "thunderHelmet" ]
+						}
+						},
+							{
+    							"artifacts" : [ "breastplateOfPetrifiedWood" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "breastplateOfPetrifiedWood" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ribCage" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ribCage" ]
+						}
+						},
+							{
+    							"artifacts" : [ "scalesOfTheGreaterBasilisk" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "scalesOfTheGreaterBasilisk" ]
+						}
+						},
+							{
+    							"artifacts" : [ "tunicOfTheCyclopsKing" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "tunicOfTheCyclopsKing" ]
+						}
+						},
+							{
+    							"artifacts" : [ "breastplateOfBrimstone" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "breastplateOfBrimstone" ]
+						}
+						},
+							{
+    							"artifacts" : [ "titansCuirass" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "titansCuirass" ]
+						}
+						},
+							{
+    							"artifacts" : [ "armorOfWonder" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "armorOfWonder" ]
+						}
+						},
+							{
+    							"artifacts" : [ "sandalsOfTheSaint" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "sandalsOfTheSaint" ]
+						}
+						},
+							{
+    							"artifacts" : [ "celestialNecklaceOfBliss" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "celestialNecklaceOfBliss" ]
+						}
+						},
+							{
+    							"artifacts" : [ "helmOfHeavenlyEnlightenment" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "helmOfHeavenlyEnlightenment" ]
+						}
+						},
+							{
+    							"artifacts" : [ "quietEyeOfTheDragon" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "quietEyeOfTheDragon" ]
+						}
+						},
+							{
+    							"artifacts" : [ "redDragonFlameTongue" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "redDragonFlameTongue" ]
+						}
+						},
+							{
+    							"artifacts" : [ "dragonScaleShield" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "dragonScaleShield" ]
+						}
+						},
+							{
+    							"artifacts" : [ "dragonScaleArmor" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "dragonScaleArmor" ]
+						}
+						},
+							{
+    							"artifacts" : [ "dragonboneGreaves" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "dragonboneGreaves" ]
+						}
+						},
+							{
+    							"artifacts" : [ "dragonWingTabard" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "dragonWingTabard" ]
+						}
+						},
+							{
+    							"artifacts" : [ "necklaceOfDragonteeth" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "necklaceOfDragonteeth" ]
+						}
+						},
+							{
+    							"artifacts" : [ "crownOfDragontooth" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "crownOfDragontooth" ]
+						}
+						},
+							{
+    							"artifacts" : [ "stillEyeOfTheDragon" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "stillEyeOfTheDragon" ]
+						}
+						},
+							{
+    							"artifacts" : [ "cloverOfFortune" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "cloverOfFortune" ]
+						}
+						},
+							{
+    							"artifacts" : [ "cardsOfProphecy" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "cardsOfProphecy" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ladybirdOfLuck" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ladybirdOfLuck" ]
+						}
+						},
+							{
+    							"artifacts" : [ "badgeOfCourage" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "badgeOfCourage" ]
+						}
+						},
+							{
+    							"artifacts" : [ "crestOfValor" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "crestOfValor" ]
+						}
+						},
+							{
+    							"artifacts" : [ "glyphOfGallantry" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "glyphOfGallantry" ]
+						}
+						},
+							{
+    							"artifacts" : [ "swordBreaker" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "swordBreaker" ]
+						}
+						},
+							{
+    							"artifacts" : [ "speculum" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "speculum" ]
+						}
+						},
+							{
+    							"artifacts" : [ "spyglass" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "spyglass" ]
+						}
+						},
+							{
+    							"artifacts" : [ "amuletOfTheUndertaker" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "amuletOfTheUndertaker" ]
+						}
+						},
+							{
+    							"artifacts" : [ "vampiresCowl" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "vampiresCowl" ]
+						}
+						},
+							{
+    							"artifacts" : [ "deadMansBoots" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "deadMansBoots" ]
+						}
+						},
+							{
+    							"artifacts" : [ "garnitureOfInterference" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "garnitureOfInterference" ]
+						}
+						},
+							{
+    							"artifacts" : [ "surcoatOfCounterpoise" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "surcoatOfCounterpoise" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bootsOfPolarity" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bootsOfPolarity" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bowOfElvenCherrywood" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bowOfElvenCherrywood" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bowstringOfTheUnicornsMane" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bowstringOfTheUnicornsMane" ]
+						}
+						},
+							{
+    							"artifacts" : [ "angelFeatherArrows" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "angelFeatherArrows" ]
+						}
+						},
+							{
+    							"artifacts" : [ "birdOfPerception" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "birdOfPerception" ]
+						}
+						},
+							{
+    							"artifacts" : [ "stoicWatchman" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "stoicWatchman" ]
+						}
+						},
+							{
+    							"artifacts" : [ "emblemOfCognizance" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "emblemOfCognizance" ]
+						}
+						},
+							{
+    							"artifacts" : [ "statesmansMedal" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "statesmansMedal" ]
+						}
+						},
+							{
+    							"artifacts" : [ "diplomatsRing" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "diplomatsRing" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ambassadorsSash" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ambassadorsSash" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ringOfTheWayfarer" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfTheWayfarer" ]
+						}
+						},
+							{
+    							"artifacts" : [ "equestriansGloves" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "equestriansGloves" ]
+						}
+						},
+							{
+    							"artifacts" : [ "necklaceOfOceanGuidance" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "necklaceOfOceanGuidance" ]
+						}
+						},
+							{
+    							"artifacts" : [ "angelWings" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "angelWings" ]
+						}
+						},
+							{
+    							"artifacts" : [ "charmOfMana" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "charmOfMana" ]
+						}
+						},
+							{
+    							"artifacts" : [ "talismanOfMana" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "talismanOfMana" ]
+						}
+						},
+							{
+    							"artifacts" : [ "mysticOrbOfMana" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "mysticOrbOfMana" ]
+						}
+						},
+							{
+    							"artifacts" : [ "collarOfConjuring" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "collarOfConjuring" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ringOfConjuring" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfConjuring" ]
+						}
+						},
+							{
+    							"artifacts" : [ "capeOfConjuring" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "capeOfConjuring" ]
+						}
+						},
+							{
+    							"artifacts" : [ "orbOfTheFirmament" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "orbOfTheFirmament" ]
+						}
+						},
+							{
+    							"artifacts" : [ "orbOfSilt" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "orbOfSilt" ]
+						}
+						},
+							{
+    							"artifacts" : [ "orbOfTempestuousFire" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "orbOfTempestuousFire" ]
+						}
+						},
+							{
+    							"artifacts" : [ "orbOfDrivingRain" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "orbOfDrivingRain" ]
+						}
+						},
+							{
+    							"artifacts" : [ "recantersCloak" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "recantersCloak" ]
+						}
+						},
+							{
+    							"artifacts" : [ "spiritOfOppression" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "spiritOfOppression" ]
+						}
+						},
+							{
+    							"artifacts" : [ "hourglassOfTheEvilHour" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "hourglassOfTheEvilHour" ]
+						}
+						},
+							{
+    							"artifacts" : [ "tomeOfFireMagic" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "tomeOfFireMagic" ]
+						}
+						},
+							{
+    							"artifacts" : [ "tomeOfAirMagic" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "tomeOfAirMagic" ]
+						}
+						},
+							{
+    							"artifacts" : [ "tomeOfWaterMagic" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "tomeOfWaterMagic" ]
+						}
+						},
+							{
+    							"artifacts" : [ "tomeOfEarthMagic" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "tomeOfEarthMagic" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bootsOfLevitation" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bootsOfLevitation" ]
+						}
+						},
+							{
+    							"artifacts" : [ "goldenBow" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "goldenBow" ]
+						}
+						},
+							{
+    							"artifacts" : [ "sphereOfPermanence" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "sphereOfPermanence" ]
+						}
+						},
+							{
+    							"artifacts" : [ "orbOfVulnerability" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "orbOfVulnerability" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ringOfVitality" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfVitality" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ringOfLife" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfLife" ]
+						}
+						},
+							{
+    							"artifacts" : [ "vialOfLifeblood" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "vialOfLifeblood" ]
+						}
+						},
+							{
+    							"artifacts" : [ "necklaceOfSwiftness" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "necklaceOfSwiftness" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bootsOfSpeed" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bootsOfSpeed" ]
+						}
+						},
+							{
+    							"artifacts" : [ "capeOfVelocity" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "capeOfVelocity" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfDispassion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfDispassion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfSecondSight" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfSecondSight" ]
+						}
+						},
+							{
+    							"artifacts" : [ "sphereOfPermanence" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "sphereOfPermanence" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfHoliness" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfHoliness" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfLife" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfLife" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfDeath" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfDeath" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfFreeWill" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfFreeWill" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfNegativity" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfNegativity" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfTotalRecall" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfTotalRecall" ]
+						}
+						},
+							{
+    							"artifacts" : [ "pendantOfCourage" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfCourage" ]
+						}
+						},
+							{
+    							"artifacts" : [ "everflowingCrystalCloak" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "everflowingCrystalCloak" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ringOfInfiniteGems" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfInfiniteGems" ]
+						}
+						},
+							{
+    							"artifacts" : [ "everpouringVialOfMercury" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "everpouringVialOfMercury" ]
+						}
+						},
+							{
+    							"artifacts" : [ "inexhaustibleCartOfOre" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "inexhaustibleCartOfOre" ]
+						}
+						},
+							{
+    							"artifacts" : [ "eversmokingRingOfSulfur" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "eversmokingRingOfSulfur" ]
+						}
+						},
+							{
+    							"artifacts" : [ "inexhaustibleCartOfLumber" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "inexhaustibleCartOfLumber" ]
+						}
+						},
+							{
+    							"artifacts" : [ "endlessSackOfGold" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "endlessSackOfGold" ]
+						}
+						},
+							{
+    							"artifacts" : [ "endlessBagOfGold" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "endlessBagOfGold" ]
+						}
+						},
+							{
+    							"artifacts" : [ "legsOfLegion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "legsOfLegion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "loinsOfLegion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "loinsOfLegion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "torsoOfLegion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "torsoOfLegion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "armsOfLegion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "armsOfLegion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "headOfLegion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "headOfLegion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "seaCaptainsHat" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "seaCaptainsHat" ]
+						}
+						},
+							{
+    							"artifacts" : [ "spellbindersHat" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "spellbindersHat" ]
+						}
+						},
+							{
+    							"artifacts" : [ "shacklesOfWar" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "shacklesOfWar" ]
+						}
+						},
+							{
+    							"artifacts" : [ "orbOfInhibition" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "orbOfInhibition" ]
+						}
+						},
+							{
+    							"artifacts" : [ "vialOfDragonBlood" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "vialOfDragonBlood" ]
+						}
+						},
+							{
+    							"artifacts" : [ "armageddonsBlade" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "armageddonsBlade" ]
+						}
+						},
+							{
+    							"artifacts" : [ "angelicAlliance" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "angelicAlliance" ]
+						}
+						},
+							{
+    							"artifacts" : [ "cloakOfTheUndeadKing" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "cloakOfTheUndeadKing" ]
+						}
+						},
+							{
+    							"artifacts" : [ "elixirOfLife" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "elixirOfLife" ]
+						}
+						},
+							{
+    							"artifacts" : [ "armorOfTheDamned" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "armorOfTheDamned" ]
+						}
+						},
+							{
+    							"artifacts" : [ "statueOfLegion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "statueOfLegion" ]
+						}
+						},
+							{
+    							"artifacts" : [ "powerOfTheDragonFather" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "powerOfTheDragonFather" ]
+						}
+						},
+							{
+    							"artifacts" : [ "titansThunder" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "titansThunder" ]
+						}
+						},
+							{
+    							"artifacts" : [ "admiralsHat" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "admiralsHat" ]
+						}
+						},
+							{
+    							"artifacts" : [ "bowOfTheSharpshooter" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "bowOfTheSharpshooter" ]
+						}
+						},
+							{
+    							"artifacts" : [ "wizardsWell" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "wizardsWell" ]
+						}
+						},
+							{
+    							"artifacts" : [ "ringOfTheMagi" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfTheMagi" ]
+						}
+						},
+							{
+    							"artifacts" : [ "cornucopia" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "cornucopia" ]
+						}
+						},
+							{
+    							"artifacts" : [ "lionsShieldOfCourage" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "lionsShieldOfCourage" ]
+						}
+						}
+						],
+						"onSelectMessage" : "{Replicator}\r\n\r\nYou can copy your artifact here.",
+						"onEmptyMessage": "{Replicator}\r\n\r\nReturn here with some artifacts.",
+						"selectMode" : "selectPlayer",
+						"visitMode" : "unlimited",
+						"canRefuse" : true
+					}
 				},
 				"special3": {
  					"cost" : { "gold" : 600, "wood" : 3 },
@@ -407,7 +1497,7 @@
 				"weakness" : 8
 			},
 			"guildWindow" : "forge/town/mageguild",
-			"hallBackground" : "forge/town/buildmenu",  //"TPTHBKDG",								
+			"hallBackground" : "forge/town/buildmenu",  
 			"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
@@ -488,7 +1578,7 @@
 				"Sleepy Creek",
 				"Hitchgrove"
 			],
-//			"primaryResource" : "sulfur",
+
 			"siege" :
 			{
 				"shooter" : "stinger",

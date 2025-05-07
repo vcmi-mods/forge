@@ -1,7 +1,7 @@
 {
 	"name" : "Forge commander",
 	"description" : "Adds a commander for the Forge.", 
-	"modType" : "Compatiblity",
+	"modType" : "Compatibility",
 	"author": "Olegmods.INC, Walker model by Sower",
 	"contact": "https://forum.vcmi.eu/",
 	"version" : "1.0",
