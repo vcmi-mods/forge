@@ -52,7 +52,6 @@
 						"cumulative": false,
 						"bonus" : {
 							"stacksSpeed" : {
-							"addInfo" : 0,
 							"val" : -25,
 							"type" : "STACKS_SPEED",
 							"valueType" : "PERCENT_TO_ALL",

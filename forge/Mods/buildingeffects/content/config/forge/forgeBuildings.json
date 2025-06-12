@@ -35,7 +35,7 @@
  					"description": "The Replicator sells artifacts to visiting heroes.",
  					"id": 17,
  					"name": "Replicator",
- 					"type": "artifactMerchant",
+					"marketModes" : ["resource-artifact", "artifact-resource"],
  					"requires": [
  						"blacksmith"
  					]
