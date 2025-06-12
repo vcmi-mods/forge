@@ -107,6 +107,22 @@
     							"artifacts" : [ "plateOfDyingLight" ]
 						}
 							},
+							{
+    							"artifacts" : [ "ringOfOblivion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfOblivion" ]
+						}
+							},
+							{
+    							"artifacts" : [ "ringOfSuppression" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ringOfSuppression" ]
+						}
+							},
 						]
         }
       }
