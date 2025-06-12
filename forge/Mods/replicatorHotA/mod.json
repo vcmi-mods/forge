@@ -1,1 +1,18 @@
-
+{
+	"name" : "HotA artifacts in Replicator",
+	"description" : "Adds a commander for the Forge.", 
+	"modType" : "Compatibility",
+	"author": "Olegmods.INC, Walker model by Sower",
+	"contact": "https://forum.vcmi.eu/",
+	"version" : "1.0",
+	"depends" : 
+	[
+		"hota.artifacts"
+	],
+	"factions" : [
+		"config/forge/faction.json"
+	],
+	"conflicts" : [
+		"forge.buildingadder"
+	]
+}
