@@ -123,6 +123,46 @@
     							"artifacts" : [ "ringOfSuppression" ]
 						}
 							},
+							{
+    							"artifacts" : [ "royalArmorOfNix" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "royalArmorOfNix" ]
+						}
+							},
+							{
+    							"artifacts" : [ "runesOfImminency" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "runesOfImminency" ]
+						}
+							},
+							{
+    							"artifacts" : [ "sealOfSunset" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "sealOfSunset" ]
+						}
+							},
+							{
+    							"artifacts" : [ "shamansPuppet" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "shamansPuppet" ]
+						}
+							},
+							{
+    							"artifacts" : [ "sleepkeeper" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "sleepkeeper" ]
+						}
+							}
 						]
         }
       }
