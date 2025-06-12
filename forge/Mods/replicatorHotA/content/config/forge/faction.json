@@ -4,7 +4,7 @@
       "buildings" : {
         "special1": {
     					"configuration" : {
-        					"rewards" : [
+        					"rewards" : {
 						"append": {
 							{
     							"artifacts" : [ "hornOfTheAbyss" ],
@@ -184,7 +184,7 @@
 							}
 						}
 					
-					]
+}
         }
       }
     }
