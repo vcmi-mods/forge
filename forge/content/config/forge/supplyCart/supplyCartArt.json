@@ -18,19 +18,20 @@
 			"large": "forge/supplyCart/supplyCartL",
 			"map": "forge/supplyCart/blank"
 		},
-		"bonuses" : [  
-			{
+		"bonuses" : 
+		{
+			"damage" : {
 				"type" : "CREATURE_DAMAGE",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_BASE",
 				"subtype" : "creatureDamageBoth",
 				"limiters" : [ "SHOOTER_ONLY" ]
 			},
-			{
+			"shots" : {
 				"type" : "SHOTS",
 				"val" : 8,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

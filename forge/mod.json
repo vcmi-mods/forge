@@ -67,10 +67,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.6.1",
+	"version" : "2.6.2",
 	"compatibility" : 
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
 	"changelog" :
 	{
@@ -105,6 +105,7 @@
 		"2.5.1" : ["Mod structure update, moved the new building effects into separate submod"],
 		"2.6.0" : ["Added now working Replicator. Works only for vanilla arts for the time being."],
 		"2.6.1" : ["Bug fixes."],
+		"2.6.2" : ["Update to vcmi-1.7 format."],
     },
 	"chinese" : {
 		"name" : "铸造厂",
