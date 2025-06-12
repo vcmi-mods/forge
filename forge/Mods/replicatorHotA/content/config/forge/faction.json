@@ -182,11 +182,12 @@
     							"artifacts" : [ "wayfarerBoots" ]
 						}
 							}
-					}
+						        }
 					]
+					}
         }
       }
     }
   }
 }
-}
+
