@@ -157,6 +157,30 @@
 						{
     							"artifacts" : [ "sleepkeeper" ]
 						}
+							},
+							{
+    							"artifacts" : [ "shieldOfNavalGlory" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "shieldOfNavalGlory" ]
+						}
+							},
+							{
+    							"artifacts" : [ "tridentOfDominion" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "tridentOfDominion" ]
+						}
+							},
+							{
+    							"artifacts" : [ "wayfarerBoots" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "wayfarerBoots" ]
+						}
 							}
 					}
 					]
