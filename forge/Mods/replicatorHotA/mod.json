@@ -13,6 +13,6 @@
 		"config/forge/faction.json"
 	],
 	"conflicts" : [
-		"forge.buildingadder"
+		"forge.buildingeffects"
 	]
 }
