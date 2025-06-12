@@ -34,7 +34,23 @@
 						{
     							"artifacts" : [ "charmOfEclipse" ]
 						}
-                                                        }
+                                                        },
+							{
+    							"artifacts" : [ "crownOfTheFiveSeas" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "crownOfTheFiveSeas" ]
+						}
+							},
+							{
+    							"artifacts" : [ "demonsHorseshoe" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "demonsHorseshoe" ]
+						}
+							}
 						]
         }
       }
