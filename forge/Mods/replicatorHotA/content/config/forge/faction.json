@@ -1,1 +1,43 @@
-
+{
+  "forge:forge":{
+    "town" : {
+      "buildings" : {
+        "special1": {
+ 					"cost" : { "crystal" : 2, "gems" : 2, "gold" : 2500, "mercury" : 2, "ore" : 5, "sulfur" : 2, "wood" : 10 },
+ 					"description" : "The Replicator allows you to replicate Artifacts (not working for all artifacts yet).",
+ 					"id" : 21,
+ 					"name" : "Replicator",
+ 					"requires" : [ "blacksmith" ],
+    					"manualHeroVisit" : true,
+    					"configuration" : {
+        					"rewards" : [
+							{
+    							"artifacts" : [ "hornOfTheAbyss" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "hornOfTheAbyss" ]
+						}
+              },
+              {
+    							"artifacts" : [ "capeOfSilence" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "capeOfSilence" ]
+						}
+              },
+            {
+    							"artifacts" : [ "charmOfEclipse" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "charmOfEclipse" ]
+						}
+            }
+            }
+        }
+      }
+    }
+  }
+}
