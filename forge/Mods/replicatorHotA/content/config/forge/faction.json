@@ -13,7 +13,7 @@
 						{
     							"artifacts" : [ "hornOfTheAbyss" ]
 						}
-                                                        },
+						        },
                                                         {
     							"artifacts" : [ "capeOfSilence" ],
                 					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
@@ -182,7 +182,7 @@
     							"artifacts" : [ "wayfarerBoots" ]
 						}
 							}
-						        }
+							}
 					]
 					}
         }
