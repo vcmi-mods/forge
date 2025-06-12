@@ -91,6 +91,14 @@
     							"artifacts" : [ "pendantOfDownfall" ]
 						}
 							},
+							{
+    							"artifacts" : [ "pendantOfReflection" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfReflection" ]
+						}
+							},
 						]
         }
       }
