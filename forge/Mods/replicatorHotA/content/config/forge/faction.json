@@ -75,6 +75,22 @@
     							"artifacts" : [ "hideousMask" ]
 						}
 							},
+							{
+    							"artifacts" : [ "ironfistOfTheOgre" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "ironfistOfTheOgre" ]
+						}
+							},
+							{
+    							"artifacts" : [ "pendantOfDownfall" ],
+                					"message" : "You put the artifact into the strange machine, and it gives you a copy of it!.",
+							"limiter": 
+						{
+    							"artifacts" : [ "pendantOfDownfall" ]
+						}
+							},
 						]
         }
       }
