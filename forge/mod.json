@@ -63,6 +63,9 @@
 		"config/forge/dwellings",
 		"config/forge/decorations"
 	],
+	"biomes" : [
+		"config/forge/forgeBiome"
+	],
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
