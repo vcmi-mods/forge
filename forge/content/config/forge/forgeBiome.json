@@ -2,7 +2,7 @@
 	"mdtForgeMountains" : {
 		"biome" : {
 			"terrain" : ["dirt"],
-      "faction" : ["forge"],
+     			"faction" : ["forge"],
 			"objectType" : "mountain"
 		},
 		"templates" : ["mdtAVLmtDn1", "mdtAVLmtDn2", "mdtAVLmtDn3", "mdtAVLmtDn4", "mdtAVLmtDn5", "mdtAVLmtDn6"]
@@ -10,7 +10,7 @@
   "mdtForgeLakes" : {
 		"biome" : {
 			"terrain" : ["dirt"],
-      "faction" : ["forge"],
+      			"faction" : ["forge"],
 			"objectType" : "lake"
 		},
 		"templates" : ["mdtAVLMl1d0", "mdtAVLMl2d0", "mdtAVLMl3d0"]
