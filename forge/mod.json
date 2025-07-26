@@ -23,7 +23,7 @@
 	],
 	"description" : "New town made by Mod Design Team as part of The Heavenly Forge addon",
 	"factions" : [ 
-		"config/forge/town" 
+		"config/forge/town"		
 	],
 	"heroClasses" : [ 
 		"config/forge/classes/mightHero", 
@@ -67,7 +67,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.6.3",
+	"version" : "2.6.4",
 	"compatibility" : 
 	{
 		"min" : "1.7.0"
@@ -106,7 +106,8 @@
 		"2.6.0" : ["Added now working Replicator. Works only for vanilla arts for the time being."],
 		"2.6.1" : ["Bug fixes."],
 		"2.6.2" : ["Update to vcmi-1.7 format."],
-		"2.6.3" : ["Another update to vcmi-1.7 format."]
+		"2.6.3" : ["Another update to vcmi-1.7 format."],
+		"2.6.4" : ["Fix for Replicator."]
     },
 	"chinese" : {
 		"name" : "铸造厂",

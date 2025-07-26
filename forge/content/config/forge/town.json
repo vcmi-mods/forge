@@ -1340,7 +1340,7 @@
     							"artifacts" : [ "lionsShieldOfCourage" ]
 						}
 						}
-						],
+							],
 						"onSelectMessage" : "{Replicator}\r\n\r\nYou can copy your artifact here.",
 						"onEmptyMessage": "{Replicator}\r\n\r\nReturn here with some artifacts.",
 						"selectMode" : "selectPlayer",

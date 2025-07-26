@@ -4,7 +4,7 @@
 			"clone" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.clone",
+				"subtype" : "clone",
 				"val" : 3
 			}, 
 			"spellpoints" :

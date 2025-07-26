@@ -5,7 +5,7 @@
         "special1": {
     		"configuration" : {
       				"rewards" : {
-						"append" : {
+						"appendItems" : [
 						{
     						"artifacts" : [ "hornOfTheAbyss" ],
 //							"artifacts" : [ "hota.artifacts:hornOfTheAbyss" ],
@@ -182,7 +182,7 @@
 						{
     							"artifacts" : [ "wayfarerBoots" ]
 						}
-							}
+							]
 					}
 				}
 			}
