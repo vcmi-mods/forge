@@ -1,9 +1,21 @@
 {
 	"02kaleh" : {
 		"army" : [
-			{ "creature" : "thug", "max" : 7, "min" : 4 },
-			{ "creature" : "thug", "max" : 7, "min" : 4 },
-			{ "creature" : "thug", "max" : 7, "min" : 4 }
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			}
 		],
 		"class" : "cyborg",
 		"images" : {
@@ -12,7 +24,16 @@
 			"specialtyLarge" : "forge/heroes/kaleh/speclarge.png",
 			"specialtySmall" : "forge/heroes/kaleh/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "pathfinding" } ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
 		"specialty" : {
 			"creature" : "thug"
 		},

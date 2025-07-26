@@ -1,9 +1,21 @@
 {
 	"16mdtKastore" : {
 		"army" : [
-			{ "creature" : "juggernaut", "max" : 1, "min" : 1 },
-			{ "creature" : "juggernaut", "max" : 1, "min" : 1 },
-			{ "creature" : "juggernaut", "max" : 1, "min" : 1 }
+			{
+				"creature" : "juggernaut",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "juggernaut",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "juggernaut",
+				"max" : 1,
+				"min" : 1
+			}
 		],
 		"class" : "technic",
 		"special" : true,
@@ -14,8 +26,14 @@
 			"specialtySmall" : "forge/heroes/kastore/specsmall"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "wisdom" },
-			{ "level" : "basic", "skill" : "earthMagic" }
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
 		],
 		"specialty" : {
 			"base" : {
@@ -44,7 +62,9 @@
 				}
 			}
 		},
-		"spellbook" : [ "implosion" ],
+		"spellbook" : [
+			"implosion"
+		],
 		"texts" : {
 			"biography" : "Kastore, a visitor not of this world, took power in Deyja after overthroning of Archibald Ironfist. His obsession with the magic of the Ancients has made him aim for restoring the Heavenly Forges around the entire continent, and then to take over the world. No one knows what this demented mind is capable of.",
 			"name" : "Kastore",

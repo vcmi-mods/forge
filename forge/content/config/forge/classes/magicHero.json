@@ -1,15 +1,41 @@
 {
 	"technic" : {
 		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "forge/heroes/battleFemaleTechnic", "male" : "forge/heroes/battleMaleTechnic" } },
+		"animation" : {
+			"battle" : {
+				"female" : "forge/heroes/battleFemaleTechnic",
+				"male" : "forge/heroes/battleMaleTechnic"
+			}
+		},
 		"commander" : "bionicTrooper",
 		"defaultTavern" : 5,
 		"faction" : "forge",
-		"highLevelChance" : { "attack" : 25, "defence" : 15, "knowledge" : 30, "spellpower" : 30 },
-		"lowLevelChance" : { "attack" : 30, "defence" : 15, "knowledge" : 25, "spellpower" : 30 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "forge/heroes/mapmagic" } } },
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 15,
+			"knowledge" : 30,
+			"spellpower" : 30
+		},
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 15,
+			"knowledge" : 25,
+			"spellpower" : 30
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "forge/heroes/mapmagic"
+				}
+			}
+		},
 		"name" : "Technician",
-		"primarySkills" : { "attack" : 2, "defence" : 0, "knowledge" : 2, "spellpower" : 1 },
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 0,
+			"knowledge" : 2,
+			"spellpower" : 1
+		},
 		"secondarySkills" : {
 			"airMagic" : 3,
 			"archery" : 3,

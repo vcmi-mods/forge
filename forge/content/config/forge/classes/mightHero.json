@@ -1,15 +1,41 @@
 {
 	"cyborg" : {
 		"affinity" : "might",
-		"animation" : { "battle" : { "female" : "forge/heroes/battleFemaleCyborg", "male" : "forge/heroes/battleMaleCyborg" } },
+		"animation" : {
+			"battle" : {
+				"female" : "forge/heroes/battleFemaleCyborg",
+				"male" : "forge/heroes/battleMaleCyborg"
+			}
+		},
 		"commander" : "bionicTrooper",
 		"defaultTavern" : 5,
 		"faction" : "forge",
-		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
-		"lowLevelChance" : { "attack" : 45, "defence" : 45, "knowledge" : 5, "spellpower" : 5 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "forge/heroes/mapmight" } } },
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
+			"knowledge" : 20,
+			"spellpower" : 20
+		},
+		"lowLevelChance" : {
+			"attack" : 45,
+			"defence" : 45,
+			"knowledge" : 5,
+			"spellpower" : 5
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "forge/heroes/mapmight"
+				}
+			}
+		},
 		"name" : "Warmonger",
-		"primarySkills" : { "attack" : 2, "defence" : 2, "knowledge" : 1, "spellpower" : 1 },
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 2,
+			"knowledge" : 1,
+			"spellpower" : 1
+		},
 		"secondarySkills" : {
 			"airMagic" : 2,
 			"archery" : 9,

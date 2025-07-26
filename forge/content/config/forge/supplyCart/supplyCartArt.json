@@ -1,31 +1,31 @@
 {
-	"mdtSupplyCart":
-	{
-		"type" : ["HERO"],
+	"mdtSupplyCart" : {
+		"type" : [
+			"HERO"
+		],
 		"warMachine" : "mdtSupplyCart",
 		"class" : "SPECIAL",
 		"slot" : "MACH2",
-		"value": 1500,		
-		"text":
-		{
-			"name": "Supply Cart",
-			"description": "{Supply Cart}\r\n\r\nThe Supply Cart ensures eight additional shots in combat. Additionally all shooters in army deal 10% more damage.",
-			"event": "Lucky you, you've found a shiny and unused Supply Cart :)"
+		"value" : 1500,
+		"text" : {
+			"name" : "Supply Cart",
+			"description" : "{Supply Cart}\r\n\r\nThe Supply Cart ensures eight additional shots in combat. Additionally all shooters in army deal 10% more damage.",
+			"event" : "Lucky you, you've found a shiny and unused Supply Cart :)"
 		},
-		"graphics":
-		{
-			"image": "forge/supplyCart/supplyCartbigart",
-			"scenarioBonus": "forge/supplyCart/supplyCartL",
-			"map": "forge/supplyCart/blank"
+		"graphics" : {
+			"image" : "forge/supplyCart/supplyCartbigart",
+			"scenarioBonus" : "forge/supplyCart/supplyCartL",
+			"map" : "forge/supplyCart/blank"
 		},
-		"bonuses" : 
-		{
+		"bonuses" : {
 			"damage" : {
 				"type" : "CREATURE_DAMAGE",
 				"val" : 10,
 				"valueType" : "PERCENT_TO_BASE",
 				"subtype" : "creatureDamageBoth",
-				"limiters" : [ "SHOOTER_ONLY" ]
+				"limiters" : [
+					"SHOOTER_ONLY"
+				]
 			},
 			"shots" : {
 				"type" : "SHOTS",

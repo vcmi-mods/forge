@@ -1,12 +1,11 @@
 {
 	"name" : "Forge commander",
-	"description" : "Adds a commander for the Forge.", 
+	"description" : "Adds a commander for the Forge.",
 	"modType" : "Compatibility",
-	"author": "Olegmods.INC, Walker model by Sower",
-	"contact": "https://forum.vcmi.eu/",
+	"author" : "Olegmods.INC, Walker model by Sower",
+	"contact" : "https://forum.vcmi.eu/",
 	"version" : "1.0",
-	"depends" : 
-	[
+	"depends" : [
 		"wake-of-gods.commanders"
 	],
 	"creatures" : [

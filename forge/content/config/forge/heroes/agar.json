@@ -1,9 +1,21 @@
 {
 	"13agar" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "thug", "max" : 7, "min" : 4 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "technic",
 		"images" : {
@@ -13,13 +25,21 @@
 			"specialtySmall" : "forge/heroes/agar/specsmall.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "wisdom" },
-			{ "level" : "basic", "skill" : "earthMagic" }
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
 		],
 		"specialty" : {
 			"creature" : "jumpSoldier"
 		},
-		"spellbook" : [ "resurrection" ],
+		"spellbook" : [
+			"resurrection"
+		],
 		"texts" : {
 			"biography" : "Hardly anyone believed in Master Agar's demise. After hoaxing his own death, the Lich traveled to Erathia searching for incomers from the alien worlds. When he joined King Kastore, he became one of the most powerful Technicians in the entire Deyja.",
 			"name" : "Agar",

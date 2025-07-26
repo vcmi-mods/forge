@@ -1,30 +1,54 @@
 {
 	"stinger" : {
 		"abilities" : {
-			"canShoot" : { "type" : "SHOOTER" },
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
 			"slayer" : {
 				"type" : "ENCHANTED",
 				"subtype" : "slayer",
 				"val" : 2
 			}
 		},
-		"advMapAmount" : {"max" : 16, "min" : 8},
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
+		},
 		"aiValue" : 1009,
 		"attack" : 15,
-		"cost" : { "gold" : 500 },
-		"damage" : {"max" : 16, "min" : 11},
+		"cost" : {
+			"gold" : 500
+		},
+		"damage" : {
+			"max" : 16,
+			"min" : 11
+		},
 		"defense" : 9,
 		"faction" : "forge",
 		"fightValue" : 924,
 		"graphics" : {
 			"animation" : "forge/battle/lvl5unit.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "forge/iconsBig/lvl5.png",
 			"iconSmall" : "forge/iconsSmall/lvl5.png",
 			"map" : "forge/map/lvl5unit.def",
 			"missile" : {
 				"attackClimaxFrame" : 9,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
@@ -40,7 +64,10 @@
 		"growth" : 3,
 		"hitPoints" : 50,
 		"level" : 5,
-		"name" : { "plural" : "Cannoneers", "singular" : "Cannoneer" },
+		"name" : {
+			"plural" : "Cannoneers",
+			"singular" : "Cannoneer"
+		},
 		"shots" : 4,
 		"sound" : {
 			"attack" : "forge/lvl5/attack.wav",
@@ -53,14 +80,52 @@
 		"speed" : 4,
 		"stackExperience" : [
 			{
-				"bonus" : { "addInfo" : [1, 1], "subtype" : "weakness", "type" : "SPELL_AFTER_ATTACK" },
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+				"bonus" : {
+					"addInfo" : [
+						1,
+						1
+					],
+					"subtype" : "weakness",
+					"type" : "SPELL_AFTER_ATTACK"
+				},
+				"values" : [
+					7,
+					14,
+					21,
+					28,
+					35,
+					42,
+					49,
+					56,
+					63,
+					70
+				]
 			},
 			{
-				"bonus" : { "addInfo" : [1, 1], "subtype" : "spell.disruptingRay", "type" : "SPELL_AFTER_ATTACK" },
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+				"bonus" : {
+					"addInfo" : [
+						1,
+						1
+					],
+					"subtype" : "spell.disruptingRay",
+					"type" : "SPELL_AFTER_ATTACK"
+				},
+				"values" : [
+					7,
+					14,
+					21,
+					28,
+					35,
+					42,
+					49,
+					56,
+					63,
+					70
+				]
 			}
 		],
-		"upgrades" : [ "bruiser" ]
+		"upgrades" : [
+			"bruiser"
+		]
 	}
 }

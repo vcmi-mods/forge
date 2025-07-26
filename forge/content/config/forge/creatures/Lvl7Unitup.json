@@ -1,30 +1,50 @@
 {
 	"dreadnought" : {
 		"abilities" : {
-			"expSlayer" : { "type" : "KING", "val" : 3,  "valueType" : "ADDITIVE_VALUE" },
+			"expSlayer" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
 			"HPregenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 30
 			},
 			"special" : {
-				"addInfo" : [0, 0],
+				"addInfo" : [
+					0,
+					0
+				],
 				"subtype" : "specialLvl7",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 50
 			}
 		},
-		"advMapAmount" : {"max" : 8, "min" : 3},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
 		"aiValue" : 8800,
 		"attack" : 28,
-		"cost" : { "gold" : 5000, "sulfur" : 2 },
-		"damage" : {"max" : 45, "min" : 35},
+		"cost" : {
+			"gold" : 5000,
+			"sulfur" : 2
+		},
+		"damage" : {
+			"max" : 45,
+			"min" : 35
+		},
 		"defense" : 32,
 		"doubleWide" : true,
 		"faction" : "forge",
 		"fightValue" : 6100,
 		"graphics" : {
 			"animation" : "forge/battle/lvl7unitup.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "forge/iconsBig/lvl7up.png",
 			"iconSmall" : "forge/iconsSmall/lvl7up.png",
 			"map" : "forge/map/lvl7unitup.def",
@@ -33,7 +53,10 @@
 		"growth" : 1,
 		"hitPoints" : 225,
 		"level" : 7,
-		"name" : { "plural" : "Dreadnoughts", "singular" : "Dreadnought" },
+		"name" : {
+			"plural" : "Dreadnoughts",
+			"singular" : "Dreadnought"
+		},
 		"sound" : {
 			"attack" : "forge/lvl7/attack.wav",
 			"defend" : "forge/lvl7/defend.wav",
@@ -44,7 +67,9 @@
 		"speed" : 11,
 		"stackExperience" : [
 			{
-				"bonus" : { "type" : "HP_REGENERATION" },
+				"bonus" : {
+					"type" : "HP_REGENERATION"
+				},
 				"values" : [
 					30,
 					30,
@@ -59,7 +84,9 @@
 				]
 			},
 			{
-				"bonus" : { "type" : "JOUSTING" },
+				"bonus" : {
+					"type" : "JOUSTING"
+				},
 				"values" : [
 					false,
 					false,

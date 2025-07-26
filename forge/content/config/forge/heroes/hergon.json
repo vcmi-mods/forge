@@ -1,9 +1,21 @@
 {
 	"hergon" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "bionicTrooper", "max" : 5, "min" : 3 },
-			{ "creature" : "bionicTrooper", "max" : 5, "min" : 3 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "bionicTrooper",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "bionicTrooper",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "cyborg",
 		"images" : {
@@ -12,7 +24,15 @@
 			"specialtyLarge" : "forge/heroes/hergon/speclarge",
 			"specialtySmall" : "forge/heroes/hergon/specsmall"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "learning" }
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
 		],
 		"specialty" : {
 			"creature" : "bionicTrooper"

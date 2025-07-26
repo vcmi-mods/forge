@@ -1,9 +1,21 @@
 {
 	"15daneel" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "technic",
 		"images" : {
@@ -12,11 +24,22 @@
 			"specialtyLarge" : "forge/heroes/daneel/speclarge.bmp",
 			"specialtySmall" : "forge/heroes/daneel/specsmall.bmp"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "ballistics" }, { "level" : "basic", "skill" : "firstAid" } ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
 		"specialty" : {
 			"secondary" : "firstAid"
 		},
-		"spellbook" : [ "cure" ],
+		"spellbook" : [
+			"cure"
+		],
 		"texts" : {
 			"biography" : "Disgust was the only thing Daneel felt towards his primitive kin in Krewlod. When Deyjan goblins joined King Kastore, Daneel was delighted at the prospect of the intellectual development of his race.",
 			"name" : "Daneel",

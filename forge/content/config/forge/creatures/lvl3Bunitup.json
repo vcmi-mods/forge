@@ -1,38 +1,46 @@
 {
 	"mdtCyborg" : {
-		"abilities" : { 
-			"spellPower" : 
-			{
+		"abilities" : {
+			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 4
 			},
-			"spellPoints" : 
-			{
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 1
-			},		
-			"spellcaster":
-			{
+			},
+			"spellcaster" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "overload",
 				"val" : 1
 			},
-			"noMorale" :
-			{
+			"noMorale" : {
 				"type" : "NO_MORALE"
-			}			
+			}
 		},
-		"advMapAmount" : {"max" : 20, "min" : 12},
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
 		"aiValue" : 350,
 		"attack" : 7,
-		"cost" : { "gold" : 200 },
-		"damage" : {"max" : 6, "min" : 4},
+		"cost" : {
+			"gold" : 200
+		},
+		"damage" : {
+			"max" : 6,
+			"min" : 4
+		},
 		"defense" : 7,
 		"faction" : "forge",
 		"fightValue" : 340,
 		"graphics" : {
 			"animation" : "forge/battle/lvl3Bunitup",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"iconLarge" : "forge/iconsBig/lvl3Bup",
 			"iconSmall" : "forge/iconsSmall/lvl3Bup",
 			"map" : "forge/map/lvl3Bunitup",
@@ -41,7 +49,10 @@
 		"growth" : 7,
 		"hitPoints" : 35,
 		"level" : 3,
-		"name" : { "plural" : "Cyborgs", "singular" : "Cyborg" },
+		"name" : {
+			"plural" : "Cyborgs",
+			"singular" : "Cyborg"
+		},
 		"sound" : {
 			"attack" : "forge/lvl3alt/CBRGATTK",
 			"defend" : "forge/lvl3alt/CBRGDFND",
@@ -51,7 +62,23 @@
 		},
 		"speed" : 6,
 		"stackExperience" : [
-			{ "bonus" : { "type" : "CASTS" }, "values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ] }
+			{
+				"bonus" : {
+					"type" : "CASTS"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			}
 		]
 	}
 }

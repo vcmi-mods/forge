@@ -3,112 +3,194 @@
 		"types" : {
 			"post" : {
 				"name" : "Post",
-				"creatures" : [[ "recruit" ]],
+				"creatures" : [
+					[
+						"recruit"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/lv1",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"provingGrounds" : {
 				"name" : "Proving Grounds",
-				"creatures" : [[ "thug" ]],
+				"creatures" : [
+					[
+						"thug"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/lv2",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"lavaBasin" : {
 				"name" : "Lava Basin",
-				"creatures" : [[ "pyro" ]],
-				"sounds": {
-					"ambient": ["forge/ambient/LOOPPYRO"]
+				"creatures" : [
+					[
+						"pyro"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"forge/ambient/LOOPPYRO"
+					]
 				},
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "forge/map/lv3",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"reanimatorium" : {
 				"name" : "Reanimatorium",
-				"creatures" : [[ "bionicTrooper" ]],
-				"sounds": {
-					"ambient": ["forge/ambient/CYBORGLOOP"]
+				"creatures" : [
+					[
+						"bionicTrooper"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"forge/ambient/CYBORGLOOP"
+					]
 				},
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "forge/map/lv3b",
-						"mask" : [ "VVV", "VVB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"suckersColony" : {
 				"name" : "Suckers Colony",
-				"creatures" : [[ "brainSucker" ]],
-				"sounds": {
-					"ambient": ["forge/ambient/LOOPSUCK"]
-				},				
+				"creatures" : [
+					[
+						"brainSucker"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"forge/ambient/LOOPSUCK"
+					]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/lv4",
-						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
 					}
 				}
 			},
 			"cannoneersShelters" : {
 				"name" : "Cannoneers Shelters",
-				"creatures" : [[ "stinger" ]],
+				"creatures" : [
+					[
+						"stinger"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["forge/ambient/LOOPSTNG"]
+				"sounds" : {
+					"ambient" : [
+						"forge/ambient/LOOPSTNG"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/lv5",
-						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
 					}
 				}
 			},
 			"borough" : {
 				"name" : "Borough",
-				"creatures" : [[ "jumpSoldier" ]],
+				"creatures" : [
+					[
+						"jumpSoldier"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/lv6",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"juggernautsPit" : {
 				"name" : "Juggernauts Pit",
-				"creatures" : [[ "juggernaut" ]],
+				"creatures" : [
+					[
+						"juggernaut"
+					]
+				],
 				"guards" : true,
-				"sounds": {
-					"ambient": ["forge/ambient/LOOPJUGG"]
+				"sounds" : {
+					"ambient" : [
+						"forge/ambient/LOOPJUGG"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/lv7",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"foreignFortress" : {
 				"name" : "Foreign Fortress",
-				"creatures" : [[ "alien" ]],
+				"creatures" : [
+					[
+						"alien"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "forge/map/aliendw",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

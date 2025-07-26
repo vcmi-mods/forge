@@ -1,9 +1,9 @@
 {
 	"name" : "Building Effects Adder",
-	"description" : "Adds effects to the buildings that don't have them.", 
+	"description" : "Adds effects to the buildings that don't have them.",
 	"modType" : "Mechanics",
-	"author": "Dark Imagine, submod by Olegmods.INC",
-	"contact": "https://forum.vcmi.eu/",
+	"author" : "Dark Imagine, submod by Olegmods.INC",
+	"contact" : "https://forum.vcmi.eu/",
 	"version" : "1.1",
 	"factions" : [
 		"config/forge/forgeBuildings"

@@ -1,9 +1,21 @@
 {
 	"06tyrrel" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "thug", "max" : 7, "min" : 4 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "cyborg",
 		"images" : {
@@ -13,13 +25,21 @@
 			"specialtySmall" : "forge/heroes/tyrrel/specsmall.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "resistance" },
-			{ "level" : "basic", "skill" : "archery" }
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
 		],
 		"specialty" : {
 			"creature" : "stinger"
 		},
-		"spellbook" : [ "dispel" ],
+		"spellbook" : [
+			"dispel"
+		],
 		"texts" : {
 			"biography" : "After the death of Winston Boragus, Tyrrel with his tribe had to leave Krewlod and search for a new home. As luck would have it, he has joined King Kastore's army and now serves as the commander of Ogres.",
 			"name" : "Tyrrel",

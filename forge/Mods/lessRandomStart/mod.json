@@ -1,31 +1,34 @@
 {
 	"name" : "Less random start",
-	"description" : "Heroes with a starting army always have all troops (and a war machine), without the possibility of absence of any of them. Towns with Fort always have level 2 dwelling built by default.", 
+	"description" : "Heroes with a starting army always have all troops (and a war machine), without the possibility of absence of any of them. Towns with Fort always have level 2 dwelling built by default.",
 	"modType" : "Mechanics",
-	"author": "avatar",
-	"contact": "https://forum.vcmi.eu/",
+	"author" : "avatar",
+	"contact" : "https://forum.vcmi.eu/",
 	"version" : "1.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2"
 	},
-    "chinese" : {
-        "name" : "减少初始随机",
-        "description" : "英雄总是拥有所有的起始部队（包括战争机器），拥有堡垒的城镇总是默认建有2级巢穴。", 
-    },
+	"chinese" : {
+		"name" : "减少初始随机",
+		"description" : "英雄总是拥有所有的起始部队（包括战争机器），拥有堡垒的城镇总是默认建有2级巢穴。"
+	},
 	"czech" : {
 		"name" : "Méně náhodný zacátek",
 		"description" : "Hrdinové s počáteční armádou mají vždy všechny jednotky i válečný stroj, bez možnosti, že by některá z nich chyběla. Města s pevností mají automaticky postavené obydlí pro jednotky 2. úrovně."
 	},
-	"settings":
-	{
-		"heroes":
-		{
-			"startingStackChances": [ 100, 100, 100 ]
+	"settings" : {
+		"heroes" : {
+			"startingStackChances" : [
+				100,
+				100,
+				100
+			]
 		},
-		"towns":
-		{
-			"startingDwellingChances": [ 100, 100 ] 
+		"towns" : {
+			"startingDwellingChances" : [
+				100,
+				100
+			]
 		}
 	}
 }

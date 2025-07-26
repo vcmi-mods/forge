@@ -1,43 +1,36 @@
 {
-	"walkersuit":
-	{
-		"name" :
-		{
+	"walkersuit" : {
+		"name" : {
 			"plural" : "Walkers",
 			"singular" : "Walker"
 		},
 		"faction" : "forge",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 156,
 		"special" : true,
 		"attack" : 5,
 		"shots" : 24,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 12,
 			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "forge/commander/commander.def",
 			"map" : "forge/commander/commander_map.def",
 			"iconSmall" : "forge/commander/commander_small.bmp",
 			"iconLarge" : "forge/commander/commander_big.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "forge/commander/commanderShoot.def",
-			        "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"attackClimaxFrame" : 8,
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -45,13 +38,25 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 9,
 		"hitPoints" : 40,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "forge/CMNDATTK.wav",
 			"defend" : "forge/CMNDDFND.wav",
 			"killed" : "forge/CMNDKILL.wav",
@@ -60,30 +65,24 @@
 			"wince" : "forge/CMNDWNCE.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.disruptingRay",
 				"val" : 3

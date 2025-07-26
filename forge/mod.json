@@ -22,15 +22,15 @@
 		"config/forge/supplyCart/supplyCart"
 	],
 	"description" : "New town made by Mod Design Team as part of The Heavenly Forge addon",
-	"factions" : [ 
-		"config/forge/town"		
+	"factions" : [
+		"config/forge/town"
 	],
-	"heroClasses" : [ 
-		"config/forge/classes/mightHero", 
+	"heroClasses" : [
+		"config/forge/classes/mightHero",
 		"config/forge/classes/magicHero"
 	],
 	"heroes" : [
-		"config/forge/heroes/kaleh" ,
+		"config/forge/heroes/kaleh",
 		"config/forge/heroes/codgur",
 		"config/forge/heroes/flamius",
 		"config/forge/heroes/jonathan",
@@ -58,8 +58,8 @@
 	"artifacts" : [
 		"config/forge/artifacts/swordBreaker",
 		"config/forge/supplyCart/supplyCartArt"
-	], 
-	"objects" : [ 
+	],
+	"objects" : [
 		"config/forge/dwellings",
 		"config/forge/decorations"
 	],
@@ -68,47 +68,120 @@
 	"modType" : "Town",
 	"name" : "Forge town",
 	"version" : "2.6.4",
-	"compatibility" : 
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"changelog" :
-	{
-		"1.0"   : ["Initial release"],
-		"1.1"   : ["Graphic and balance fixes"],
-		"1.2"   : ["Added Commander for WoG players", "Fixed masks", "Fixed Dreadnought's special spell"],
-		"1.2.1" : ["Fixed lvl6 upg. horde value"],
-		"1.2.2" : ["Small fixes in dwellings and lvl5 creatures' ability configuration"],
-		"1.2.3" : ["New hero specialty format", "Alien is no longer Forge submod", "Added Sword Breaker artifact"],
-		"1.3.0" : ["Improved creatures sprites"],
-		"1.3.1" : ["Fixed creature 5 and 6 lvl sprites", "Fixed Marchettes' specialy"],
-		"1.4.0" : ["Lvl 3 alternative unit and two new heroes"],
-		"2.0.0" : ["Asphalt terrain added as native terrain for the Forge"],
-		"2.1.0" : ["Support VCMI 1.1"],
-		"2.2.0" : ["Support VCMI 1.2", "Removing asphalt submod to independed mod"],
-		"2.2.1" : ["Support VCMI 1.3"],
-		"2.2.2" : ["Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"],
-		"2.2.3" : ["Fixed Jonathan's specialty icons", "added lessRandomStart submod"],
-		"2.2.4" : ["Polish translation by Dru"],
-		"2.2.5" : ["Update to vcmi-1.4 format"],
-		"2.2.6" : ["Adjusted Commanders stats"],
-		"2.2.7" : ["Fixed the commander and other bugs"],
-		"2.2.8" : ["Russian translation by Anton Sergeew"],
-		"2.2.9" : ["Updated russian translation"],
-		"2.3.0" : ["Adds effects to buildings that do not currently have effects implemented. Grail included (by Dark Imagine)"],
-		"2.3.1" : ["Updated russian translation"],
-		"2.3.2" : ["Fixed the translation bugs"],
-		"2.4.0" : ["Update to vcmi-1.6 format"],
-		"2.4.1" : ["Czech translation by George King"],
-		"2.4.2" : ["Fix Grail not to produce gold"],
-		"2.5.0" : ["Mod structure update"],
-		"2.5.1" : ["Mod structure update, moved the new building effects into separate submod"],
-		"2.6.0" : ["Added now working Replicator. Works only for vanilla arts for the time being."],
-		"2.6.1" : ["Bug fixes."],
-		"2.6.2" : ["Update to vcmi-1.7 format."],
-		"2.6.3" : ["Another update to vcmi-1.7 format."],
-		"2.6.4" : ["Fix for Replicator."]
-    },
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		],
+		"1.1" : [
+			"Graphic and balance fixes"
+		],
+		"1.2" : [
+			"Added Commander for WoG players",
+			"Fixed masks",
+			"Fixed Dreadnought's special spell"
+		],
+		"1.2.1" : [
+			"Fixed lvl6 upg. horde value"
+		],
+		"1.2.2" : [
+			"Small fixes in dwellings and lvl5 creatures' ability configuration"
+		],
+		"1.2.3" : [
+			"New hero specialty format",
+			"Alien is no longer Forge submod",
+			"Added Sword Breaker artifact"
+		],
+		"1.3.0" : [
+			"Improved creatures sprites"
+		],
+		"1.3.1" : [
+			"Fixed creature 5 and 6 lvl sprites",
+			"Fixed Marchettes' specialy"
+		],
+		"1.4.0" : [
+			"Lvl 3 alternative unit and two new heroes"
+		],
+		"2.0.0" : [
+			"Asphalt terrain added as native terrain for the Forge"
+		],
+		"2.1.0" : [
+			"Support VCMI 1.1"
+		],
+		"2.2.0" : [
+			"Support VCMI 1.2",
+			"Removing asphalt submod to independed mod"
+		],
+		"2.2.1" : [
+			"Support VCMI 1.3"
+		],
+		"2.2.2" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"2.2.3" : [
+			"Fixed Jonathan's specialty icons",
+			"added lessRandomStart submod"
+		],
+		"2.2.4" : [
+			"Polish translation by Dru"
+		],
+		"2.2.5" : [
+			"Update to vcmi-1.4 format"
+		],
+		"2.2.6" : [
+			"Adjusted Commanders stats"
+		],
+		"2.2.7" : [
+			"Fixed the commander and other bugs"
+		],
+		"2.2.8" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"2.2.9" : [
+			"Updated russian translation"
+		],
+		"2.3.0" : [
+			"Adds effects to buildings that do not currently have effects implemented. Grail included (by Dark Imagine)"
+		],
+		"2.3.1" : [
+			"Updated russian translation"
+		],
+		"2.3.2" : [
+			"Fixed the translation bugs"
+		],
+		"2.4.0" : [
+			"Update to vcmi-1.6 format"
+		],
+		"2.4.1" : [
+			"Czech translation by George King"
+		],
+		"2.4.2" : [
+			"Fix Grail not to produce gold"
+		],
+		"2.5.0" : [
+			"Mod structure update"
+		],
+		"2.5.1" : [
+			"Mod structure update, moved the new building effects into separate submod"
+		],
+		"2.6.0" : [
+			"Added now working Replicator. Works only for vanilla arts for the time being."
+		],
+		"2.6.1" : [
+			"Bug fixes."
+		],
+		"2.6.2" : [
+			"Update to vcmi-1.7 format."
+		],
+		"2.6.3" : [
+			"Another update to vcmi-1.7 format."
+		],
+		"2.6.4" : [
+			"Fix for Replicator."
+		]
+	},
 	"chinese" : {
 		"name" : "铸造厂",
 		"description" : "铸造厂是是一个柴油朋克风格的高科技种族，基于《英雄无敌III》资料片机械族（Forge）废案制作。",
@@ -119,7 +192,7 @@
 	"german" : {
 		"name" : "Schmiede",
 		"description" : "Neue Stadt vom Mod Design Team als Teil des Addons \"The Heavenly Forge\"",
-		
+
 		"translations" : [
 			"config/forge/translation/german.json"
 		]
@@ -127,7 +200,7 @@
 	"polish" : {
 		"name" : "Kuźnia",
 		"description" : "Nowe miasto stworzone przez Mod Design Team jako część dodatku \"The Heavenly Forge\"",
-		
+
 		"translations" : [
 			"config/forge/translation/polish.json"
 		]

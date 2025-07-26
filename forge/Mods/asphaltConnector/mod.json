@@ -1,12 +1,11 @@
 {
 	"name" : "Asphalt Connector",
-	"description" : "Changes the native terrain of Forge from Dirt to Asphalt.", 
+	"description" : "Changes the native terrain of Forge from Dirt to Asphalt.",
 	"modType" : "Compatibility",
-	"author": "Olegmods.INC",
-	"contact": "https://forum.vcmi.eu/",
+	"author" : "Olegmods.INC",
+	"contact" : "https://forum.vcmi.eu/",
 	"version" : "1.0",
-	"depends" : 
-	[
+	"depends" : [
 		"asphalt-terrain"
 	],
 	"factions" : [

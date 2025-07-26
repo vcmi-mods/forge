@@ -1,9 +1,21 @@
 {
 	"14flamius" : {
 		"army" : [
-			{ "creature" : "pyro", "max" : 5, "min" : 3 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "technic",
 		"images" : {
@@ -12,11 +24,22 @@
 			"specialtyLarge" : "forge/heroes/flamius/speclarge.png",
 			"specialtySmall" : "forge/heroes/flamius/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "scholar" } ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
 		"specialty" : {
 			"creature" : "pyro"
 		},
-		"spellbook" : [ "armageddon" ],
+		"spellbook" : [
+			"armageddon"
+		],
 		"texts" : {
 			"biography" : "When King Kastore made a pact with Eeofol, Flamius was one of the first to replicate the ancient artifacts. His amazing skills in wielding fire were incredibly useful to the newly forming army.",
 			"name" : "Flamius",

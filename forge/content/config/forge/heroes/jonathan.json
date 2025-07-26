@@ -1,9 +1,21 @@
 {
 	"07jonathan" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "recruit", "max" : 20, "min" : 10 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			}
 		],
 		"class" : "cyborg",
 		"images" : {
@@ -12,7 +24,16 @@
 			"specialtyLarge" : "forge/heroes/jonathan/speclarge.png",
 			"specialtySmall" : "forge/heroes/jonathan/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "armorer" } ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
 		"specialty" : {
 			"creature" : "recruit"
 		},

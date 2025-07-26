@@ -1,9 +1,21 @@
 {
 	"01deckard" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "thug", "max" : 7, "min" : 4 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "cyborg",
 		"images" : {
@@ -12,7 +24,12 @@
 			"specialtyLarge" : "forge/heroes/deckard/speclarge.png",
 			"specialtySmall" : "forge/heroes/deckard/specsmall.png"
 		},
-		"skills" : [ { "level" : "advanced", "skill" : "resistance" } ],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "resistance"
+			}
+		],
 		"specialty" : {
 			"secondary" : "resistance"
 		},

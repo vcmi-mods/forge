@@ -1,9 +1,21 @@
 {
 	"05zhora" : {
 		"army" : [
-			{ "creature" : "recruit", "max" : 20, "min" : 10 },
-			{ "creature" : "thug", "max" : 7, "min" : 4 },
-			{ "creature" : "pyro", "max" : 5, "min" : 3 }
+			{
+				"creature" : "recruit",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "thug",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
 		],
 		"class" : "cyborg",
 		"images" : {
@@ -12,7 +24,16 @@
 			"specialtyLarge" : "forge/heroes/zhora/speclarge.png",
 			"specialtySmall" : "forge/heroes/zhora/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "logistics" } ],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
 		"specialty" : {
 			"secondary" : "logistics"
 		},
