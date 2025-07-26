@@ -8,7 +8,7 @@
 			},
 			"special" : {
 				"addInfo" : [0, 0],
-				"subtype" : "spell.specialLvl7",
+				"subtype" : "specialLvl7",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 50
 			}

@@ -4,7 +4,7 @@
 			"canShoot" : { "type" : "SHOOTER" },
 			"slayer" : {
 				"type" : "ENCHANTED",
-				"subtype" : "spell.slayer",
+				"subtype" : "slayer",
 				"val" : 2
 			}
 		},
@@ -53,7 +53,7 @@
 		"speed" : 4,
 		"stackExperience" : [
 			{
-				"bonus" : { "addInfo" : [1, 1], "subtype" : "spell.weakness", "type" : "SPELL_AFTER_ATTACK" },
+				"bonus" : { "addInfo" : [1, 1], "subtype" : "weakness", "type" : "SPELL_AFTER_ATTACK" },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{

@@ -14,16 +14,7 @@
 		},
 		"skills" : [ { "level" : "basic", "skill" : "resistance" }, { "level" : "basic", "skill" : "logistics" } ],
 		"specialty" : {
-			"bonuses" : {
-				"logistics" : {
-					"subtype" : "heroMovementLand",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MOVEMENT",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "logistics"
 		},
 		"texts" : {
 			"biography" : "In her youth, Zhora left her family home in Deyja and was often changing place where she lived. When she returned to her native lands, she found out about a new king, who was able to take advantage of her Logistics skills.",

@@ -20,7 +20,7 @@
 			"bonuses" : {
 				"antiMagic" : {
 					"addInfo" : 0,
-					"subtype" : "spell.antiMagic",
+					"subtype" : "antiMagic",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

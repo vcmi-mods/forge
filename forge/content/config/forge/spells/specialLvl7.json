@@ -41,7 +41,7 @@
 				"description": "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
 				"cost": 0,
 				"power": 10,
-				"aiValue": 15,
+//				"aiValue": 15,
 				"range": "0",
 				"targetModifier":{"smart":false},
 				"battleEffects":
@@ -60,7 +60,10 @@
 							"noRetaliation" : {
 								"val" : 0,
 								"type" : "NO_RETALIATION",
-								"duration" : "UNITL_BEING_ATTACKED"
+								"duration" : [
+								"UNTIL_BEING_ATTACKED",
+								"N_TURNS"
+								]
 							}
 						}
 					}

@@ -37,7 +37,7 @@
 		"class" : "RELIC",
 		"graphics" : {
 			"image" : "forge/artifacts/swordBreaker/aswbreaker",
-			"large": "forge/artifacts/swordBreaker/aswbreakerL",
+			"scenarioBonus": "forge/artifacts/swordBreaker/aswbreakerL",
 			"map" : "forge/artifacts/swordBreaker/aswbreaker"
 		},
 		"slot" : "MISC",

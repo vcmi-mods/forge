@@ -21,7 +21,8 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "juggernaut", true ],
+						"creature" : "juggernaut",
+						"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -29,12 +30,12 @@
 			"bonuses" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"val" : 5
 				},
 				"defence" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"val" : 5
 				},
 				"speed" : {

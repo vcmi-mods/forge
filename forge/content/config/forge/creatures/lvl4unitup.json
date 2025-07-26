@@ -5,7 +5,7 @@
 			"suck" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.forgetfulness",
+				"subtype" : "forgetfulness",
 				"val" : 100
 			},
 						"immuneToMind" : 

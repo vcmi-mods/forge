@@ -22,7 +22,8 @@
 		},
  
 		"flags" : {"positive": true},
- 
+ 		"canCastOnSelf" : true,
+		"canCastWithoutSkip" : true,
 		"targetCondition" : {
 			"anyOf" : {
 				"forge:creature.bionicTrooper" : "absolute",
@@ -50,7 +51,7 @@
 			{
 				"range": "0",
 				"power": 30,
-				"aiValue": 20,
+//				"aiValue": 20,
 				"targetModifier":
 				{
 					"smart": true

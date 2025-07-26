@@ -14,15 +14,7 @@
 		},
 		"skills" : [ { "level" : "advanced", "skill" : "resistance" } ],
 		"specialty" : {
-			"bonuses" : {
-				"resistance" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MAGIC_RESISTANCE",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "resistance"
 		},
 		"texts" : {
 			"biography" : "Deckard's distinctive armor may look impressive, but it's nothing compared to his anti-magic abilities. No wonder he quickly became the general of the restored Deyjan Army.",

@@ -4,25 +4,25 @@
 			"buildings" : {  
         "grail": {
  					"description": "The presence of the Tesla Coil increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, the hero of the garrison receives the Thunder of the Titan in the spellbook and increases the spell power of Air Magic by 50%.",
- 					"id": 26,
  					"bonuses": [
  						{
  							"type": "SPELL_DAMAGE",
- 							"subtype": "spellSchool.air",
+ 							"subtype": "air",
  							"val": 50,
- 							"valueType": "BASE_NUMBER"
+ 							"valueType": "BASE_NUMBER",
+							"propagator" : "TOWN_AND_VISITOR"
  						},
  						{
  							"type": "SPELL",
- 							"subtype": "spell.titanBolt",
+ 							"subtype": "titanBolt",
  							"val": 3,
- 							"valueType": "BASE_NUMBER"
+ 							"valueType": "BASE_NUMBER",
+							"propagator" : "TOWN_AND_VISITOR"
  						}
  					],
- 					"mode": "grail",
  					"name": "Tesla Coil"
  				},
-        "special1": {
+		"special1": {
  					"cost": {
  						"crystal": 2,
  						"gems": 2,
@@ -33,7 +33,6 @@
  						"wood": 10
  					},
  					"description": "The Replicator sells artifacts to visiting heroes.",
- 					"id": 17,
  					"name": "Replicator",
 					"marketModes" : ["resource-artifact", "artifact-resource"],
  					"requires": [
@@ -45,8 +44,7 @@
  						"gold": 8000,
  						"mercury": 10
  					},
- 					"description": "Allows travel Forge towns containang Hero Teleporter. Destination town must be unoccupied..",
- 					"id": 22,
+ 					"description": "Allows travel Forge towns containang Hero Teleporter. Destination town must be unoccupied.",
  					"name": "Hero Teleporter",
  					"type": "castleGate",
  					"requires": [

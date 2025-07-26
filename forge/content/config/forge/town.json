@@ -63,58 +63,44 @@
 				"blacksmith" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
 					"description" : "The Blacksmith provides your armies with Supply Carts.",
-					"id" : 16,
 					"warMachine" : "mdtSupplyCart",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
 					"cost" : { "gold" : 10000 },
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"id" : 13,
-					"name" : "Capitol",
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
+					"name" : "Capitol"
 				},
 				"castle" : {
 					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"id" : 9,
-					"name" : "Castle",
-					"upgrades" : "citadel"
+					"name" : "Castle"
 				},
 				"citadel" : {
 					"cost" : { "gold" : 2500, "ore" : 5 },
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"id" : 8,
-					"name" : "Citadel",
-					"upgrades" : "fort"
+					"name" : "Citadel"
 				},
 				"cityHall" : {
 					"cost" : { "gold" : 5000 },
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"id" : 12,
-					"name" : "City Hall",
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"upgrades" : "townHall"
+					"name" : "City Hall"
 				},
 				"dwellingLvl1" : {
 					"cost" : { "gold" : 500,"ore" : 10 },
 					"description" : "The Post allows you to recruit Shield Bearers.",
-					"id" : 30,
 					"name" : "Post",
 					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" : {
 					"cost" : { "gold" : 1000, "wood" : 5, "ore" : 5 },
 					"description" : "The Proving Grounds allow you to recruit Thugs.",
-					"id" : 31,
 					"name" : "Proving Grounds",
 					"requires" : [ "dwellingLvl1" ]
 				},
 				"dwellingLvl3" : {
 					"cost" : { "gold" : 1000, "ore" : 10 },
 					"description" : "The Lava Basin allows you to recruit Arsonists.",
-					"id" : 32,
 					"name" : "Lava Basin",
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ],  [ "noneOf", [ "dwellingLvl3B" ] ] ]
 				},
@@ -129,35 +115,30 @@
 				"dwellingLvl4" : {
 					"cost" : { "gems" : 4, "gold" : 2500, "ore" : 5 },
 					"description" : "The Suckers Colony allows you to recruit Brain Suckers.",
-					"id" : 33,
 					"name" : "Suckers Colony",
 					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ], [ "anyOf", [ "dwellingLvl3" ], [ "dwellingLvl3B" ] ] ]
 				},
 				"dwellingLvl5" : {
 					"cost" : { "gold" : 3000, "ore" : 5, "wood" : 5 },
 					"description" : "The Cannoneers Shelters allow you to recruit Cannoneers.",
-					"id" : 34,
 					"name" : "Cannoneers Shelters",
 					"requires" : [ "allOf", [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl6" : {
 					"cost" : { "mercury" : 4,"sulfur" : 2, "crystal" : 2, "gems" : 2, "gold" : 4500, "ore" : 5, "wood" : 5 },
 					"description" : "The Borough allows you to recruit Sky Brawlers.",
-					"id" : 35,
 					"name" : "Borough",
 					"requires" : [ "dwellingLvl4" ]
 				},
 				"dwellingLvl7" : {
 					"cost" : { "gold" : 7500, "ore" : 10, "sulfur" : 5, "crystal" : 5, "wood" : 10 },
 					"description" : "The Juggernauts Pit allows you to recruit Juggernauts.",
-					"id" : 36,
 					"name" : "Juggernauts Pit",
 					"requires" : [ "allOf", [ "dwellingLvl5" ] ]
 				},
 				"dwellingUpLvl1" : {
 					"cost" : { "gold" : 1000, "ore" : 5 },
 					"description" : "The Post allows you to recruit Pavise Bearers.",
-					"id" : 37,
 					"name" : "Upg. Post",
 					"requires" : [ "tavern" ],
 					"upgrades" : "dwellingLvl1"
@@ -165,7 +146,6 @@
 				"dwellingUpLvl2" : {
 					"cost" : { "gold" : 1000, "wood" : 10 },
 					"description" : "The Proving Grounds allow you to recruit Mercenaries.",
-					"id" : 38,
 					"name" : "Upg. Proving Grounds",
 					"requires" : [ "blacksmith" ],
 					"upgrades" : "dwellingLvl2"
@@ -173,7 +153,6 @@
 				"dwellingUpLvl3" : {
 					"cost" : { "gold" : 1000, "sulfur" : 5 },
 					"description" : "The Lava Basin allows you to recruit Pyromaniacs.",
-					"id" : 39,
 					"name" : "Upg. Lava Basin",
 					"upgrades" : "dwellingLvl3"
 				},
@@ -189,14 +168,12 @@
 				"dwellingUpLvl4" : {
 					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5 },
 					"description" : "The Suckers Colony allows you to recruite Soul Suckers.",
-					"id" : 40,
 					"name" : "Upg. Suckers Colony",
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
 					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5, "wood" : 5 },
 					"description" : "The Cannoneers Shelters allow you to recruit Bombardiers.",
-					"id" : 41,
 					"name" : "Upg. Cannoneers Shelters",
 					"requires" : [ "dwellingLvl4" ],
 					"upgrades" : "dwellingLvl5"
@@ -204,14 +181,12 @@
 				"dwellingUpLvl6" : {
 					"cost" : { "gold" : 3000, "ore" : 5, "wood" : 5 },
 					"description" : "The Borough allows you to recruit Sky Knights.",
-					"id" : 42,
 					"name" : "Upg. Borough",
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
 					"cost" : { "gems" : 15, "gold" : 20000, "ore" : 5, "sulfur" : 15, "wood" : 5 },
 					"description" : "The Juggernauts Pit allows you to recruit Dreadnoughts.",
-					"id" : 43,
 					"name" : "Upg. Juggernauts Pit",
 					"requires" : [ "dwellingLvl4" ],
 					"upgrades" : "dwellingLvl7"
@@ -219,27 +194,21 @@
 				"fort" : {
 					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
 					"description" : "The Fort provides your town with defensive walls.",
-					"id" : 7,
 					"name" : "Fort"
 				},
 				"grail": {
  					"description" : "The presence of the Tesla Coil increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day.",
- 					"id" : 26,
- 					"mode" : "grail",
  					"name" : "Tesla Coil"
 				},
 				"horde1" : {
 					"cost" : { "gold" : 1000 },
 					"description" : "The Turret increases Shield Bearers production by 6 per week.",
-					"id" : 18,
 					"name" : "Turret",
 					"upgrades" : "dwellingLvl1"
 				},
 				"horde1Upgr" : {
 					"cost" : { "gold" : 1000 },
 					"description" : "The Turret increases Pavise Bearers production by 6 per week.",
-					"id" : 19,
-					"mode" : "auto",
 					"name" : "Turret",
 					"requires" : [ "horde1" ],
 					"upgrades" : "dwellingUpLvl1"
@@ -247,15 +216,12 @@
 				"horde2" : {
 					"cost" : { "gold" : 3000 },
 					"description" : "The Arsenal increases Sky Brawlers production by 1 per week.",
-					"id" : 24,
 					"name" : "Arsenal",
 					"upgrades" : "dwellingLvl6"
 				},
 				"horde2Upgr" : {
 					"cost" : { "gold" : 3000 },
 					"description" : "The Arsenal increases Sky Knights production by 1 per week.",
-					"id" : 25,
-					"mode" : "auto",
 					"name" : "Arsenal",
 					"requires" : [ "horde2" ],
 					"upgrades" : "dwellingUpLvl6"
@@ -263,42 +229,32 @@
 				"mageGuild1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 0,
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
 					"cost" : { "crystal" : 4, "gems" : 4, "gold" : 1000, "mercury" : 4, "ore" : 5, "sulfur" : 4, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 1,
-					"name" : "Mage Guild Level 2",
-					"upgrades" : "mageGuild1"
+					"name" : "Mage Guild Level 2"
 				},
 				"mageGuild3" : {
 					"cost" : { "crystal" : 6, "gems" : 6, "gold" : 1000, "mercury" : 6, "ore" : 5, "sulfur" : 6, "wood" : 5 },
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"id" : 2,
-					"name" : "Mage Guild Level 3",
-					"upgrades" : "mageGuild2"
+					"name" : "Mage Guild Level 3"
 				},
 				"marketplace" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"id" : 14,
-					"marketModes" : ["resource-resource", "resource-player"],
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
 					"cost" : { "gold" : 5000, "ore" : 5 },
 					"description" : "The Resource Silo provides you with an additional wood and ore each day.",
-					"id" : 15,
 					"name" : "Resource Silo",
-					"produce": { "ore": 1, "wood": 1 },
-					"requires" : [ "marketplace" ]
+					"produce": { "ore": 1, "wood": 1 }
 				},
 				"special1": {
  					"cost" : { "crystal" : 2, "gems" : 2, "gold" : 2500, "mercury" : 2, "ore" : 5, "sulfur" : 2, "wood" : 10 },
  					"description" : "The Replicator allows you to replicate Artifacts (not working for all artifacts yet).",
- 					"id" : 21,
  					"name" : "Replicator",
  					"requires" : [ "blacksmith" ],
     					"manualHeroVisit" : true,
@@ -1395,14 +1351,12 @@
 				"special3": {
  					"cost" : { "gold" : 600, "wood" : 3 },
  					"description" : "The Hero Teleporter ensures the presence of at least one Forge hero in the Tavern (not working yet).",
- 					"id" : 22,
  					"name" : "Hero Teleporter",
  					"requires" : [ "tavern" ]
 				},
 				"special4" : {
 					"cost" : { "gold" : 7500, "ore" : 15, "wood" : 15 },
 					"description" : "The Resource Tower provides you with an additional sulfur each day.",
-					"id" : 23,
 					"name" : "Resource Tower",
 					"requires" : [ "marketplace" ],
 					"produce": { "sulfur": 1 }
@@ -1410,21 +1364,15 @@
 				"tavern" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"id" : 5,
 					"name" : "Tavern"
 				},
 				"townHall" : {
 					"cost" : { "gold" : 2500 },
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"id" : 11,
-					"name" : "Town Hall",
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
+					"name" : "Town Hall"
 				},
 				"villageHall" : {
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto",
 					"name" : "Village Hall"
 				}
 			},

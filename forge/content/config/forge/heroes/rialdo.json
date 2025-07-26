@@ -18,7 +18,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"armageddon" : {
-					"subtype" : "spell.armageddon",
+					"subtype" : "armageddon",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

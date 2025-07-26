@@ -15,7 +15,7 @@
 		"graphics":
 		{
 			"image": "forge/supplyCart/supplyCartbigart",
-			"large": "forge/supplyCart/supplyCartL",
+			"scenarioBonus": "forge/supplyCart/supplyCartL",
 			"map": "forge/supplyCart/blank"
 		},
 		"bonuses" : 

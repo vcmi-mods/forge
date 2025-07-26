@@ -14,7 +14,7 @@
 			"spellcaster":
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.overload",
+				"subtype" : "overload",
 				"val" : 1
 			},
 			"noMorale" :
