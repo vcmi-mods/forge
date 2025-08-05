@@ -14,6 +14,9 @@
 			"max" : 12,
 			"min" : 6
 		},
+		"cost" : {
+			"gold" : 1500
+		},		
 		"defense" : 5,
 		"fightValue" : 130,
 		"graphics" : {
@@ -67,7 +70,8 @@
 		"speed" : 4,
 		"abilities" : {
 			"magicResistance" : {
-				"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"castsAmount" : {
@@ -84,8 +88,8 @@
 			},
 			"canCast" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.disruptingRay",
-				"val" : 3
+				"subtype" : "disruptingRay",
+				"val" : 1
 			}
 		}
 	}

@@ -67,7 +67,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.6.4",
+	"version" : "2.6.5",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
@@ -180,7 +180,10 @@
 		],
 		"2.6.4" : [
 			"Fix for Replicator."
-		]
+		],
+		"2.6.5" : [
+			"Another small fixes for vcmi-1.7 format."
+		]		
 	},
 	"chinese" : {
 		"name" : "铸造厂",
