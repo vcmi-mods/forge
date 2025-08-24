@@ -183,6 +183,9 @@
 		],
 		"2.6.5" : [
 			"Another small fixes for vcmi-1.7 format."
+		],
+		"2.6.6" : [
+			"Fixes for the icons."
 		]
 	},
 	"chinese" : {
@@ -209,8 +212,8 @@
 		]
 	},
 	"russian" : {
-		"name" : "Кузня от MDT",
-		"description" : "Новый город",
+		"name" : "Кузница от MDT",
+		"description" : "Новый город, созданный Mod Design Team как часть аддона \"The Heavenly Forge\" (Небесная Кузница)",
 		"translations" : [
 			"config/forge/translation/russian.json"
 		]
