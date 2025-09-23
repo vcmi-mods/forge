@@ -17,7 +17,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw01.def"
 			},
 			"provingGrounds" : {
 				"name" : "Proving Grounds",
@@ -35,7 +36,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw02.def"
 			},
 			"lavaBasin" : {
 				"name" : "Lava Basin",
@@ -58,7 +60,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw03.def"
 			},
 			"reanimatorium" : {
 				"name" : "Reanimatorium",
@@ -81,7 +84,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw03b.def"
 			},
 			"suckersColony" : {
 				"name" : "Suckers Colony",
@@ -104,7 +108,8 @@
 							"VVBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw04.def"
 			},
 			"cannoneersShelters" : {
 				"name" : "Cannoneers Shelters",
@@ -128,7 +133,8 @@
 							"VVBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw05.def"
 			},
 			"borough" : {
 				"name" : "Borough",
@@ -147,7 +153,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw06.def"
 			},
 			"juggernautsPit" : {
 				"name" : "Juggernauts Pit",
@@ -171,7 +178,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw07.def"
 			},
 			"foreignFortress" : {
 				"name" : "Foreign Fortress",
@@ -189,7 +197,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "forge/map/flagports/forgedw08.def"
 			}
 		}
 	}

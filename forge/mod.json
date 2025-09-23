@@ -67,7 +67,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.6.5",
+	"version" : "2.6.6",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
@@ -186,7 +186,10 @@
 		],
 		"2.6.6" : [
 			"Fixes for the icons."
-		]
+		],
+		"2.6.7" : [
+			"Added flagport frames (Kingdom Overwiev window)."
+		]		
 	},
 	"chinese" : {
 		"name" : "铸造厂",
