@@ -2229,7 +2229,7 @@
 				]
 			],
 			"defaultTavern" : 5,
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE",
 			"guildSpells" : {
 				"airShield" : 2,
 				"antiMagic" : 10,
@@ -2383,22 +2383,22 @@
 			"icons" : {
 				"fort" : {
 					"built" : {
-						"large" : "forge/icons/fortbuildedlarge.bmp",
-						"small" : "forge/icons/fortbuildedsmall.bmp"
+						"large" : "forge/icons/fortbuildedlarge",
+						"small" : "forge/icons/fortbuildedsmall"
 					},
 					"normal" : {
-						"large" : "forge/icons/fortlarge.bmp",
-						"small" : "forge/icons/fortsmall.bmp"
+						"large" : "forge/icons/fortlarge",
+						"small" : "forge/icons/fortsmall"
 					}
 				},
 				"village" : {
 					"built" : {
-						"large" : "forge/icons/hallbuildedlarge.bmp",
-						"small" : "forge/icons/hallbuildedsmall.bmp"
+						"large" : "forge/icons/hallbuildedlarge",
+						"small" : "forge/icons/hallbuildedsmall"
 					},
 					"normal" : {
-						"large" : "forge/icons/halllarge.bmp",
-						"small" : "forge/icons/hallsmall.bmp"
+						"large" : "forge/icons/halllarge",
+						"small" : "forge/icons/hallsmall"
 					}
 				}
 			},

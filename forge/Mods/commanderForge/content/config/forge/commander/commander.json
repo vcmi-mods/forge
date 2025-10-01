@@ -22,8 +22,8 @@
 		"graphics" : {
 			"animation" : "forge/commander/commander.def",
 			"map" : "forge/commander/commander_map.def",
-			"iconSmall" : "forge/commander/commander_small.bmp",
-			"iconLarge" : "forge/commander/commander_big.bmp",
+			"iconSmall" : "forge/commander/commander_small",
+			"iconLarge" : "forge/commander/commander_big",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,
