@@ -19,10 +19,10 @@
 		],
 		"class" : "technic",
 		"images" : {
-			"large" : "forge/heroes/daneel/portraitlarge.bmp",
-			"small" : "forge/heroes/daneel/portraitsmall.bmp",
-			"specialtyLarge" : "forge/heroes/daneel/speclarge.bmp",
-			"specialtySmall" : "forge/heroes/daneel/specsmall.bmp"
+			"large" : "forge/heroes/daneel/portraitlarge",
+			"small" : "forge/heroes/daneel/portraitsmall",
+			"specialtyLarge" : "forge/heroes/daneel/speclarge",
+			"specialtySmall" : "forge/heroes/daneel/specsmall"
 		},
 		"skills" : [
 			{

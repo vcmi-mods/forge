@@ -1,0 +1,8 @@
+{
+	"building.forge.forge.grail.description" : "Přítomnost Teslovy cívky zvyšuje nárůst bojovníků v hradě o 50% týdně, zvyšuje příjem království o 5000 zlatých denně. Hrdina v posádce získává kouzlo Hrom titánů v knize kouzel a zvýší sílu kouzel vzdušné magie o 50%.",
+	"building.forge.forge.grail.name" : "Teslova cívka",
+	"building.forge.forge.special3.description" : "Umožňuje cestování mezi městy Kovárny obsahujícími Teleport hrdinů. Cílové město nesmí být obsazené.",
+	"building.forge.forge.special3.name" : "Teleport hrdinů",
+	"building.forge.forge.special1.name" : "Replikátor",
+	"building.forge.forge.special1.description" : "Replikátor prodává artefakty navštěvujícím hrdinům."
+}
