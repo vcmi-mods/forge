@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Forge town",
-	"version" : "2.6.8",
+	"version" : "2.6.9",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
@@ -132,6 +132,9 @@
 		"2.6.8" : [
 			"Converted BMPs to PNGs",
 			"Updated Czech translation"
+		],
+		"2.6.9" : [
+			"Fixed townscreen palette"
 		]
 	},
 	"chinese" : {
