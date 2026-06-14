@@ -141,14 +141,14 @@
 		"name" : "铸造厂",
 		"description" : "铸造厂是是一个柴油朋克风格的高科技种族，基于《英雄无敌III》资料片机械族（Forge）废案制作。",
 		"translations" : [
-			"config/forge/translation/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"german" : {
 		"name" : "Schmiede",
 		"description" : "Neue Stadt vom Mod Design Team als Teil des Addons \"The Heavenly Forge\"",
 		"translations" : [
-			"config/forge/translation/german.json"
+			"translation/german.json"
 		]
 	},
 	"polish" : {
@@ -156,21 +156,21 @@
 		"description" : "Nowe miasto stworzone przez Mod Design Team jako część dodatku \"The Heavenly Forge\"",
 
 		"translations" : [
-			"config/forge/translation/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Кузница от MDT",
 		"description" : "Новый город, созданный Mod Design Team как часть аддона \"The Heavenly Forge\" (Небесная Кузница)",
 		"translations" : [
-			"config/forge/translation/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"czech" : {
 		"name" : "Kovárna",
 		"description" : "Nové město Kovárna vytvořené týmem Mod Design Team jako součást rozšíření The Heavenly Forge.",
 		"translations" : [
-			"config/forge/translation/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"creatures" : [
