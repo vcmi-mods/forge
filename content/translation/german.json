@@ -236,5 +236,7 @@
 	"heroClass.forge.cyborg.name": "Kriegstreiber",
 	"heroClass.forge.technic.name": "Techniker",
 	"spell.forge.overload.name": "Überlastung",
-	"spell.forge.specialLvl7.name": "Verletzung"
+	"spell.forge.specialLvl7.name": "Verletzung",
+	"mod.name": "Schmiede",
+	"mod.description": "Neue Stadt vom Mod Design Team als Teil des Addons \"The Heavenly Forge\""
 }

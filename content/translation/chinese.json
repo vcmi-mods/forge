@@ -238,5 +238,9 @@
 	"spell.forge.forgeMoat.name": "壕沟",
 	"spell.forge.forgeMoatTrigger.name": "壕沟",
 	"spell.forge.overload.name": "过载",
-	"spell.forge.specialLvl7.name": "重击"
+	"spell.forge.specialLvl7.name": "重击",
+	"mod.name": "铸造厂",
+	"mod.description": "铸造厂是是一个柴油朋克风格的高科技种族，基于《英雄无敌III》资料片机械族（Forge）废案制作。",
+	"mod.lessrandomstart.name": "减少初始随机",
+	"mod.lessrandomstart.description": "英雄总是拥有所有的起始部队（包括战争机器），拥有堡垒的城镇总是默认建有2级巢穴。"
 }

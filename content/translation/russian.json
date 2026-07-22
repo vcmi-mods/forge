@@ -236,5 +236,7 @@
 	"heroClass.forge.cyborg.name": "Военначальник",
 	"heroClass.forge.technic.name": "Техник",
 	"spell.forge.overload.name": "Перегрузка",
-	"spell.forge.specialLvl7.name": "Ранение"
+	"spell.forge.specialLvl7.name": "Ранение",
+	"mod.name": "Кузница от MDT",
+	"mod.description": "Новый город, созданный Mod Design Team как часть аддона \"The Heavenly Forge\" (Небесная Кузница)"
 }

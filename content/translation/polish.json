@@ -412,5 +412,7 @@
 	"spell.forge.specialLvl7.description.advanced": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany.",
 	"spell.forge.specialLvl7.description.basic": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany.",
 	"spell.forge.specialLvl7.description.expert": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany.",
-	"spell.forge.specialLvl7.description.none": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany."
+	"spell.forge.specialLvl7.description.none": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany.",
+	"mod.name": "Kuźnia",
+	"mod.description": "Nowe miasto stworzone przez Mod Design Team jako część dodatku \"The Heavenly Forge\""
 }

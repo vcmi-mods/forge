@@ -412,5 +412,17 @@
 	"spell.forge.specialLvl7.description.basic" : "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
 	"spell.forge.specialLvl7.description.expert" : "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
 	"spell.forge.specialLvl7.description.none" : "Reduces enemy unit's speed by 25% and affected creature can't retaliate until being attacked.",
-	"spell.forge.specialLvl7.name" : "Injury"
+	"spell.forge.specialLvl7.name" : "Injury",
+	"mod.name" : "Forge town",
+	"mod.description" : "New town made by Mod Design Team as part of The Heavenly Forge addon",
+	"mod.asphaltconnector.name" : "Asphalt Connector",
+	"mod.asphaltconnector.description" : "Changes the native terrain of Forge from Dirt to Asphalt.",
+	"mod.buildingeffects.name" : "Building Effect Enhancer",
+	"mod.buildingeffects.description" : "Adds new gameplay effects to buildings that previously had none.",
+	"mod.commanderforge.name" : "Forge commander",
+	"mod.commanderforge.description" : "Adds a commander for the Forge.",
+	"mod.lessrandomstart.name" : "Less random start",
+	"mod.lessrandomstart.description" : "Heroes with a starting army always have all troops (and a war machine), without the possibility of absence of any of them. Towns with Fort always have level 2 dwelling built by default.",
+	"mod.replicatorhota.name" : "HotA artifacts in Replicator",
+	"mod.replicatorhota.description" : "Adds a commander for the Forge."
 }
