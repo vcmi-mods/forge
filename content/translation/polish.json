@@ -414,5 +414,15 @@
 	"spell.forge.specialLvl7.description.expert": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany.",
 	"spell.forge.specialLvl7.description.none": "Zmniejsza szybkość wrogich jednostek o 25% a dodatkowo oddział nie może kontratakować, dopóki nie zostanie zaatakowany.",
 	"mod.name": "Kuźnia",
-	"mod.description": "Nowe miasto stworzone przez Mod Design Team jako część dodatku \"The Heavenly Forge\""
+	"mod.description": "Nowe miasto stworzone przez Mod Design Team jako część dodatku \"The Heavenly Forge\"",
+	"mod.asphaltconnector.name": "Łącznik z terenem Asfalt",
+	"mod.asphaltconnector.description": "Zmienia teren natywny Kuźni z gołej ziemi na asfalt.",
+	"mod.buildingeffects.name": "Ulepszenie specjalnych budynków",
+	"mod.buildingeffects.description": "Nadaje nowe efekty budynkom, które wcześniej nie oferowały żadnych korzyści w rozgrywce.",
+	"mod.commanderforge.name": "Dowódca Kuźni",
+	"mod.commanderforge.description": "Dodaje dowódcę Kuźni.",
+	"mod.lessrandomstart.name": "Bardziej przewidywalny start",
+	"mod.lessrandomstart.description": "Bohaterowie na początek zawsze otrzymują wszystkie dostępne dla nich startowe oddziały (oraz machinę wojenną), bez ryzyka braku któregokolwiek z nich. Miasta posiadające Fort zawsze mają domyślnie wybudowane siedlisko stworzeń poziomu 2.",
+	"mod.replicatorhota.name": "Artefakty HotA w Replikatorze",
+	"mod.replicatorhota.description": "Dodaje dowódcę Kuźni."
 }
