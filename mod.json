@@ -154,7 +154,6 @@
 	"polish" : {
 		"name" : "Kuźnia",
 		"description" : "Nowe miasto stworzone przez Mod Design Team jako część dodatku \"The Heavenly Forge\"",
-
 		"translations" : [
 			"translation/polish.json"
 		]
@@ -233,5 +232,10 @@
 	"objects" : [
 		"config/forge/dwellings",
 		"config/forge/decorations"
-	]
+	],
+	"french" : {
+		"translations" : [
+			"translation/french.json"
+		]
+	}
 }
