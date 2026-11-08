@@ -37,7 +37,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"antiMagic" : {
-//					"addInfo" : 0,
+					//					"addInfo" : 0,
 					"subtype" : "antiMagic",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
