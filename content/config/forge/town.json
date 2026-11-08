@@ -6,7 +6,7 @@
 			"130px" : "forge/creaturebg130px"
 		},
 		"name" : "Forge",
-		"nativeTerrain" : "dirt",
+		"nativeTerrain" : [ "dirt" ],
 		"boat" : "boatNecropolis",
 		"puzzleMap" : {
 			"pieces" : [

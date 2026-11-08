@@ -1,5 +1,5 @@
 {
 	"forge:forge" : {
-		"nativeTerrain" : "asphalt"
+		"nativeTerrain" : [ "asphalt" ]
 	}
 }
