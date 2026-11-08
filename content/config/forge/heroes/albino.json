@@ -35,14 +35,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"fireWall" : {
-					"subtype" : "fireWall",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "fireWall"
 		},
 		"spellbook" : [
 			"fireWall"
