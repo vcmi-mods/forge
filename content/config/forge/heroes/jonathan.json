@@ -43,7 +43,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Shield Bearers",
 				"name" : "Shield Bearers",
-				"description" : "Increases the speed of Shield Bearers or Pavise Bearers by 1 and their Attack and Defense skills for each level attained after 1st level."
+				"description" : "Increases the speed of Shield Bearers or Pavise Bearers by 1 and their Attack and Defense skills by 5% for each level attained after 1st level."
 			}
 		}
 	}
