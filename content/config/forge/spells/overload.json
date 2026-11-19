@@ -51,7 +51,7 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "{Overload}\n\nFor 3 turns bives Bionic Troopers and Cyborgs boost to speed, damage and attack but reduces defence and health instead.",
+				"description" : "{Overload}\n\nFor 3 turns gives Bionic Troopers and Cyborgs boost to speed, damage and attack but reduces defence and health instead.",
 				"cost" : 0,
 				"battleEffects" : {
 					"overloadEffect" : {

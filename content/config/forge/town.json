@@ -491,7 +491,7 @@
 						"gold" : 2000,
 						"ore" : 5
 					},
-					"description" : "The Suckers Colony allows you to recruite Soul Suckers.",
+					"description" : "The Suckers Colony allows you to recruit Soul Suckers.",
 					"name" : "Upg. Suckers Colony",
 					"upgrades" : "dwellingLvl4"
 				},
